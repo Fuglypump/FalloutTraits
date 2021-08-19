@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Wimp -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Wimp"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Wimp"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Wimp"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_StrongBack</li>
+			<li>FT_GunNut</li>
+			<li>FT_Rooted</li>
+			<li>FT_Intimidation</li>
+			<li>FT_Agility</li>
+			<li>FT_Endurance</li>
+			<li>FT_WreckingBall</li>
+			<li>FT_IronStomach</li>
+			<li>FT_Tenderizer</li>
+			<li>FT_IronFist</li>
+		</value>
+	</Operation>
+
+<!-- Brawler -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Brawler"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Brawler"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Brawler"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_GunNut</li>
+			<li>FT_Bandolier</li>
+			<li>FT_IronFist</li>
+		</value>
+	</Operation>
+	
+<!-- Bloodlust -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Bloodlust"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Bloodlust"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+		
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Bloodlust"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Charisma</li>
+			<li>FT_Generosity</li>
+			<li>FT_Inspiration</li>
+			<li>FT_Philanthropist</li>
+			<li>FT_HealingHands</li>
+			<li>FT_AnimalFriend</li>
+			<li>FT_LifeGiver</li>
+			<li>FT_SpiritualHealer</li>
+		</value>
+	</Operation>
+
+<!-- SpeedOffset -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "SpeedOffset"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "SpeedOffset"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "SpeedOffset"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_ActionBoy</li>
+			<li>FT_ActionGirl</li>
+			<li>FT_Agility</li>
+			<li>FT_Blitz</li>
+			<li>FT_Rooted</li>
+		</value>
+	</Operation>
+
+<!-- Industriousness -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Industriousness"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Industriousness"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Industriousness"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_ActionBoy</li>
+			<li>FT_ActionGirl</li>
+			<li>FT_Agility</li>
+			<li>FT_Blitz</li>
+			<li>FT_Evasion</li>
+		</value>
+	</Operation>
+	
+<!-- FastLearner -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "FastLearner"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "FastLearner"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "FastLearner"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_IdiotSavant</li>
+			<li>FT_Stupid</li>
+			<li>FT_Oblivious</li>
+		</value>
+	</Operation>
+	
+<!-- Abrasive -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Abrasive"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Abrasive"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Abrasive"]/conflictingTraits</xpath>
+		<value>
+			<li>Kind</li>
+			<li>FT_Charisma</li>
+			<li>FT_Bargaining</li>
+			<li>FT_Perception</li>
+			<li>FT_Generosity</li>
+			<li>FT_Inspiration</li>
+			<li>FT_Philanthropist</li>
+			<li>FT_SpiritualHealer</li>
+		</value>
+	</Operation>
+	
+<!-- Kind -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Kind"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Kind"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Kind"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Intimidation</li>
+		</value>
+	</Operation>
+	
+<!-- Nerves -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Nerves"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Nerves"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Nerves"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Endurance</li>
+			<li>TooSmart</li>
+		</value>
+	</Operation>
+
+<!-- AnnoyingVoice -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "AnnoyingVoice"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "AnnoyingVoice"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "AnnoyingVoice"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Charisma</li>
+			<li>FT_Bargaining</li>
+			<li>FT_NaturalLeader</li>
+			<li>FT_Inspiration</li>
+			<li>FT_Magnetic</li>
+		</value>
+	</Operation>
+	
+<!-- CreepyBreathing -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "CreepyBreathing"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "CreepyBreathing"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "CreepyBreathing"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_NaturalLeader</li>
+			<li>FT_Inspiration</li>
+			<li>FT_Magnetic</li>
+		</value>
+	</Operation>
+	
+<!-- Greedy -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Greedy"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Greedy"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Greedy"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Generosity</li>
+			<li>FT_NaturalLeader</li>
+			<li>FT_Philanthropist</li>
+		</value>
+	</Operation>
+	
+<!-- Jealous -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Jealous"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Jealous"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Jealous"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Generosity</li>
+			<li>FT_NaturalLeader</li>
+			<li>FT_Philanthropist</li>
+			<li>FT_Magnetic</li>
+		</value>
+	</Operation>
+	
+<!-- Psychopath -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationTest">
+			<xpath>*/TraitDef[defName = "Psychopath"]/conflictingTraits</xpath>
+			<success>Invert</success>
+		</li>
+		<li Class="PatchOperationAdd">
+			<xpath>*/TraitDef[defName = "Psychopath"]</xpath>
+			<value><conflictingTraits /></value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/TraitDef[defName = "Psychopath"]/conflictingTraits</xpath>
+		<value>
+			<li>FT_Philanthropist</li>
+			<li>FT_AnimalFriend</li>
+		</value>
+	</Operation>
+
+</Patch>
