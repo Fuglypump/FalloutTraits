@@ -4,50 +4,50 @@
   <!-- Common (9.0, 8.0, 7.0) -->
 
   <FT_StrongBack.degreeDatas.0.label>strong back</FT_StrongBack.degreeDatas.0.label>
-  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef] has a strong back which allows [PAWN_objective] to carry more than most people.</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef]は強力な背筋力を持っているので,一般的な人よりも[PAWN_objective]沢山運ぶことができるようになります.</FT_StrongBack.degreeDatas.0.description>
   <FT_StrongBack.degreeDatas.1.label>very strong back</FT_StrongBack.degreeDatas.1.label>
-  <FT_StrongBack.degreeDatas.1.description>[PAWN_nameDef] has a very strong back, [PAWN_pronoun] must be part mule or something because [PAWN_pronoun] can carry a lot more than most people.</FT_StrongBack.degreeDatas.1.description>
+  <FT_StrongBack.degreeDatas.1.description>[PAWN_nameDef]は非常に強力な背筋力を持っており, [PAWN_pronoun]は一般的な人よりもはるかに多くのものを運ぶことができるので,[PAWN_pronoun]はラバか何かのように扱われるでしょう.</FT_StrongBack.degreeDatas.1.description>
 
   <FT_Bandolier.degreeDatas.0.label>bandolier</FT_Bandolier.degreeDatas.0.label>
-  <FT_Bandolier.degreeDatas.0.description>[PAWN_nameDef] is a bandolier. [PAWN_pronoun] likes to keep extra ammo handy for reloading ranged weapons.</FT_Bandolier.degreeDatas.0.description>
+  <FT_Bandolier.degreeDatas.0.description>[PAWN_nameDef]はまるで装弾ベルトです.[PAWN_pronoun]は,遠距離射撃武器を再装填するために余分な弾薬を手元に抱えているのが好きです.</FT_Bandolier.degreeDatas.0.description>
 
   <FT_Endurance.degreeDatas.0.label>enduring</FT_Endurance.degreeDatas.0.label>
-  <FT_Endurance.degreeDatas.0.description>[PAWN_nameDef] has good health and an enduring personality. [PAWN_pronoun] is better at handling stressful situations than others.</FT_Endurance.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.0.description>[PAWN_nameDef]は健康状態で,頑強な性格を持っています. [PAWN_pronoun]は,他の人よりも高ストレス状況に耐えることに優れています.</FT_Endurance.degreeDatas.0.description>
   <FT_Endurance.degreeDatas.1.label>very enduring</FT_Endurance.degreeDatas.1.label>
-  <FT_Endurance.degreeDatas.1.description>[PAWN_nameDef] has exceptional health and a very enduring personality. [PAWN_pronoun] is capable of handling high stress situations that others cannot.</FT_Endurance.degreeDatas.1.description>
+  <FT_Endurance.degreeDatas.1.description>[PAWN_nameDef]は,並外れた健康状態と非常に頑強な性格を持っています.[PAWN_pronoun]は,他の人が耐えられないような高ストレスの状況に耐えることに優れています.</FT_Endurance.degreeDatas.1.description>
 
   <FT_Charisma.degreeDatas.0.label>charismatic</FT_Charisma.degreeDatas.0.label>
-  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef] has a charismatic personality. [PAWN_pronoun] is good at social interactions and trading.</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef]にはカリスマ性があります.[PAWN_pronoun]は社交的な交渉や取引が得意です.</FT_Charisma.degreeDatas.0.description>
   <FT_Charisma.degreeDatas.1.label>very charismatic</FT_Charisma.degreeDatas.1.label>
-  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef] has a very charismatic personality. [PAWN_pronoun] is great at social interactions and trading.</FT_Charisma.degreeDatas.1.description>
+  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef]は大変カリスマ性に優れています.[PAWN_pronoun]は社交的な交渉や取引が得意です.</FT_Charisma.degreeDatas.1.description>
 
   <FT_Intimidation.degreeDatas.0.label>intimidating</FT_Intimidation.degreeDatas.0.label>
-  <FT_Intimidation.degreeDatas.0.description>[PAWN_nameDef] has an intimidating personality, this gives [PAWN_objective] an advantage in social interactions.</FT_Intimidation.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.0.description>[PAWN_nameDef]は威圧的な性格を持っており,これは [PAWN_objective]に社会的な交渉を有利にします.</FT_Intimidation.degreeDatas.0.description>
   <FT_Intimidation.degreeDatas.1.label>very intimidating</FT_Intimidation.degreeDatas.1.label>
-  <FT_Intimidation.degreeDatas.1.description>[PAWN_nameDef] has a very intimidating personality, this gives [PAWN_objective] a large advantage in social interactions.</FT_Intimidation.degreeDatas.1.description>
+  <FT_Intimidation.degreeDatas.1.description>[PAWN_nameDef]は非常に威圧的な性格を持っており,これは[PAWN_objective]に社会的な交渉で大きく有利に働きます。</FT_Intimidation.degreeDatas.1.description>
 
   <FT_AimOffset.degreeDatas.0.label>poor aim</FT_AimOffset.degreeDatas.0.label>
-  <FT_AimOffset.degreeDatas.0.description>[PAWN_nameDef] has poor hand-eye coordination and will miss [PAWN_possessive] target more often in combat.</FT_AimOffset.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.0.description>[PAWN_nameDef]は手と目の連携が悪く,戦闘で [PAWN_possessive]狙っている目標を外すことが多くなります.</FT_AimOffset.degreeDatas.0.description>
   <FT_AimOffset.degreeDatas.1.label>steady aim</FT_AimOffset.degreeDatas.1.label>
-  <FT_AimOffset.degreeDatas.1.description>[PAWN_nameDef] has good hand-eye coordination and will miss [PAWN_possessive] target less often in combat.</FT_AimOffset.degreeDatas.1.description>
+  <FT_AimOffset.degreeDatas.1.description>[PAWN_nameDef]は手と目の連携が良好で,戦闘で[PAWN_possessive]狙っている目標を外すことが少なくなります.</FT_AimOffset.degreeDatas.1.description>
   <FT_AimOffset.degreeDatas.2.label>great aim</FT_AimOffset.degreeDatas.2.label>
-  <FT_AimOffset.degreeDatas.2.description>[PAWN_nameDef] has great hand-eye coordination and will miss [PAWN_possessive] target less often in combat.</FT_AimOffset.degreeDatas.2.description>
+  <FT_AimOffset.degreeDatas.2.description>[PAWN_nameDef]は手と目の連携がとても高く, [PAWN_possessive]狙っている目標を外すことがとても少なくなります.</FT_AimOffset.degreeDatas.2.description>
 
   <FT_Artisan.degreeDatas.0.label>artisan</FT_Artisan.degreeDatas.0.label>
-  <FT_Artisan.degreeDatas.0.description>[PAWN_nameDef] is a skilled crafter with artistic finesse, [PAWN_pronoun] enjoys putting things together and [PAWN_pronoun]'s pretty good at it.</FT_Artisan.degreeDatas.0.description>
+  <FT_Artisan.degreeDatas.0.description>[PAWN_nameDef]は芸術的な技巧を持った熟練した職人で, [PAWN_pronoun]は物を組み立てるのが好きで,[PAWN_pronoun]はそれがかなり得意です.</FT_Artisan.degreeDatas.0.description>
 
   <FT_IronStomach.degreeDatas.0.label>iron stomach</FT_IronStomach.degreeDatas.0.label>
-  <FT_IronStomach.degreeDatas.0.description>[PAWN_nameDef] has an iron stomach. [PAWN_pronoun] can go without eating longer and it takes more to upset [PAWN_possessive] stomach.</FT_IronStomach.degreeDatas.0.description>
+  <FT_IronStomach.degreeDatas.0.description>[PAWN_nameDef]は丈夫な胃を持っています.[PAWN_pronoun]は長時間食事を取らなくても大丈夫ですし,[PAWN_possessive]胃が荒れるにはもっと時間がかかります.</FT_IronStomach.degreeDatas.0.description>
 
   <FT_Packing.degreeDatas.0.label>packin' light</FT_Packing.degreeDatas.0.label>
-  <FT_Packing.degreeDatas.0.description>[PAWN_nameDef] packs lightly. [PAWN_pronoun] will carry less but will move more swiftly.</FT_Packing.degreeDatas.0.description>
+  <FT_Packing.degreeDatas.0.description>[PAWN_nameDef]は荷物を軽くします.[PAWN_pronoun]は,持ち運べる量が少なくなりますが,移動速度が速くなります.</FT_Packing.degreeDatas.0.description>
   <FT_Packing.degreeDatas.1.label>pack rat</FT_Packing.degreeDatas.1.label>
-  <FT_Packing.degreeDatas.1.description>[PAWN_nameDef] is a pack rat, [PAWN_pronoun] will keep just about anything in case it might be useful later.</FT_Packing.degreeDatas.1.description>
+  <FT_Packing.degreeDatas.1.description>[PAWN_nameDef]は収集魔で,[PAWN_pronoun]は,後で役立つ可能性がある,ほぼすべての品を抱えます.</FT_Packing.degreeDatas.1.description>
 
   <FT_Agility.degreeDatas.0.label>agile</FT_Agility.degreeDatas.0.label>
-  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef] has good reflexes and moves with finesse. [PAWN_pronoun] will land and dodge more attacks in melee combat.</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef]は反射神経が優秀で,身体の動きも滑らかです.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.0.description>
   <FT_Agility.degreeDatas.1.label>ninja</FT_Agility.degreeDatas.1.label>
-  <FT_Agility.degreeDatas.1.description>[PAWN_nameDef] has great reflexes and moves like a ninja. [PAWN_pronoun] will land and dodge more attacks in melee combat.</FT_Agility.degreeDatas.1.description>
+  <FT_Agility.degreeDatas.1.description>[PAWN_nameDef]は反射神経が強力で,まるで忍者のように動けます.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.1.description>
 
   <FT_Intelligence.degreeDatas.0.label>intelligent</FT_Intelligence.degreeDatas.0.label>
   <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef] is more intelligent than average. [PAWN_pronoun] learns faster and has a good understanding of the world around [PAWN_objective].</FT_Intelligence.degreeDatas.0.description>
@@ -147,7 +147,7 @@
   <FT_BearArms.degreeDatas.0.description>[PAWN_nameDef] has bear arms. [PAWN_pronoun] can carry more and [PAWN_possessive] arms pack more of a punch!</FT_BearArms.degreeDatas.0.description>
 
   <FT_Serendipitous.degreeDatas.0.label>serendipitous</FT_Serendipitous.degreeDatas.0.label>
-  <FT_Serendipitous.degreeDatas.0.description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky [PAWN_objective] and is pretty happy about it.</FT_Serendipitous.degreeDatas.0.description>
+  <FT_Serendipitous.degreeDatas.0.description>[PAWN_nameDef]は運がよく,[PAWN_pronoun]は非常に幸運なので,そのことは[PAWN_objective]とても満足させています.</FT_Serendipitous.degreeDatas.0.description>
 
   <FT_GreenThumb.degreeDatas.0.label>green thumb</FT_GreenThumb.degreeDatas.0.label>
   <FT_GreenThumb.degreeDatas.0.description>[PAWN_nameDef] has a passion for gardening. [PAWN_pronoun] is quick when working with plants and recieves more bountiful yields while harvesting them.</FT_GreenThumb.degreeDatas.0.description>
