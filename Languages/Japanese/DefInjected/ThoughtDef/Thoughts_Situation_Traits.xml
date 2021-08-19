@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FT_MoodOffsetGunNut.stages.0.label>gun nut has ranged weapon</FT_MoodOffsetGunNut.stages.0.label>
-  <FT_MoodOffsetGunNut.stages.0.description>I love guns! Where's something I can shoot at?</FT_MoodOffsetGunNut.stages.0.description>
+  <FT_MoodOffsetGunNut.stages.gun_nut_has_ranged_weapon.label>Gun Nutに銃</FT_MoodOffsetGunNut.stages.gun_nut_has_ranged_weapon.label>
+  <FT_MoodOffsetGunNut.stages.gun_nut_has_ranged_weapon.description>私は銃が大好きです！撃っていいのかな？</FT_MoodOffsetGunNut.stages.gun_nut_has_ranged_weapon.description>
 
-  <FT_MoodOffsetSerendipitous.stages.0.label>serendipitous</FT_MoodOffsetSerendipitous.stages.0.label>
-  <FT_MoodOffsetSerendipitous.stages.0.description>Natural bonus from 'serendipitous' trait.</FT_MoodOffsetSerendipitous.stages.0.description>
+  <FT_MoodOffsetSerendipitous.stages.serendipitous.label>運が良い</FT_MoodOffsetSerendipitous.stages.serendipitous.label>
+  <FT_MoodOffsetSerendipitous.stages.serendipitous.description>「serendipitous」特性からの天然なラッキーです.</FT_MoodOffsetSerendipitous.stages.serendipitous.description>
 
-  <FT_MoodOffsetIronFist.stages.0.label>iron fist has ranged weapon</FT_MoodOffsetIronFist.stages.0.label>
-  <FT_MoodOffsetIronFist.stages.0.description>I don't want to shoot from a distance, I want to fight using my hands!</FT_MoodOffsetIronFist.stages.0.description>
-
+  <FT_MoodOffsetIronFist.stages.iron_fist_has_ranged_weapon.label>Iron fistに卑劣な武器</FT_MoodOffsetIronFist.stages.iron_fist_has_ranged_weapon.label>
+  <FT_MoodOffsetIronFist.stages.iron_fist_has_ranged_weapon.description>離れたところから撃つのではなく,拳で殴り合いたい!</FT_MoodOffsetIronFist.stages.iron_fist_has_ranged_weapon.description>
 
 </LanguageData>
