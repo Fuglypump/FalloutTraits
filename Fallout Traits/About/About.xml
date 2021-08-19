@@ -1,0 +1,19 @@
+<ModMetaData>
+	<name>Fallout Traits</name>
+	<packageId>Fuglypump.FalloutTraits</packageId>
+	<author>Fuglypump</author>
+	<supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter>
+    <li>syrchalis.traitvalue</li>
+  </loadAfter>
+	<description>Fallout Traits
+
+Adds over 30 new traits to Rimworld taken directly Fallout 4, many parts of Fallout 4's perk chart have been reimagined to fit into Rimworld in the form of colonist traits which adds a massive amount of variety to the game's traits without straying too far from vanilla. Many traits have both positive and negitive modifiers and some even have all negitive values. The most powerful traits have rare odds so that they don't appear too often and many unwanted trait combinations are restricted to preserve gameplay and immersion.
+</description>
+</ModMetaData>
