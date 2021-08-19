@@ -943,7 +943,7 @@
 		<li>
 			<label>rad tolerant</label>
 			<description>[PAWN_nameDef]'s body has built up a tolerance to the negative effects of toxic fallout.</description>
-			<degree>1</degree>
+			<degree>2</degree>
 			<statOffsets>
 				<ToxicSensitivity>-0.6</ToxicSensitivity>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
