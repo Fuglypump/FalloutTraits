@@ -50,31 +50,31 @@
   <FT_Agility.degreeDatas.1.description>[PAWN_nameDef]は反射神経が強力で,まるで忍者のように動けます.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.1.description>
 
   <FT_Intelligence.degreeDatas.0.label>intelligent</FT_Intelligence.degreeDatas.0.label>
-  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef] is more intelligent than average. [PAWN_pronoun] learns faster and has a good understanding of the world around [PAWN_objective].</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef]は平均よりも知性的です.[PAWN_pronoun]は学習が速く,[PAWN_objective]周りの世界についてよく理解しています.</FT_Intelligence.degreeDatas.0.description>
   <FT_Intelligence.degreeDatas.1.label>very intelligent</FT_Intelligence.degreeDatas.1.label>
-  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef] is very intelligent. [PAWN_pronoun] learns faster and has a great understanding of the world around [PAWN_objective].</FT_Intelligence.degreeDatas.1.description>
+  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef]は非常に知性的です.[PAWN_pronoun]は学習が速く,[PAWN_objective]周りの世界についてよく理解しています.</FT_Intelligence.degreeDatas.1.description>
 
   <FT_Perception.degreeDatas.0.label>Perceptive</FT_Perception.degreeDatas.0.label>
-  <FT_Perception.degreeDatas.0.description>[PAWN_nameDef] has a good awareness of [PAWN_possessive] surroundings and has a good understanding of how [PAWN_possessive] actions affects others.</FT_Perception.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.0.description>[PAWN_nameDef]は[PAWN_possessive]周囲に対して優れた知覚を持っており,[PAWN_possessive]行動が他者にどのような影響を与えるかよく理解しています.</FT_Perception.degreeDatas.0.description>
   <FT_Perception.degreeDatas.1.label>very perceptive</FT_Perception.degreeDatas.1.label>
-  <FT_Perception.degreeDatas.1.description>[PAWN_nameDef] is very aware of [PAWN_possessive] surroundings and has a great understanding of how [PAWN_possessive] actions affects others.</FT_Perception.degreeDatas.1.description>
+  <FT_Perception.degreeDatas.1.description>[PAWN_nameDef]は[PAWN_possessive]周囲に対して大変優れた知覚を持っており,[PAWN_possessive]行動が他者にどのような影響を与えるかよく理解しています.</FT_Perception.degreeDatas.1.description>
 
   <FT_Evasion.degreeDatas.0.label>dodgy</FT_Evasion.degreeDatas.0.label>
-  <FT_Evasion.degreeDatas.0.description>[PAWN_nameDef] is good at doging things. [PAWN_pronoun] is good at avoiding springing traps and dodging melee attacks.</FT_Evasion.degreeDatas.0.description>
+  <FT_Evasion.degreeDatas.0.description>[PAWN_nameDef]は危険回避が得意です.[PAWN_pronoun]は,スパイクトラップを回避したり近接攻撃を避けるのが得意です.</FT_Evasion.degreeDatas.0.description>
   <FT_Evasion.degreeDatas.1.label>evasive</FT_Evasion.degreeDatas.1.label>
-  <FT_Evasion.degreeDatas.1.description>[PAWN_nameDef] is great at avading things. [PAWN_pronoun] is great at avoiding springing traps and dodging melee attacks.</FT_Evasion.degreeDatas.1.description>
+  <FT_Evasion.degreeDatas.1.description>[PAWN_nameDef]は危険回避が大変得意です.[PAWN_pronoun]は,スパイクトラップを回避したり近接攻撃を避けるのが得意です.</FT_Evasion.degreeDatas.1.description>
 
   <FT_Scientific.degreeDatas.0.label>scientific</FT_Scientific.degreeDatas.0.label>
-  <FT_Scientific.degreeDatas.0.description>[PAWN_nameDef] has a scientific mind. [PAWN_pronoun] is a good researcher and a fast learner.</FT_Scientific.degreeDatas.0.description>
+  <FT_Scientific.degreeDatas.0.description>[PAWN_nameDef]には科学的な思考をする力があります.[PAWN_pronoun]は優秀な研究者で,素早い学習者でもあります.</FT_Scientific.degreeDatas.0.description>
   <FT_Scientific.degreeDatas.1.label>very scientific</FT_Scientific.degreeDatas.1.label>
-  <FT_Scientific.degreeDatas.1.description>[PAWN_nameDef] has a very scientific mind. [PAWN_pronoun] is a great researcher and a fast learner.</FT_Scientific.degreeDatas.1.description>
+  <FT_Scientific.degreeDatas.1.description>[PAWN_nameDef]には優れた科学的な思考をする力があります.[PAWN_pronoun]は偉大な研究者で,素早い学習者でもあります.</FT_Scientific.degreeDatas.1.description>
 
   <FT_Adventuring.degreeDatas.0.label>traveler</FT_Adventuring.degreeDatas.0.label>
-  <FT_Adventuring.degreeDatas.0.description>[PAWN_nameDef] is great at traveling. [PAWN_pronoun] moves quickly while carrying more and will forage extra nutrition while traveling in caravans.</FT_Adventuring.degreeDatas.0.description>
+  <FT_Adventuring.degreeDatas.0.description>[PAWN_nameDef]は旅行が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食料を集めることができます.</FT_Adventuring.degreeDatas.0.description>
   <FT_Adventuring.degreeDatas.1.label>explorer</FT_Adventuring.degreeDatas.1.label>
-  <FT_Adventuring.degreeDatas.1.description>[PAWN_nameDef] is great at exploration. [PAWN_pronoun] moves quickly while carrying more and will forage extra nutrition while traveling in caravans.</FT_Adventuring.degreeDatas.1.description>
+  <FT_Adventuring.degreeDatas.1.description>[PAWN_nameDef]は探索が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食糧を集めることができます.</FT_Adventuring.degreeDatas.1.description>
   <FT_Adventuring.degreeDatas.2.label>adventurer</FT_Adventuring.degreeDatas.2.label>
-  <FT_Adventuring.degreeDatas.2.description>[PAWN_nameDef] is great at adventuring. [PAWN_pronoun] moves quickly while carrying more and will forage extra nutrition while traveling in caravans.</FT_Adventuring.degreeDatas.2.description>
+  <FT_Adventuring.degreeDatas.2.description>[PAWN_nameDef]は冒険が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食料を集めることができます.</FT_Adventuring.degreeDatas.2.description>
 
 
   <!-- Uncommon (0.6, 5.0) -->
