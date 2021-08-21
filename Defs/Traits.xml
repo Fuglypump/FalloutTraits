@@ -80,8 +80,6 @@
 				<PainShockThreshold>+0.1</PainShockThreshold>
 				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
-				<PsychicSensitivity>-0.1</PsychicSensitivity>
-				<ToxicSensitivity>-0.1</ToxicSensitivity>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
 			</statOffsets>
@@ -95,8 +93,6 @@
 				<PainShockThreshold>+0.2</PainShockThreshold>
 				<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				<ImmunityGainSpeed>+0.2</ImmunityGainSpeed>
-				<PsychicSensitivity>-0.2</PsychicSensitivity>
-				<ToxicSensitivity>-0.2</ToxicSensitivity>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.2</CertaintyLossFactor>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
 			</statOffsets>
@@ -324,7 +320,7 @@
 			<label>iron stomach</label>
 			<description>[PAWN_nameDef] has an iron stomach. [PAWN_pronoun] can go without eating longer and it takes more to upset [PAWN_possessive] stomach.</description>
 			<statOffsets>
-				<HungerRateMultiplier>-0.25</HungerRateMultiplier>
+				<HungerRateMultiplier>-0.3</HungerRateMultiplier>
 				<PainShockThreshold>+0.1</PainShockThreshold>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
@@ -556,7 +552,7 @@
 		</li>
 		<li>
 			<label>evasive</label>
-			<description>[PAWN_nameDef] is great at avading things. [PAWN_pronoun] is great at avoiding springing traps and dodging melee attacks.</description>
+			<description>[PAWN_nameDef] is great at evading things. [PAWN_pronoun] is great at avoiding springing traps and dodging melee attacks.</description>
 			<degree>2</degree>
 			<statOffsets>
 				<MoveSpeed>+0.2</MoveSpeed>
@@ -1309,8 +1305,8 @@
 		<label>lead belly</label>
 		<description>[PAWN_nameDef] has a lead belly. [PAWN_possessive] belly can go much longer without food and [PAWN_pronoun] is more resistant to toxic radiation.</description>
 		<statOffsets>
-			<HungerRateMultiplier>-0.25</HungerRateMultiplier>
-			<ToxicSensitivity>-0.25</ToxicSensitivity>
+			<HungerRateMultiplier>-0.3</HungerRateMultiplier>
+			<ToxicSensitivity>-0.2</ToxicSensitivity>
 			<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 		</statOffsets>
 		</li>
