@@ -3,205 +3,205 @@
 
   <!-- Common (9.0, 8.0, 7.0) -->
 
-  <FT_StrongBack.degreeDatas.0.label>strong back</FT_StrongBack.degreeDatas.0.label>
-  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef] has a strong back which allows [PAWN_objective] to carry more than most people.</FT_StrongBack.degreeDatas.0.description>
-  <FT_StrongBack.degreeDatas.1.label>very strong back</FT_StrongBack.degreeDatas.1.label>
-  <FT_StrongBack.degreeDatas.1.description>[PAWN_nameDef] has a very strong back, [PAWN_pronoun] must be part mule or something because [PAWN_pronoun] can carry a lot more than most people.</FT_StrongBack.degreeDatas.1.description>
+  <FT_StrongBack.degreeDatas.0.label>Сильная спина</FT_StrongBack.degreeDatas.0.label>
+  <FT_StrongBack.degreeDatas.0.description>{PAWN_nameDef} имеет сильную спину которая позволяет носить {PAWN_gender ? ему : ей} больше вещей, чем большинству людей.</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.1.label>Очень сильная спина</FT_StrongBack.degreeDatas.1.label>
+  <FT_StrongBack.degreeDatas.1.description>{PAWN_nameDef} имеет очень сильную спину или {PAWN_pronoun} наполовину мул или что-то в этом роде. {PAWN_pronoun} может нести в два раза больше, чем обычный человек.</FT_StrongBack.degreeDatas.1.description>
 
-  <FT_Bandolier.degreeDatas.0.label>bandolier</FT_Bandolier.degreeDatas.0.label>
-  <FT_Bandolier.degreeDatas.0.description>[PAWN_nameDef] is a bandolier. [PAWN_pronoun] likes to keep extra ammo handy for reloading ranged weapons.</FT_Bandolier.degreeDatas.0.description>
+  <FT_Bandolier.degreeDatas.0.label>Бандольер</FT_Bandolier.degreeDatas.0.label>
+  <FT_Bandolier.degreeDatas.0.description>{PAWN_nameDef} - бандольер. {PAWN_pronoun} всегда держит под рукой дополнительные патроны для перезарядки оружия дальнего боя.</FT_Bandolier.degreeDatas.0.description>
 
-  <FT_Endurance.degreeDatas.0.label>enduring</FT_Endurance.degreeDatas.0.label>
-  <FT_Endurance.degreeDatas.0.description>[PAWN_nameDef] has good health and an enduring personality. [PAWN_pronoun] is better at handling stressful situations than others.</FT_Endurance.degreeDatas.0.description>
-  <FT_Endurance.degreeDatas.1.label>very enduring</FT_Endurance.degreeDatas.1.label>
-  <FT_Endurance.degreeDatas.1.description>[PAWN_nameDef] has exceptional health and a very enduring personality. [PAWN_pronoun] is capable of handling high stress situations that others cannot.</FT_Endurance.degreeDatas.1.description>
+  <FT_Endurance.degreeDatas.0.label>Выносливый</FT_Endurance.degreeDatas.0.label>
+  <FT_Endurance.degreeDatas.0.description>{PAWN_nameDef} обладает хорошим здоровьем и стойкой личностью. {PAWN_pronoun} лучше справляется со стрессовыми ситуациями, чем другие.</FT_Endurance.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.1.label>Очень стойкий</FT_Endurance.degreeDatas.1.label>
+  <FT_Endurance.degreeDatas.1.description>{PAWN_nameDef} обладает исключительным здоровьем и очень стойкой личностью. {PAWN_pronoun} способен справляться с очень стрессовыми ситуациями.</FT_Endurance.degreeDatas.1.description>
 
-  <FT_Charisma.degreeDatas.0.label>charismatic</FT_Charisma.degreeDatas.0.label>
-  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef] has a charismatic personality. [PAWN_pronoun] is good at social interactions and trading.</FT_Charisma.degreeDatas.0.description>
-  <FT_Charisma.degreeDatas.1.label>very charismatic</FT_Charisma.degreeDatas.1.label>
-  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef] has a very charismatic personality. [PAWN_pronoun] is great at social interactions and trading.</FT_Charisma.degreeDatas.1.description>
+  <FT_Charisma.degreeDatas.0.label>Харизматичный</FT_Charisma.degreeDatas.0.label>
+  <FT_Charisma.degreeDatas.0.description>{PAWN_nameDef} имеет харизматичную натуру. {PAWN_pronoun} получает бонусы ко всему социальному общению.</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.1.label>Очень харизматичный</FT_Charisma.degreeDatas.1.label>
+  <FT_Charisma.degreeDatas.1.description>{PAWN_nameDef} имеет очень харизматичную натуру. {PAWN_pronoun} получает бонусы ко всему социальному общению.</FT_Charisma.degreeDatas.1.description>
 
-  <FT_Intimidation.degreeDatas.0.label>intimidating</FT_Intimidation.degreeDatas.0.label>
-  <FT_Intimidation.degreeDatas.0.description>[PAWN_nameDef] has an intimidating personality, this gives [PAWN_objective] an advantage in social interactions.</FT_Intimidation.degreeDatas.0.description>
-  <FT_Intimidation.degreeDatas.1.label>very intimidating</FT_Intimidation.degreeDatas.1.label>
-  <FT_Intimidation.degreeDatas.1.description>[PAWN_nameDef] has a very intimidating personality, this gives [PAWN_objective] a large advantage in social interactions.</FT_Intimidation.degreeDatas.1.description>
+  <FT_Intimidation.degreeDatas.0.label>Пугающий</FT_Intimidation.degreeDatas.0.label>
+  <FT_Intimidation.degreeDatas.0.description>{PAWN_nameDef} имеет пугающую натуру, это дает {PAWN_gender ? ему : ей} преимущество в социальном общении.</FT_Intimidation.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.1.label>Очень пугающий</FT_Intimidation.degreeDatas.1.label>
+  <FT_Intimidation.degreeDatas.1.description>{PAWN_nameDef} имеет очень пугающую натуру, это дает {PAWN_gender ? ему : ей} большое преимущество в социальном общении.</FT_Intimidation.degreeDatas.1.description>
 
-  <FT_AimOffset.degreeDatas.0.label>poor aim</FT_AimOffset.degreeDatas.0.label>
-  <FT_AimOffset.degreeDatas.0.description>[PAWN_nameDef] has poor hand-eye coordination and will miss [PAWN_possessive] target more often in combat.</FT_AimOffset.degreeDatas.0.description>
-  <FT_AimOffset.degreeDatas.1.label>steady aim</FT_AimOffset.degreeDatas.1.label>
-  <FT_AimOffset.degreeDatas.1.description>[PAWN_nameDef] has good hand-eye coordination and will miss [PAWN_possessive] target less often in combat.</FT_AimOffset.degreeDatas.1.description>
-  <FT_AimOffset.degreeDatas.2.label>great aim</FT_AimOffset.degreeDatas.2.label>
-  <FT_AimOffset.degreeDatas.2.description>[PAWN_nameDef] has great hand-eye coordination and will miss [PAWN_possessive] target less often in combat.</FT_AimOffset.degreeDatas.2.description>
+  <FT_AimOffset.degreeDatas.0.label>Плохой прицел</FT_AimOffset.degreeDatas.0.label>
+  <FT_AimOffset.degreeDatas.0.description>{PAWN_nameDef} имеет плохую зрительно-моторную координацию и чаще всего промахивается мимо цели в бою.</FT_AimOffset.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.1.label>Устойчивый прицел</FT_AimOffset.degreeDatas.1.label>
+  <FT_AimOffset.degreeDatas.1.description>{PAWN_nameDef} обладает отличной зрительно-моторной координацией и будет реже промахиваться мимо своей цели в бою.</FT_AimOffset.degreeDatas.1.description>
+  <FT_AimOffset.degreeDatas.2.label>Орлиный глаз</FT_AimOffset.degreeDatas.2.label>
+  <FT_AimOffset.degreeDatas.2.description>{PAWN_nameDef} обладает великолепной зрительно-моторной координацией и почти не промахивается по своей цели в бою.</FT_AimOffset.degreeDatas.2.description>
 
-  <FT_Artisan.degreeDatas.0.label>artisan</FT_Artisan.degreeDatas.0.label>
-  <FT_Artisan.degreeDatas.0.description>[PAWN_nameDef] is a skilled crafter with artistic finesse, [PAWN_pronoun] enjoys putting things together and [PAWN_pronoun]'s pretty good at it.</FT_Artisan.degreeDatas.0.description>
+  <FT_Artisan.degreeDatas.0.label>Ремесленник</FT_Artisan.degreeDatas.0.label>
+  <FT_Artisan.degreeDatas.0.description>{PAWN_nameDef} опытный ремесленник с тонким чувством вкуса, {PAWN_pronoun} обожает мастерить и достаточно {PAWN_gender ? хорош : хороша} в этом.</FT_Artisan.degreeDatas.0.description>
 
-  <FT_IronStomach.degreeDatas.0.label>iron stomach</FT_IronStomach.degreeDatas.0.label>
-  <FT_IronStomach.degreeDatas.0.description>[PAWN_nameDef] has an iron stomach. [PAWN_pronoun] can go without eating longer and it takes more to upset [PAWN_possessive] stomach.</FT_IronStomach.degreeDatas.0.description>
+  <FT_IronStomach.degreeDatas.0.label>Железный желудок</FT_IronStomach.degreeDatas.0.label>
+  <FT_IronStomach.degreeDatas.0.description>У {PAWN_nameDef} железный желудок. {PAWN_pronoun} может дольше оставаться без еды, а {PAWN_gender ? его : её} желудок может переварить почти что угодно.</FT_IronStomach.degreeDatas.0.description>
 
-  <FT_Packing.degreeDatas.0.label>packin' light</FT_Packing.degreeDatas.0.label>
-  <FT_Packing.degreeDatas.0.description>[PAWN_nameDef] packs lightly. [PAWN_pronoun] will carry less but will move more swiftly.</FT_Packing.degreeDatas.0.description>
-  <FT_Packing.degreeDatas.1.label>pack rat</FT_Packing.degreeDatas.1.label>
-  <FT_Packing.degreeDatas.1.description>[PAWN_nameDef] is a pack rat, [PAWN_pronoun] will keep just about anything in case it might be useful later.</FT_Packing.degreeDatas.1.description>
+  <FT_Packing.degreeDatas.0.label>На легке</FT_Packing.degreeDatas.0.label>
+  <FT_Packing.degreeDatas.0.description>{PAWN_nameDef} любит оставаться на легке. {PAWN_pronoun} будет переносить меньше вещей, но двигаться быстрее.</FT_Packing.degreeDatas.0.description>
+  <FT_Packing.degreeDatas.1.label>Воришка</FT_Packing.degreeDatas.1.label>
+  <FT_Packing.degreeDatas.1.description>{PAWN_nameDef} - воришка, {PAWN_pronoun} сохранит все, что угодно, на случай, если это может пригодиться позже.</FT_Packing.degreeDatas.1.description>
 
-  <FT_Agility.degreeDatas.0.label>agile</FT_Agility.degreeDatas.0.label>
-  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef] has good reflexes and moves with finesse. [PAWN_pronoun] will land and dodge more attacks in melee combat.</FT_Agility.degreeDatas.0.description>
-  <FT_Agility.degreeDatas.1.label>ninja</FT_Agility.degreeDatas.1.label>
-  <FT_Agility.degreeDatas.1.description>[PAWN_nameDef] has great reflexes and moves like a ninja. [PAWN_pronoun] will land and dodge more attacks in melee combat.</FT_Agility.degreeDatas.1.description>
+  <FT_Agility.degreeDatas.0.label>Проворный</FT_Agility.degreeDatas.0.label>
+  <FT_Agility.degreeDatas.0.description>{PAWN_nameDef} имеет хорошие рефлексы и двигается с изяществом. {PAWN_pronoun} будет приземляться и уклоняться от новых атак в ближнем бою.</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.1.label>Ниндзя</FT_Agility.degreeDatas.1.label>
+  <FT_Agility.degreeDatas.1.description>{PAWN_nameDef} имеет отличные рефлексы и двигается как ниндзя. {PAWN_pronoun} будет приземляться и уклоняться от большего количества атак в ближнем бою.</FT_Agility.degreeDatas.1.description>
 
-  <FT_Intelligence.degreeDatas.0.label>intelligent</FT_Intelligence.degreeDatas.0.label>
-  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef] is more intelligent than average. [PAWN_pronoun] learns faster and has a good understanding of the world around [PAWN_objective].</FT_Intelligence.degreeDatas.0.description>
-  <FT_Intelligence.degreeDatas.1.label>very intelligent</FT_Intelligence.degreeDatas.1.label>
-  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef] is very intelligent. [PAWN_pronoun] learns faster and has a great understanding of the world around [PAWN_objective].</FT_Intelligence.degreeDatas.1.description>
+  <FT_Intelligence.degreeDatas.0.label>Умный</FT_Intelligence.degreeDatas.0.label>
+  <FT_Intelligence.degreeDatas.0.description>{PAWN_nameDef} умнее чем обычный человек. {PAWN_pronoun} учится быстрее и имеет хорошее представление об окружающем мире.</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.1.label>Очень умный</FT_Intelligence.degreeDatas.1.label>
+  <FT_Intelligence.degreeDatas.1.description>{PAWN_nameDef} очень умен. {PAWN_pronoun} учится быстрее и имеет большое понимание об окружающем мире.</FT_Intelligence.degreeDatas.1.description>
 
-  <FT_Perception.degreeDatas.0.label>Perceptive</FT_Perception.degreeDatas.0.label>
-  <FT_Perception.degreeDatas.0.description>[PAWN_nameDef] has a good awareness of [PAWN_possessive] surroundings and has a good understanding of how [PAWN_possessive] actions affects others.</FT_Perception.degreeDatas.0.description>
-  <FT_Perception.degreeDatas.1.label>very perceptive</FT_Perception.degreeDatas.1.label>
-  <FT_Perception.degreeDatas.1.description>[PAWN_nameDef] is very aware of [PAWN_possessive] surroundings and has a great understanding of how [PAWN_possessive] actions affects others.</FT_Perception.degreeDatas.1.description>
+  <FT_Perception.degreeDatas.0.label>Чуткий</FT_Perception.degreeDatas.0.label>
+  <FT_Perception.degreeDatas.0.description>{PAWN_nameDef} имеет хорошее представление о своем окружении и хорошо понимает, как {PAWN_gender ? его : её} действия влияют на других.</FT_Perception.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.1.label>Очень внимательный</FT_Perception.degreeDatas.1.label>
+  <FT_Perception.degreeDatas.1.description>{PAWN_nameDef} очень хорошо осознает свое окружение и прекрастно понимает, как {PAWN_gender ? его : её} действия влияют на других.</FT_Perception.degreeDatas.1.description>
 
-  <FT_Evasion.degreeDatas.0.label>dodgy</FT_Evasion.degreeDatas.0.label>
-  <FT_Evasion.degreeDatas.0.description>[PAWN_nameDef] is good at doging things. [PAWN_pronoun] is good at avoiding springing traps and dodging melee attacks.</FT_Evasion.degreeDatas.0.description>
-  <FT_Evasion.degreeDatas.1.label>evasive</FT_Evasion.degreeDatas.1.label>
-  <FT_Evasion.degreeDatas.1.description>[PAWN_nameDef] is great at avading things. [PAWN_pronoun] is great at avoiding springing traps and dodging melee attacks.</FT_Evasion.degreeDatas.1.description>
+  <FT_Evasion.degreeDatas.0.label>Изворотливый</FT_Evasion.degreeDatas.0.label>
+  <FT_Evasion.degreeDatas.0.description>{PAWN_nameDef} хорошо уворачивается. В {PAWN_gender ? него : неё} сложно попасть врукопашную, а ловушки {PAWN_pronoun} обходит стороной.</FT_Evasion.degreeDatas.0.description>
+  <FT_Evasion.degreeDatas.1.label>Неуловимый</FT_Evasion.degreeDatas.1.label>
+  <FT_Evasion.degreeDatas.1.description>{PAWN_nameDef} отлично уколняется. В {PAWN_gender ? него : неё} почти не попасть врукопашную, а ловушки сами обходят {PAWN_pronoun} стороной.</FT_Evasion.degreeDatas.1.description>
 
-  <FT_Scientific.degreeDatas.0.label>scientific</FT_Scientific.degreeDatas.0.label>
-  <FT_Scientific.degreeDatas.0.description>[PAWN_nameDef] has a scientific mind. [PAWN_pronoun] is a good researcher and a fast learner.</FT_Scientific.degreeDatas.0.description>
-  <FT_Scientific.degreeDatas.1.label>very scientific</FT_Scientific.degreeDatas.1.label>
-  <FT_Scientific.degreeDatas.1.description>[PAWN_nameDef] has a very scientific mind. [PAWN_pronoun] is a great researcher and a fast learner.</FT_Scientific.degreeDatas.1.description>
+  <FT_Scientific.degreeDatas.0.label>Учёный</FT_Scientific.degreeDatas.0.label>
+  <FT_Scientific.degreeDatas.0.description>У {PAWN_nameDef} научный склад ума. {PAWN_pronoun} {PAWN_gender ? хорош : хороша} в исследованиях и быстро учится.</FT_Scientific.degreeDatas.0.description>
+  <FT_Scientific.degreeDatas.1.label>Гениальный учёный</FT_Scientific.degreeDatas.1.label>
+  <FT_Scientific.degreeDatas.1.description>{PAWN_nameDef} - гений исследований. {PAWN_pronoun} невероятно {PAWN_gender ? хорош : хороша} в исследованиях и очень быстро учится.</FT_Scientific.degreeDatas.1.description>
 
-  <FT_Adventuring.degreeDatas.0.label>traveler</FT_Adventuring.degreeDatas.0.label>
-  <FT_Adventuring.degreeDatas.0.description>[PAWN_nameDef] is great at traveling. [PAWN_pronoun] moves quickly while carrying more and will forage extra nutrition while traveling in caravans.</FT_Adventuring.degreeDatas.0.description>
-  <FT_Adventuring.degreeDatas.1.label>explorer</FT_Adventuring.degreeDatas.1.label>
-  <FT_Adventuring.degreeDatas.1.description>[PAWN_nameDef] is great at exploration. [PAWN_pronoun] moves quickly while carrying more and will forage extra nutrition while traveling in caravans.</FT_Adventuring.degreeDatas.1.description>
-  <FT_Adventuring.degreeDatas.2.label>adventurer</FT_Adventuring.degreeDatas.2.label>
-  <FT_Adventuring.degreeDatas.2.description>[PAWN_nameDef] is great at adventuring. [PAWN_pronoun] moves quickly while carrying more and will forage extra nutrition while traveling in caravans.</FT_Adventuring.degreeDatas.2.description>
+  <FT_Adventuring.degreeDatas.0.label>Турист</FT_Adventuring.degreeDatas.0.label>
+  <FT_Adventuring.degreeDatas.0.description>{PAWN_nameDef} любит путешествовать. {PAWN_pronoun} движется быстрее, неся больше, и будет добывать дополнительное пропитание во время путешествия в караванах.</FT_Adventuring.degreeDatas.0.description>
+  <FT_Adventuring.degreeDatas.1.label>Разведчик</FT_Adventuring.degreeDatas.1.label>
+  <FT_Adventuring.degreeDatas.1.description>{PAWN_nameDef} {PAWN_gender ? хорош : хороша} в разведке. {PAWN_pronoun} движется быстрее, неся больше, и будет добывать дополнительное пропитание во время путешествия в караванах.</FT_Adventuring.degreeDatas.1.description>
+  <FT_Adventuring.degreeDatas.2.label>Авантюрист</FT_Adventuring.degreeDatas.2.label>
+  <FT_Adventuring.degreeDatas.2.description>{PAWN_nameDef} отличный искатель приключений. {PAWN_pronoun} движется быстрее, неся больше, и будет добывать дополнительное пропитание во время путешествия в караванах.</FT_Adventuring.degreeDatas.2.description>
 
 
   <!-- Uncommon (0.6, 5.0) -->
 
-  <FT_Bargaining.degreeDatas.0.label>bargainer</FT_Bargaining.degreeDatas.0.label>
-  <FT_Bargaining.degreeDatas.0.description>[PAWN_nameDef] is great at bargaining. [PAWN_pronoun] is great at social interactions and can find great deals while trading.</FT_Bargaining.degreeDatas.0.description>
-  <FT_Bargaining.degreeDatas.1.label>hard bargainer</FT_Bargaining.degreeDatas.1.label>
-  <FT_Bargaining.degreeDatas.1.description>[PAWN_nameDef] is a hard bargainer. [PAWN_pronoun] is adept at social interactions and can find the best deals while trading.</FT_Bargaining.degreeDatas.1.description>
+  <FT_Bargaining.degreeDatas.0.label>Торгаш</FT_Bargaining.degreeDatas.0.label>
+  <FT_Bargaining.degreeDatas.0.description>{PAWN_nameDef} хорошо торгуется. {PAWN_pronoun} {PAWN_gender ? хорош : хороша} в социальных взаимодействиях и может договориться о хорошой сделке во время торговли.</FT_Bargaining.degreeDatas.0.description>
+  <FT_Bargaining.degreeDatas.1.label>Жёсткий торгаш</FT_Bargaining.degreeDatas.1.label>
+  <FT_Bargaining.degreeDatas.1.description>{PAWN_nameDef} жёстко торгуется. {PAWN_pronoun} мастер социальных взаимодействий и может заключить лучшую сделку во время торговли.</FT_Bargaining.degreeDatas.1.description>
 
-  <FT_Inspiration.degreeDatas.0.label>uninspiring</FT_Inspiration.degreeDatas.0.label>
-  <FT_Inspiration.degreeDatas.0.description>[PAWN_nameDef] has an uninspiring personality. [PAWN_pronoun] has less motivation to learn and puts less effort into social interactions.</FT_Inspiration.degreeDatas.0.description>
-  <FT_Inspiration.degreeDatas.1.label>inspirational</FT_Inspiration.degreeDatas.1.label>
-  <FT_Inspiration.degreeDatas.1.description>[PAWN_nameDef] has an inspirational personality. [PAWN_pronoun] is good at social interactions and is a motivated learner .</FT_Inspiration.degreeDatas.1.description>
-  <FT_Inspiration.degreeDatas.2.label>very inspirational</FT_Inspiration.degreeDatas.2.label>
-  <FT_Inspiration.degreeDatas.2.description>[PAWN_nameDef] has a very inspirational personality. [PAWN_pronoun] is great at social interactions and is a very motivated learner.</FT_Inspiration.degreeDatas.2.description>
+  <FT_Inspiration.degreeDatas.0.label>Скучный</FT_Inspiration.degreeDatas.0.label>
+  <FT_Inspiration.degreeDatas.0.description>{PAWN_nameDef} скучная личность. У {PAWN_gender ? него : неё} мало мотивации к обучению и {PAWN_gender ? он : она} прикладывает меньше усилий во время общения.</FT_Inspiration.degreeDatas.0.description>
+  <FT_Inspiration.degreeDatas.1.label>Вдохновляющий</FT_Inspiration.degreeDatas.1.label>
+  <FT_Inspiration.degreeDatas.1.description>{PAWN_nameDef} вдохновляющая личность. {PAWN_pronoun} {PAWN_gender ? хорош : хороша} в общении и {PAWN_gender ? мотивирован : мотивирована} в обучении.</FT_Inspiration.degreeDatas.1.description>
+  <FT_Inspiration.degreeDatas.2.label>Очень вдохновляющий</FT_Inspiration.degreeDatas.2.label>
+  <FT_Inspiration.degreeDatas.2.description>{PAWN_nameDef} очень вдохновляющая личность. {PAWN_pronoun} очень {PAWN_gender ? хорош : хороша} в общении и крайне {PAWN_gender ? мотивирован : мотивирована} в обучении.</FT_Inspiration.degreeDatas.2.description>
 
-  <FT_Generosity.degreeDatas.0.label>generous</FT_Generosity.degreeDatas.0.label>
-  <FT_Generosity.degreeDatas.0.description>[PAWN_nameDef] is a generous person, sometimes to a fault. [PAWN_pronoun] is a good negotiator but often does so by offering more than [PAWN_pronoun] should.</FT_Generosity.degreeDatas.0.description>
-  <FT_Generosity.degreeDatas.1.label>overly generous</FT_Generosity.degreeDatas.1.label>
-  <FT_Generosity.degreeDatas.1.description>[PAWN_nameDef] is an overly generous person to a fault. [PAWN_pronoun] is a great negotiator but often does so by offering more than [PAWN_pronoun] should</FT_Generosity.degreeDatas.1.description>
+  <FT_Generosity.degreeDatas.0.label>Великодушный</FT_Generosity.degreeDatas.0.label>
+  <FT_Generosity.degreeDatas.0.description>{PAWN_nameDef} щедрая личность, иногда даже слишком. {PAWN_pronoun} хороший переговорщик, но часто предлагает больше, чем следует.</FT_Generosity.degreeDatas.0.description>
+  <FT_Generosity.degreeDatas.1.label>Чрезмерно щедрый</FT_Generosity.degreeDatas.1.label>
+  <FT_Generosity.degreeDatas.1.description>{PAWN_nameDef} чрезмерно щедрая личность. {PAWN_pronoun} отличный переговорщик, но часто предлагает больше, чем следует.</FT_Generosity.degreeDatas.1.description>
 
-  <FT_Scrapper.degreeDatas.0.label>scrapper</FT_Scrapper.degreeDatas.0.label>
-  <FT_Scrapper.degreeDatas.0.description>[PAWN_nameDef] is good at working with scrap metal. [PAWN_pronoun] is great with a smelter and is efficient when using building materials. </FT_Scrapper.degreeDatas.0.description>
+  <FT_Scrapper.degreeDatas.0.label>Мусорщик</FT_Scrapper.degreeDatas.0.label>
+  <FT_Scrapper.degreeDatas.0.description>{PAWN_nameDef} {PAWN_gender ? хорош : хороша} в работе с металоломом. {PAWN_pronoun} отлично подходит для плавильного завода и {PAWN_gender ? эффективен : эффективена} при использовании строительных материалов.</FT_Scrapper.degreeDatas.0.description>
 
-  <FT_NaturalLeader.degreeDatas.0.label>natural leader</FT_NaturalLeader.degreeDatas.0.label>
-  <FT_NaturalLeader.degreeDatas.0.description>[PAWN_nameDef] is a natural leader, [PAWN_pronoun] is good at social interactions and can handle stressful situations that others might not.</FT_NaturalLeader.degreeDatas.0.description>
+  <FT_NaturalLeader.degreeDatas.0.label>Прирожденный лидер</FT_NaturalLeader.degreeDatas.0.label>
+  <FT_NaturalLeader.degreeDatas.0.description>{PAWN_nameDef} прирожденный лидер, {PAWN_pronoun} {PAWN_gender ? хорош : хороша} в общении и справляется со стрессовыми ситуациями лучше других.</FT_NaturalLeader.degreeDatas.0.description>
 
-  <FT_RadResistant.degreeDatas.0.label>rad resistant</FT_RadResistant.degreeDatas.0.label>
-  <FT_RadResistant.degreeDatas.0.description>[PAWN_nameDef]'s body has built up a resistance to the negative effects of toxic fallout.</FT_RadResistant.degreeDatas.0.description>
-  <FT_RadResistant.degreeDatas.1.label>rad tolerant</FT_RadResistant.degreeDatas.1.label>
-  <FT_RadResistant.degreeDatas.1.description>[PAWN_nameDef]'s body has built up a tolerance to the negative effects of toxic fallout.</FT_RadResistant.degreeDatas.1.description>
+  <FT_RadResistant.degreeDatas.0.label>Сопротивление к радиации</FT_RadResistant.degreeDatas.0.label>
+  <FT_RadResistant.degreeDatas.0.description>Организм {PAWN_nameDef} выработал устойчивость к негативному воздействию токсичных осадков.</FT_RadResistant.degreeDatas.0.description>
+  <FT_RadResistant.degreeDatas.1.label>Лёгкое сопротивление к радиации</FT_RadResistant.degreeDatas.1.label>
+  <FT_RadResistant.degreeDatas.1.description>Организм {PAWN_nameDef} выработал лёгкую устойчивость к негативному воздействию токсичных осадков.</FT_RadResistant.degreeDatas.1.description>
 
-  <FT_ActionBoy.degreeDatas.0.label>action boy</FT_ActionBoy.degreeDatas.0.label>
-  <FT_ActionBoy.degreeDatas.0.description>There's no time to waste! [PAWN_nameDef] has increased movement and work speed.</FT_ActionBoy.degreeDatas.0.description>
+  <FT_ActionBoy.degreeDatas.0.label>Мальчик действия</FT_ActionBoy.degreeDatas.0.label>
+  <FT_ActionBoy.degreeDatas.0.description>Нельзя терять ни минуты! {PAWN_nameDef} имеет повышенную скорость передвижения и работы.</FT_ActionBoy.degreeDatas.0.description>
 
-  <FT_ActionGirl.degreeDatas.0.label>action girl</FT_ActionGirl.degreeDatas.0.label>
-  <FT_ActionGirl.degreeDatas.0.description>There's no time to waste! [PAWN_nameDef] has increased movement and work speed.</FT_ActionGirl.degreeDatas.0.description>
+  <FT_ActionGirl.degreeDatas.0.label>Девочка действия</FT_ActionGirl.degreeDatas.0.label>
+  <FT_ActionGirl.degreeDatas.0.description>Нельзя терять ни минуты! {PAWN_nameDef} имеет повышенную скорость передвижения и работы.</FT_ActionGirl.degreeDatas.0.description>
 
-  <FT_QuickHands.degreeDatas.0.label>quick hands</FT_QuickHands.degreeDatas.0.label>
-  <FT_QuickHands.degreeDatas.0.description>[PAWN_nameDef] has quick hands. When it comes to [PAWN_possessive] hands, [PAWN_nameDef] never hesitates.</FT_QuickHands.degreeDatas.0.description>
+  <FT_QuickHands.degreeDatas.0.label>Быстрые руки</FT_QuickHands.degreeDatas.0.label>
+  <FT_QuickHands.degreeDatas.0.description>{PAWN_nameDef} имеет быстрые руки. Когда дело доходит до {PAWN_gender ? его : её} рук, {PAWN_pronoun} никогда не колеблется.</FT_QuickHands.degreeDatas.0.description>
 
-  <FT_GunNut.degreeDatas.0.label>gun nut</FT_GunNut.degreeDatas.0.label>
-  <FT_GunNut.degreeDatas.0.description>[PAWN_nameDef] is a gun nut, [PAWN_pronoun] loves guns so much that [PAWN_pronoun] gets a mood boost while holding a ranged weapon.</FT_GunNut.degreeDatas.0.description>
+  <FT_GunNut.degreeDatas.0.label>Любитель пушек</FT_GunNut.degreeDatas.0.label>
+  <FT_GunNut.degreeDatas.0.description>{PAWN_nameDef} любитель пушек, {PAWN_pronoun} любит оружие дальнего боя. {PAWN_pronoun} получает бонусы к настроению когда носит оружие дальнего боя.</FT_GunNut.degreeDatas.0.description>
 
-  <FT_Scrounger.degreeDatas.0.label>scrounger</FT_Scrounger.degreeDatas.0.label>
-  <FT_Scrounger.degreeDatas.0.description>[PAWN_nameDef] knows how to scavenge and gather for resources quickly, but if you think that's fast wait until you see [PAWN_pronoun] eat!</FT_Scrounger.degreeDatas.0.description>
+  <FT_Scrounger.degreeDatas.0.label>Попрошайка</FT_Scrounger.degreeDatas.0.label>
+  <FT_Scrounger.degreeDatas.0.description>{PAWN_nameDef} знает, как выкапывать и собирать ресурсы.</FT_Scrounger.degreeDatas.0.description>
 
-  <FT_SturdyFrame.degreeDatas.0.label>sturdy frame</FT_SturdyFrame.degreeDatas.0.label>
-  <FT_SturdyFrame.degreeDatas.0.description>[PAWN_nameDef] has a sturdy frame. [PAWN_pronoun] can carry more and it takes more to bring [PAWN_objective] down.</FT_SturdyFrame.degreeDatas.0.description>
+  <FT_SturdyFrame.degreeDatas.0.label>Здоровое тело</FT_SturdyFrame.degreeDatas.0.label>
+  <FT_SturdyFrame.degreeDatas.0.description>У {PAWN_nameDef} здоровое тело. {PAWN_pronoun} может нести больше, а свалить {PAWN_gender ? его : её} сложнее.</FT_SturdyFrame.degreeDatas.0.description>
 
-  <FT_Survivalist.degreeDatas.0.label>survivalist</FT_Survivalist.degreeDatas.0.label>
-  <FT_Survivalist.degreeDatas.0.description>[PAWN_nameDef] is survialist. [PAWN_pronoun] has a natural ability to survive some situations that others might not.</FT_Survivalist.degreeDatas.0.description>
+  <FT_Survivalist.degreeDatas.0.label>Выживальщик</FT_Survivalist.degreeDatas.0.label>
+  <FT_Survivalist.degreeDatas.0.description>{PAWN_nameDef} - выживальщик. {PAWN_pronoun} обладает естественной способностью к выживанию в непростых ситуациях.</FT_Survivalist.degreeDatas.0.description>
 
-  <FT_Blitz.degreeDatas.0.label>blitz</FT_Blitz.degreeDatas.0.label>
-  <FT_Blitz.degreeDatas.0.description>[PAWN_nameDef] finds the gap to make the tackle! [PAWN_pronoun] moves quickly and gets the jobs done before anyone can react.</FT_Blitz.degreeDatas.0.description>
+  <FT_Blitz.degreeDatas.0.label>Блиц</FT_Blitz.degreeDatas.0.label>
+  <FT_Blitz.degreeDatas.0.description>{PAWN_nameDef} всегда находит брешь в обороне противника. {PAWN_pronoun} быстро двигается и выполняет свою работу, прежде чем кто-либо успеет среагировать.</FT_Blitz.degreeDatas.0.description>
 
-  <FT_Philanthropist.degreeDatas.0.label>philanthropist</FT_Philanthropist.degreeDatas.0.label>
-  <FT_Philanthropist.degreeDatas.0.description>[PAWN_nameDef] is a philanthropist. [PAWN_pronoun] is generally good natured and cares for the welfare of others.</FT_Philanthropist.degreeDatas.0.description>
+  <FT_Philanthropist.degreeDatas.0.label>Филантроп</FT_Philanthropist.degreeDatas.0.label>
+  <FT_Philanthropist.degreeDatas.0.description>{PAWN_nameDef} - филантроп. {PAWN_pronoun} {PAWN_gender ? добродушен : добродушна} и заботится о благополучии других.</FT_Philanthropist.degreeDatas.0.description>
 
-  <FT_HealingHands.degreeDatas.0.label>healing hands</FT_HealingHands.degreeDatas.0.label>
-  <FT_HealingHands.degreeDatas.0.description>[PAWN_nameDef] has healing hands. Whether it's for patching up or food the colony knows they can count on [PAWN_possessive] healing touch.</FT_HealingHands.degreeDatas.0.description>
+  <FT_HealingHands.degreeDatas.0.label>Исцеляющие руки</FT_HealingHands.degreeDatas.0.label>
+  <FT_HealingHands.degreeDatas.0.description>У {PAWN_nameDef} исцеляющие руки. Колония знает, что может рассчитывать на {PAWN_gender ? его : её} исцеляющее прикосновение, будь то лечение или готовка.</FT_HealingHands.degreeDatas.0.description>
 
-  <FT_Rooted.degreeDatas.0.label>rooted</FT_Rooted.degreeDatas.0.label>
-  <FT_Rooted.degreeDatas.0.description>[PAWN_nameDef] is part tree! It takes more to bring [PAWN_nameDef] down but also more to get [PAWN_objective] moving.</FT_Rooted.degreeDatas.0.description>
+  <FT_Rooted.degreeDatas.0.label>Вкопанный</FT_Rooted.degreeDatas.0.label>
+  <FT_Rooted.degreeDatas.0.description>{PAWN_nameDef} стоит как вкопанный! {PAWN_pronoun} может выдержать сильные удары!</FT_Rooted.degreeDatas.0.description>
 
-  <FT_LeadBelly.degreeDatas.0.label>lead belly</FT_LeadBelly.degreeDatas.0.label>
-  <FT_LeadBelly.degreeDatas.0.description>[PAWN_nameDef] has a lead belly. [PAWN_possessive] belly can go much longer without food and [PAWN_pronoun] is more resistant to toxic radiation.</FT_LeadBelly.degreeDatas.0.description>
+  <FT_LeadBelly.degreeDatas.0.label>Свинцовый живот</FT_LeadBelly.degreeDatas.0.label>
+  <FT_LeadBelly.degreeDatas.0.description>У {PAWN_nameDef} свинцовый живот.{PAWN_gender ? Его : Её} живот может оставаться без еды гораздо дольше, а также {PAWN_pronoun} более {PAWN_gender ? устойчив : устойчива} к токсичным осадкам.</FT_LeadBelly.degreeDatas.0.description>
 
-  <FT_BearArms.degreeDatas.0.label>bear arms</FT_BearArms.degreeDatas.0.label>
-  <FT_BearArms.degreeDatas.0.description>[PAWN_nameDef] has bear arms. [PAWN_pronoun] can carry more and [PAWN_possessive] arms pack more of a punch!</FT_BearArms.degreeDatas.0.description>
+  <FT_BearArms.degreeDatas.0.label>Медвежьи лапы</FT_BearArms.degreeDatas.0.label>
+  <FT_BearArms.degreeDatas.0.description>У {PAWN_nameDef} медвежьи лапы. {PAWN_pronoun} может нести больше и вшатывать мощнее!</FT_BearArms.degreeDatas.0.description>
 
-  <FT_Serendipitous.degreeDatas.0.label>serendipitous</FT_Serendipitous.degreeDatas.0.label>
-  <FT_Serendipitous.degreeDatas.0.description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky [PAWN_objective] and is pretty happy about it.</FT_Serendipitous.degreeDatas.0.description>
+  <FT_Serendipitous.degreeDatas.0.label>Счастливчик</FT_Serendipitous.degreeDatas.0.label>
+  <FT_Serendipitous.degreeDatas.0.description>{PAWN_nameDef} счастливчик, {PAWN_pronoun} кажется очень {PAWN_gender ? удачливым : удачливой}, и очень этому {PAWN_gender ? рад : рада}. </FT_Serendipitous.degreeDatas.0.description>
 
-  <FT_GreenThumb.degreeDatas.0.label>green thumb</FT_GreenThumb.degreeDatas.0.label>
-  <FT_GreenThumb.degreeDatas.0.description>[PAWN_nameDef] has a passion for gardening. [PAWN_pronoun] is quick when working with plants and recieves more bountiful yields while harvesting them.</FT_GreenThumb.degreeDatas.0.description>
+  <FT_GreenThumb.degreeDatas.0.label>Дар растениеводства</FT_GreenThumb.degreeDatas.0.label>
+  <FT_GreenThumb.degreeDatas.0.description>У {PAWN_nameDef} дар растениеводства. {PAWN_pronoun} быстро работает с растениями и собирает больше урожая. </FT_GreenThumb.degreeDatas.0.description>
 
-  <FT_Tenderizer.degreeDatas.0.label>tenderizer</FT_Tenderizer.degreeDatas.0.label>
-  <FT_Tenderizer.degreeDatas.0.description>[PAWN_nameDef] is a tenderizer! [PAWN_pronoun] has a passion for beating meat into submission.</FT_Tenderizer.degreeDatas.0.description>
+  <FT_Tenderizer.degreeDatas.0.label>Отбойный молоток</FT_Tenderizer.degreeDatas.0.label>
+  <FT_Tenderizer.degreeDatas.0.description>{PAWN_nameDef} как отбойный молоток! У {PAWN_gender ? него : неё} настоящая страсть к избиению.</FT_Tenderizer.degreeDatas.0.description>
 
 
   <!-- Rare (0.4 and below) -->
 
-  <FT_FortuneFinder.degreeDatas.0.label>fortune finder</FT_FortuneFinder.degreeDatas.0.label>
-  <FT_FortuneFinder.degreeDatas.0.description>[PAWN_nameDef] seems to discover hidden wealth where ever [PAWN_pronoun] goes.</FT_FortuneFinder.degreeDatas.0.description>
+  <FT_FortuneFinder.degreeDatas.0.label>Искатель удачи</FT_FortuneFinder.degreeDatas.0.label>
+  <FT_FortuneFinder.degreeDatas.0.description>{PAWN_nameDef} кажется обнаруживает скрытое богатство, куда бы {PAWN_pronoun} ни {PAWN_gender ? пошёл : пошла}.</FT_FortuneFinder.degreeDatas.0.description>
 
-  <FT_BountifulButcher.degreeDatas.0.label>bountiful butcher</FT_BountifulButcher.degreeDatas.0.label>
-  <FT_BountifulButcher.degreeDatas.0.description>[PAWN_nameDef] is a bountiful butcher! [PAWN_pronoun] isn't afraid to dig a little deeper to get what [PAWN_pronoun] wants.</FT_BountifulButcher.degreeDatas.0.description>
+  <FT_BountifulButcher.degreeDatas.0.label>Подарок мясника</FT_BountifulButcher.degreeDatas.0.label>
+  <FT_BountifulButcher.degreeDatas.0.description>{PAWN_nameDef} отличный мясник! {PAWN_pronoun} не боится копнуть немного глубже, чтобы получить то, что хочет.</FT_BountifulButcher.degreeDatas.0.description>
 
-  <FT_AnimalFriend.degreeDatas.0.label>animal friend</FT_AnimalFriend.degreeDatas.0.label>
-  <FT_AnimalFriend.degreeDatas.0.description>[PAWN_nameDef] has a passion for animals. [PAWN_pronoun] is adept at animal interactions and will bond with them more often. [PAWN_nameDef] refuses to hunt animals.</FT_AnimalFriend.degreeDatas.0.description>
+  <FT_AnimalFriend.degreeDatas.0.label>Друг животных</FT_AnimalFriend.degreeDatas.0.label>
+  <FT_AnimalFriend.degreeDatas.0.description>{PAWN_nameDef} имеет страсть к животным. {PAWN_pronoun} получает бонусы ко всем взаимодействиям с животными.</FT_AnimalFriend.degreeDatas.0.description>
 
-  <FT_Magnetic.degreeDatas.0.label>magnetic</FT_Magnetic.degreeDatas.0.label>
-  <FT_Magnetic.degreeDatas.0.description>[PAWN_nameDef] has a magnetic body, literally! Somehow [PAWN_pronoun] able to use [PAWN_possessive] attractiveness on not just colonists, but metals too!.</FT_Magnetic.degreeDatas.0.description>
+  <FT_Magnetic.degreeDatas.0.label>Притягивающий</FT_Magnetic.degreeDatas.0.label>
+  <FT_Magnetic.degreeDatas.0.description>У {PAWN_nameDef} притягивающее тело, буквально! Каким-то образом {PAWN_pronoun} может использовать свою притягательность не только на колонистах, но и на металлах!</FT_Magnetic.degreeDatas.0.description>
 
-  <FT_LifeGiver.degreeDatas.0.label>life giver</FT_LifeGiver.degreeDatas.0.label>
-  <FT_LifeGiver.degreeDatas.0.description>[PAWN_nameDef] embodies wellness! Colonist who need treatment can rest easily knowing they have [PAWN_possessive]'s expertise keeping them alive.</FT_LifeGiver.degreeDatas.0.description>
+  <FT_LifeGiver.degreeDatas.0.label>Дарующий жизнь</FT_LifeGiver.degreeDatas.0.label>
+  <FT_LifeGiver.degreeDatas.0.description>{PAWN_nameDef} олицетворяет здоровье! Колонисты, нуждающиеся в лечении, могут спокойно отдыхать, зная, что благодаря опыту {PAWN_nameDef} они точно выживут.</FT_LifeGiver.degreeDatas.0.description>
 
-  <FT_SpiritualHealer.degreeDatas.0.label>spiritual healer</FT_SpiritualHealer.degreeDatas.0.label>
-  <FT_SpiritualHealer.degreeDatas.0.description>[PAWN_nameDef] is a spiritual healer, [PAWN_pronoun] is a great doctor with good social skills. [PAWN_nameDef] loves to grow and make [PAWN_possessive] own medicine.</FT_SpiritualHealer.degreeDatas.0.description>
+  <FT_SpiritualHealer.degreeDatas.0.label>Духовный целитель</FT_SpiritualHealer.degreeDatas.0.label>
+  <FT_SpiritualHealer.degreeDatas.0.description>{PAWN_nameDef} духовный целитель, {PAWN_pronoun} отличный врач с хорошими социальными навыками. {PAWN_nameDef} любит растить и делать свои собственные лекарства.</FT_SpiritualHealer.degreeDatas.0.description>
 
-  <FT_FrailBack.degreeDatas.0.label>frail back</FT_FrailBack.degreeDatas.0.label>
-  <FT_FrailBack.degreeDatas.0.description>[PAWN_nameDef] has a frail back and won't be able to carry as much as the average person.</FT_FrailBack.degreeDatas.0.description>
+  <FT_FrailBack.degreeDatas.0.label>Слабая спина</FT_FrailBack.degreeDatas.0.label>
+  <FT_FrailBack.degreeDatas.0.description>{PAWN_nameDef} имеет слабую спину поэтому {PAWN_pronoun} не может нести так много как обычный человек.</FT_FrailBack.degreeDatas.0.description>
 
-  <FT_Ghoulish.degreeDatas.0.label>ghoulish</FT_Ghoulish.degreeDatas.0.label>
-  <FT_Ghoulish.degreeDatas.0.description>[PAWN_nameDef] is still human, mostly. [PAWN_pronoun] is immune to the effects of toxic fallout and much harder to kill but [PAWN_possessive] ghoulish appearance makes interacting with others difficult.</FT_Ghoulish.degreeDatas.0.description>
+  <FT_Ghoulish.degreeDatas.0.label>Отвратительный</FT_Ghoulish.degreeDatas.0.label>
+  <FT_Ghoulish.degreeDatas.0.description>{PAWN_nameDef} до сих пор человек, в большей степени. {PAWN_pronoun} обладает иммунитетом к воздействию токсичных осадков, но {PAWN_gender ? его : её} омерзительный внешний вид затрудняет взаимодействие с другими людьми.</FT_Ghoulish.degreeDatas.0.description>
 
-  <FT_IdiotSavant.degreeDatas.0.label>idiot savant</FT_IdiotSavant.degreeDatas.0.label>
-  <FT_IdiotSavant.degreeDatas.0.description>[PAWN_nameDef] isn't stupid! [PAWN_pronoun] is just... different. [PAWN_pronoun] works through tasks slowly but learns extremely quickly. [PAWN_pronoun] is incapable performing intellectual, social or caring tasks.</FT_IdiotSavant.degreeDatas.0.description>
+  <FT_IdiotSavant.degreeDatas.0.label>Талантливый идиот</FT_IdiotSavant.degreeDatas.0.label>
+  <FT_IdiotSavant.degreeDatas.0.description>{PAWN_nameDef} не дурак! {PAWN_pronoun} просто... {PAWN_gender ? другой : другая}. {PAWN_pronoun} обучается в два раза быстрее но работает медленнее чем обычно, {PAWN_pronoun} также не {PAWN_gender ? способен : способна} справиться с некоторыми задачами.</FT_IdiotSavant.degreeDatas.0.description>
 
-  <FT_Stupid.degreeDatas.0.label>stupid</FT_Stupid.degreeDatas.0.label>
-  <FT_Stupid.degreeDatas.0.description>[PAWN_nameDef] isn't very smart. [PAWN_pronoun] can mess up doing just about anything.</FT_Stupid.degreeDatas.0.description>
+  <FT_Stupid.degreeDatas.0.label>Глупый</FT_Stupid.degreeDatas.0.label>
+  <FT_Stupid.degreeDatas.0.description>{PAWN_nameDef} не очень {PAWN_gender ? умён : умна}. {PAWN_pronoun} может испортить все что угодно.</FT_Stupid.degreeDatas.0.description>
 
-  <FT_Oblivious.degreeDatas.0.label>oblivious</FT_Oblivious.degreeDatas.0.label>
-  <FT_Oblivious.degreeDatas.0.description>[PAWN_nameDef] isn't very aware of [PAWN_possessive] surroundings, or anything at all really. [PAWN_pronoun]</FT_Oblivious.degreeDatas.0.description>
+  <FT_Oblivious.degreeDatas.0.label>Забывчивый</FT_Oblivious.degreeDatas.0.label>
+  <FT_Oblivious.degreeDatas.0.description>{PAWN_nameDef} не очень осознает, существует ли {PAWN_gender ? его : её} окружение, или вообще что-нибудь на самом деле.</FT_Oblivious.degreeDatas.0.description>
 
-  <FT_Woodchucker.degreeDatas.0.label>woodchucker</FT_Woodchucker.degreeDatas.0.label>
-  <FT_Woodchucker.degreeDatas.0.description>[PAWN_nameDef] is part woodchuck! [PAWN_pronoun] wants everyone to believe [PAWN_possessive] great woodworking is because [PAWN_possessive] work ethic but everybody knows it's really because of those dang teeth.</FT_Woodchucker.degreeDatas.0.description>
+  <FT_Woodchucker.degreeDatas.0.label>Дровосек</FT_Woodchucker.degreeDatas.0.label>
+  <FT_Woodchucker.degreeDatas.0.description>{PAWN_nameDef} грызёт дерево лучше бобра! {PAWN_nameDef} хочет, чтобы все думали, что {PAWN_pronoun} отлично работает с деревом из-за своей рабочей этики, но, на самом деле, все знают, что дело в этих чертовых зубах.</FT_Woodchucker.degreeDatas.0.description>
 
-  <FT_WreckingBall.degreeDatas.0.label>wrecking ball</FT_WreckingBall.degreeDatas.0.label>
-  <FT_WreckingBall.degreeDatas.0.description>[PAWN_nameDef] is a wrecking ball! [PAWN_pronoun] can push through building material like it's not even there. [PAWN_pronoun] really doesn't know [PAWN_possessive] own strength, often breaking things during construction.</FT_WreckingBall.degreeDatas.0.description>
+  <FT_WreckingBall.degreeDatas.0.label>Таран</FT_WreckingBall.degreeDatas.0.label>
+  <FT_WreckingBall.degreeDatas.0.description>{PAWN_nameDef} может снести любую постройку, как будто её и не было. {PAWN_pronoun} не знает о собственной силе, и часто ломает вещи во время строительства.</FT_WreckingBall.degreeDatas.0.description>
 
-  <FT_Perfectionist.degreeDatas.0.label>perfectionist</FT_Perfectionist.degreeDatas.0.label>
-  <FT_Perfectionist.degreeDatas.0.description>[PAWN_nameDef] is a perfectionist with a passion for art. [PAWN_pronoun] is great at construction but takes longer to complete tasks because [PAWN_pronoun] puts too much effort into making everything perfect.</FT_Perfectionist.degreeDatas.0.description>
+  <FT_Perfectionist.degreeDatas.0.label>Перфекционист</FT_Perfectionist.degreeDatas.0.label>
+  <FT_Perfectionist.degreeDatas.0.description>{PAWN_nameDef} - перфекционист. {PAWN_pronoun} отличный строитель, но {PAWN_gender ? ему : ей} требуеться больше времени для выполнения задач, потому что {PAWN_pronoun} прилагает слишком много усилий, чтобы все было идеально.</FT_Perfectionist.degreeDatas.0.description>
 
-  <FT_IronFist.degreeDatas.0.label>iron fist</FT_IronFist.degreeDatas.0.label>
-  <FT_IronFist.degreeDatas.0.description>[PAWN_nameDef] has an iron fist! [PAWN_pronoun] can punch through foes like they are not even there. [PAWN_nameDef] has a passion for melee combat and dislikes ranged weapons.</FT_IronFist.degreeDatas.0.description>
+  <FT_IronFist.degreeDatas.0.label>Железный кулак</FT_IronFist.degreeDatas.0.label>
+  <FT_IronFist.degreeDatas.0.description>У {PAWN_nameDef} железные кулаки! {PAWN_pronoun} может пробивать врагов, как будто их вовсе нет. {PAWN_nameDef} любит ближний бой, но не любит стрелковое оружие.</FT_IronFist.degreeDatas.0.description>
 
 
 </LanguageData>
