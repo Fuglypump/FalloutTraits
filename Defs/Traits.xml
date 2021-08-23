@@ -454,7 +454,7 @@
 		</li>
 		<li>
 			<label>very perceptive</label>
-			<description>[PAWN_nameDef] is very aware of [PAWN_possessive] surroundings and is great understanding of how [PAWN_possessive] actions affects others.</description>
+			<description>[PAWN_nameDef] is very aware of [PAWN_possessive] surroundings and has a great understanding of how [PAWN_possessive] actions affects others.</description>
 			<degree>2</degree>
 			<statOffsets>
 				<SocialImpact>+0.1</SocialImpact>
