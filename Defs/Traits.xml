@@ -68,51 +68,6 @@
 	</TraitDef>
 	
 	<TraitDef>
-		<defName>FT_Endurance</defName>
-		<commonality>0.7</commonality>
-		<degreeDatas>
-		<li>
-			<label>enduring</label>
-			<description>[PAWN_nameDef] has good health and an enduring personality. [PAWN_pronoun] is better at handling stressful situations than others.</description>
-			<degree>1</degree>
-			<statOffsets>
-				<IncomingDamageFactor>-0.1</IncomingDamageFactor>
-				<PainShockThreshold>+0.1</PainShockThreshold>
-				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
-				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
-				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
-				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
-			</statOffsets>
-		</li>
-		<li>
-			<label>very enduring</label>
-			<description>[PAWN_nameDef] has exceptional health and a very enduring personality. [PAWN_pronoun] is capable of handling high stress situations that others cannot.</description>
-			<degree>2</degree>
-			<statOffsets>
-				<IncomingDamageFactor>-0.2</IncomingDamageFactor>
-				<PainShockThreshold>+0.2</PainShockThreshold>
-				<MentalBreakThreshold>-0.2</MentalBreakThreshold>
-				<ImmunityGainSpeed>+0.2</ImmunityGainSpeed>
-				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.2</CertaintyLossFactor>
-				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
-			</statOffsets>
-			</li>
-		</degreeDatas>
-		<requiredWorkTypes>
-			<li>Firefighter</li>
-			<li>Warden</li>
-		</requiredWorkTypes>
-		<conflictingTraits>
-			<li>Wimp</li>
-			<li>Nerves</li>
-		</conflictingTraits>
-		<requiredWorkTags>
-			<li>Violent</li>
-			<li>Firefighting</li>
-		</requiredWorkTags>
-	</TraitDef>
-	
-	<TraitDef>
 		<defName>FT_Charisma</defName>
 		<commonality>0.7</commonality>
 		<degreeDatas>
@@ -342,8 +297,8 @@
 			<description>[PAWN_nameDef] packs lightly. [PAWN_pronoun] will carry less but will move more swiftly.</description>
 			<degree>-1</degree>
 			<statOffsets>
-				<MoveSpeed>+0.1</MoveSpeed>
 				<CarryingCapacity>-15</CarryingCapacity>
+				<MoveSpeed>+0.1</MoveSpeed>
 			</statOffsets>
 		</li>
 		<li>
@@ -477,7 +432,7 @@
 		<degreeDatas>
 		<li>
 			<label>Perceptive</label>
-			<description>[PAWN_nameDef] has a good awareness of [PAWN_possessive] surroundings and has a good understanding of how [PAWN_possessive] actions affects others.</description>
+			<description>[PAWN_nameDef] is aware of [PAWN_possessive] surroundings and has a good understanding of how [PAWN_possessive] actions affects others.</description>
 			<degree>1</degree>
 			<statOffsets>
 				<SocialImpact>+0.05</SocialImpact>
@@ -499,7 +454,7 @@
 		</li>
 		<li>
 			<label>very perceptive</label>
-			<description>[PAWN_nameDef] is very aware of [PAWN_possessive] surroundings and has a great understanding of how [PAWN_possessive] actions affects others.</description>
+			<description>[PAWN_nameDef] is very aware of [PAWN_possessive] surroundings and is great understanding of how [PAWN_possessive] actions affects others.</description>
 			<degree>2</degree>
 			<statOffsets>
 				<SocialImpact>+0.1</SocialImpact>
@@ -677,6 +632,51 @@
 	</TraitDef>
 	
 	<!-- Uncommon (0.6, 5.0) -->
+	
+	<TraitDef>
+		<defName>FT_Endurance</defName>
+		<commonality>0.6</commonality>
+		<degreeDatas>
+		<li>
+			<label>enduring</label>
+			<description>[PAWN_nameDef] has good health and an enduring personality. [PAWN_pronoun] is better at handling stressful situations than others.</description>
+			<degree>1</degree>
+			<statOffsets>
+				<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+				<PainShockThreshold>+0.1</PainShockThreshold>
+				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
+				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
+			</statOffsets>
+		</li>
+		<li>
+			<label>very enduring</label>
+			<description>[PAWN_nameDef] has exceptional health and a very enduring personality. [PAWN_pronoun] is capable of handling high stress situations that others cannot.</description>
+			<degree>2</degree>
+			<statOffsets>
+				<IncomingDamageFactor>-0.2</IncomingDamageFactor>
+				<PainShockThreshold>+0.2</PainShockThreshold>
+				<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				<ImmunityGainSpeed>+0.2</ImmunityGainSpeed>
+				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.2</CertaintyLossFactor>
+				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
+			</statOffsets>
+			</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Firefighter</li>
+			<li>Warden</li>
+		</requiredWorkTypes>
+		<conflictingTraits>
+			<li>Wimp</li>
+			<li>Nerves</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>Firefighting</li>
+		</requiredWorkTags>
+	</TraitDef>
 	
 	<TraitDef>
 		<defName>FT_Bargaining</defName>
