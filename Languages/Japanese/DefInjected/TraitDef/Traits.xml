@@ -4,111 +4,111 @@
   <!-- Common (9.0, 8.0, 7.0) -->
 
   <FT_StrongBack.degreeDatas.0.label>strong back</FT_StrongBack.degreeDatas.0.label>
-  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef]は強力な背筋力を持っているので,一般的な人よりも[PAWN_objective]沢山運ぶことができるようになります.</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.0.description>背筋力.\n[PAWN_nameDef]は強力な背筋力を持っているので,一般的な人よりも[PAWN_objective]沢山運ぶことができるようになります.</FT_StrongBack.degreeDatas.0.description>
   <FT_StrongBack.degreeDatas.1.label>very strong back</FT_StrongBack.degreeDatas.1.label>
-  <FT_StrongBack.degreeDatas.1.description>[PAWN_nameDef]は非常に強力な背筋力を持っており, [PAWN_pronoun]は一般的な人よりもはるかに多くのものを運ぶことができるので,[PAWN_pronoun]はラバか何かのように扱われるでしょう.</FT_StrongBack.degreeDatas.1.description>
+  <FT_StrongBack.degreeDatas.1.description>強力な背筋力.\n[PAWN_nameDef]は非常に強力な背筋力を持っており, [PAWN_pronoun]は一般的な人よりもはるかに多くのものを運ぶことができるので,[PAWN_pronoun]はラバか何かのように扱われるでしょう.</FT_StrongBack.degreeDatas.1.description>
 
   <FT_Bandolier.degreeDatas.0.label>bandolier</FT_Bandolier.degreeDatas.0.label>
-  <FT_Bandolier.degreeDatas.0.description>[PAWN_nameDef]はまるで装弾ベルトです.[PAWN_pronoun]は,遠距離射撃武器を再装填するために余分な弾薬を手元に抱えているのが好きです.</FT_Bandolier.degreeDatas.0.description>
+  <FT_Bandolier.degreeDatas.0.description>高速給弾.\n[PAWN_nameDef]はまるで装弾ベルトです.[PAWN_pronoun]は,遠距離射撃武器を再装填するために余分な弾薬を手元に抱えているのが好きです.</FT_Bandolier.degreeDatas.0.description>
 
   <FT_Endurance.degreeDatas.0.label>enduring</FT_Endurance.degreeDatas.0.label>
-  <FT_Endurance.degreeDatas.0.description>[PAWN_nameDef]は健康状態で,頑強な性格を持っています. [PAWN_pronoun]は,他の人よりも高ストレス状況に耐えることに優れています.</FT_Endurance.degreeDatas.0.description>
+  <FT_Endurance.degreeDatas.0.description>鋼の精神.\n[PAWN_nameDef]は健康状態で,頑強な性格を持っています. [PAWN_pronoun]は,他の人よりも高ストレス状況に耐えることに優れています.</FT_Endurance.degreeDatas.0.description>
   <FT_Endurance.degreeDatas.1.label>very enduring</FT_Endurance.degreeDatas.1.label>
-  <FT_Endurance.degreeDatas.1.description>[PAWN_nameDef]は,並外れた健康状態と非常に頑強な性格を持っています.[PAWN_pronoun]は,他の人が耐えられないような高ストレスの状況に耐えることに優れています.</FT_Endurance.degreeDatas.1.description>
+  <FT_Endurance.degreeDatas.1.description>ダイヤモンドの意思.\n[PAWN_nameDef]は,並外れた健康状態と非常に頑強な性格を持っています.[PAWN_pronoun]は,他の人が耐えられないような高ストレスの状況に耐えることに優れています.</FT_Endurance.degreeDatas.1.description>
 
   <FT_Charisma.degreeDatas.0.label>charismatic</FT_Charisma.degreeDatas.0.label>
-  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef]にはカリスマ性があります.[PAWN_pronoun]は社交的な交渉や取引が得意です.</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.0.description>カリスマ性.\n[PAWN_nameDef]にはカリスマ性があります.[PAWN_pronoun]は社交的な交渉や取引が得意です.</FT_Charisma.degreeDatas.0.description>
   <FT_Charisma.degreeDatas.1.label>very charismatic</FT_Charisma.degreeDatas.1.label>
-  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef]は大変カリスマ性に優れています.[PAWN_pronoun]は社交的な交渉や取引が得意です.</FT_Charisma.degreeDatas.1.description>
+  <FT_Charisma.degreeDatas.1.description>カリスマ王.\n[PAWN_nameDef]は大変カリスマ性に優れています.[PAWN_pronoun]は社交的な交渉や取引が得意です.</FT_Charisma.degreeDatas.1.description>
 
   <FT_Intimidation.degreeDatas.0.label>intimidating</FT_Intimidation.degreeDatas.0.label>
-  <FT_Intimidation.degreeDatas.0.description>[PAWN_nameDef]は威圧的な性格を持っており,これは [PAWN_objective]に社会的な交渉を有利にします.</FT_Intimidation.degreeDatas.0.description>
+  <FT_Intimidation.degreeDatas.0.description>威嚇.\n[PAWN_nameDef]は威圧的な性格を持っており,これは [PAWN_objective]に社会的な交渉を有利にします.</FT_Intimidation.degreeDatas.0.description>
   <FT_Intimidation.degreeDatas.1.label>very intimidating</FT_Intimidation.degreeDatas.1.label>
-  <FT_Intimidation.degreeDatas.1.description>[PAWN_nameDef]は非常に威圧的な性格を持っており,これは[PAWN_objective]に社会的な交渉で大きく有利に働きます。</FT_Intimidation.degreeDatas.1.description>
+  <FT_Intimidation.degreeDatas.1.description>高圧.\n[PAWN_nameDef]は非常に威圧的な性格を持っており,これは[PAWN_objective]に社会的な交渉で大きく有利に働きます。</FT_Intimidation.degreeDatas.1.description>
 
   <FT_AimOffset.degreeDatas.0.label>poor aim</FT_AimOffset.degreeDatas.0.label>
-  <FT_AimOffset.degreeDatas.0.description>[PAWN_nameDef]は手と目の連携が悪く,戦闘で [PAWN_possessive]狙っている目標を外すことが多くなります.</FT_AimOffset.degreeDatas.0.description>
+  <FT_AimOffset.degreeDatas.0.description>命中しない.\n[PAWN_nameDef]は手と目の連携が悪く,戦闘で [PAWN_possessive]狙っている目標を外すことが多くなります.</FT_AimOffset.degreeDatas.0.description>
   <FT_AimOffset.degreeDatas.1.label>steady aim</FT_AimOffset.degreeDatas.1.label>
-  <FT_AimOffset.degreeDatas.1.description>[PAWN_nameDef]は手と目の連携が良好で,戦闘で[PAWN_possessive]狙っている目標を外すことが少なくなります.</FT_AimOffset.degreeDatas.1.description>
+  <FT_AimOffset.degreeDatas.1.description>射手.\n[PAWN_nameDef]は手と目の連携が良好で,戦闘で[PAWN_possessive]狙っている目標を外すことが少なくなります.</FT_AimOffset.degreeDatas.1.description>
   <FT_AimOffset.degreeDatas.2.label>great aim</FT_AimOffset.degreeDatas.2.label>
-  <FT_AimOffset.degreeDatas.2.description>[PAWN_nameDef]は手と目の連携がとても高く, [PAWN_possessive]狙っている目標を外すことがとても少なくなります.</FT_AimOffset.degreeDatas.2.description>
+  <FT_AimOffset.degreeDatas.2.description>鷹の目.\n[PAWN_nameDef]は手と目の連携がとても高く, [PAWN_possessive]狙っている目標を外すことがとても少なくなります.</FT_AimOffset.degreeDatas.2.description>
 
   <FT_Artisan.degreeDatas.0.label>artisan</FT_Artisan.degreeDatas.0.label>
-  <FT_Artisan.degreeDatas.0.description>[PAWN_nameDef]は芸術的な技巧を持った熟練した職人で, [PAWN_pronoun]は物を組み立てるのが好きで,[PAWN_pronoun]はそれがかなり得意です.</FT_Artisan.degreeDatas.0.description>
+  <FT_Artisan.degreeDatas.0.description>芸術家.\n[PAWN_nameDef]は芸術的な技巧を持った熟練した職人で, [PAWN_pronoun]は物を組み立てるのが好きで,[PAWN_pronoun]はそれがかなり得意です.</FT_Artisan.degreeDatas.0.description>
 
   <FT_IronStomach.degreeDatas.0.label>iron stomach</FT_IronStomach.degreeDatas.0.label>
-  <FT_IronStomach.degreeDatas.0.description>[PAWN_nameDef]は丈夫な胃を持っています.[PAWN_pronoun]は長時間食事を取らなくても大丈夫ですし,[PAWN_possessive]胃が荒れるにはもっと時間がかかります.</FT_IronStomach.degreeDatas.0.description>
+  <FT_IronStomach.degreeDatas.0.description>丈夫な胃腸.\n[PAWN_nameDef]は丈夫な胃を持っています.[PAWN_pronoun]は長時間食事を取らなくても大丈夫ですし,[PAWN_possessive]胃が荒れるにはもっと時間がかかります.</FT_IronStomach.degreeDatas.0.description>
 
   <FT_Packing.degreeDatas.0.label>packin' light</FT_Packing.degreeDatas.0.label>
-  <FT_Packing.degreeDatas.0.description>[PAWN_nameDef]は荷物を軽くします.[PAWN_pronoun]は,持ち運べる量が少なくなりますが,移動速度が速くなります.</FT_Packing.degreeDatas.0.description>
+  <FT_Packing.degreeDatas.0.description>軽装.\n[PAWN_nameDef]は荷物を軽くします.[PAWN_pronoun]は,持ち運べる量が少なくなりますが,移動速度が速くなります.</FT_Packing.degreeDatas.0.description>
   <FT_Packing.degreeDatas.1.label>pack rat</FT_Packing.degreeDatas.1.label>
-  <FT_Packing.degreeDatas.1.description>[PAWN_nameDef]は収集魔で,[PAWN_pronoun]は,後で役立つ可能性がある,ほぼすべての品を抱えます.</FT_Packing.degreeDatas.1.description>
+  <FT_Packing.degreeDatas.1.description>収集魔.\n[PAWN_nameDef]は収集魔で,[PAWN_pronoun]は,後で役立つ可能性がある,ほぼすべての品を抱えます.</FT_Packing.degreeDatas.1.description>
 
   <FT_Agility.degreeDatas.0.label>agile</FT_Agility.degreeDatas.0.label>
-  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef]は反射神経が優秀で,身体の動きも滑らかです.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.0.description>機敏.\n[PAWN_nameDef]は反射神経が優秀で,身体の動きも滑らかです.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.0.description>
   <FT_Agility.degreeDatas.1.label>ninja</FT_Agility.degreeDatas.1.label>
-  <FT_Agility.degreeDatas.1.description>[PAWN_nameDef]は反射神経が強力で,まるで忍者のように動けます.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.1.description>
+  <FT_Agility.degreeDatas.1.description>忍者.\n[PAWN_nameDef]は反射神経が強力で,まるで忍者のように動けます.[PAWN_pronoun]は近接戦闘でさらに多くの攻撃から身をかわせるでしょう.</FT_Agility.degreeDatas.1.description>
 
   <FT_Intelligence.degreeDatas.0.label>intelligent</FT_Intelligence.degreeDatas.0.label>
-  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef]は平均よりも知性的です.[PAWN_pronoun]は学習が速く,[PAWN_objective]周りの世界についてよく理解しています.</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.0.description>インテリ.\n[PAWN_nameDef]は平均よりも知性的です.[PAWN_pronoun]は学習が速く,[PAWN_objective]周りの世界についてよく理解しています.</FT_Intelligence.degreeDatas.0.description>
   <FT_Intelligence.degreeDatas.1.label>very intelligent</FT_Intelligence.degreeDatas.1.label>
-  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef]は非常に知性的です.[PAWN_pronoun]は学習が速く,[PAWN_objective]周りの世界についてよく理解しています.</FT_Intelligence.degreeDatas.1.description>
+  <FT_Intelligence.degreeDatas.1.description>超インテリ.[PAWN_nameDef]は非常に知性的です.[PAWN_pronoun]は学習が速く,[PAWN_objective]周りの世界についてよく理解しています.</FT_Intelligence.degreeDatas.1.description>
 
   <FT_Perception.degreeDatas.0.label>Perceptive</FT_Perception.degreeDatas.0.label>
-  <FT_Perception.degreeDatas.0.description>[PAWN_nameDef]は[PAWN_possessive]周囲に対して優れた知覚を持っており,[PAWN_possessive]行動が他者にどのような影響を与えるかよく理解しています.</FT_Perception.degreeDatas.0.description>
+  <FT_Perception.degreeDatas.0.description>知覚力.\n[PAWN_nameDef]は[PAWN_possessive]周囲に対して優れた知覚を持っており,[PAWN_possessive]行動が他者にどのような影響を与えるかよく理解しています.</FT_Perception.degreeDatas.0.description>
   <FT_Perception.degreeDatas.1.label>very perceptive</FT_Perception.degreeDatas.1.label>
-  <FT_Perception.degreeDatas.1.description>[PAWN_nameDef]は[PAWN_possessive]周囲に対して大変優れた知覚を持っており,[PAWN_possessive]行動が他者にどのような影響を与えるかよく理解しています.</FT_Perception.degreeDatas.1.description>
+  <FT_Perception.degreeDatas.1.description>超知覚力.\n[PAWN_nameDef]は[PAWN_possessive]周囲に対して大変優れた知覚を持っており,[PAWN_possessive]行動が他者にどのような影響を与えるかよく理解しています.</FT_Perception.degreeDatas.1.description>
 
   <FT_Evasion.degreeDatas.0.label>dodgy</FT_Evasion.degreeDatas.0.label>
-  <FT_Evasion.degreeDatas.0.description>[PAWN_nameDef]は危険回避が得意です.[PAWN_pronoun]は,スパイクトラップを回避したり近接攻撃を避けるのが得意です.</FT_Evasion.degreeDatas.0.description>
+  <FT_Evasion.degreeDatas.0.description>危険回避.\n[PAWN_nameDef]は危険回避が得意です.[PAWN_pronoun]は,スパイクトラップを回避したり近接攻撃を避けるのが得意です.</FT_Evasion.degreeDatas.0.description>
   <FT_Evasion.degreeDatas.1.label>evasive</FT_Evasion.degreeDatas.1.label>
-  <FT_Evasion.degreeDatas.1.description>[PAWN_nameDef]は危険回避が大変得意です.[PAWN_pronoun]は,スパイクトラップを回避したり近接攻撃を避けるのが得意です.</FT_Evasion.degreeDatas.1.description>
+  <FT_Evasion.degreeDatas.1.description>超回避力.\n[PAWN_nameDef]は危険回避が大変得意です.[PAWN_pronoun]は,スパイクトラップを回避したり近接攻撃を避けるのが得意です.</FT_Evasion.degreeDatas.1.description>
 
   <FT_Scientific.degreeDatas.0.label>scientific</FT_Scientific.degreeDatas.0.label>
-  <FT_Scientific.degreeDatas.0.description>[PAWN_nameDef]には科学的な思考をする力があります.[PAWN_pronoun]は優秀な研究者で,素早い学習者でもあります.</FT_Scientific.degreeDatas.0.description>
+  <FT_Scientific.degreeDatas.0.description>科学的.\n[PAWN_nameDef]には科学的な思考をする力があります.[PAWN_pronoun]は優秀な研究者で,素早い学習者でもあります.</FT_Scientific.degreeDatas.0.description>
   <FT_Scientific.degreeDatas.1.label>very scientific</FT_Scientific.degreeDatas.1.label>
-  <FT_Scientific.degreeDatas.1.description>[PAWN_nameDef]には優れた科学的な思考をする力があります.[PAWN_pronoun]は偉大な研究者で,素早い学習者でもあります.</FT_Scientific.degreeDatas.1.description>
+  <FT_Scientific.degreeDatas.1.description>天才科学者.[PAWN_nameDef]には優れた科学的な思考をする力があります.[PAWN_pronoun]は偉大な研究者で,素早い学習者でもあります.</FT_Scientific.degreeDatas.1.description>
 
   <FT_Adventuring.degreeDatas.0.label>traveler</FT_Adventuring.degreeDatas.0.label>
-  <FT_Adventuring.degreeDatas.0.description>[PAWN_nameDef]は旅行が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食料を集めることができます.</FT_Adventuring.degreeDatas.0.description>
+  <FT_Adventuring.degreeDatas.0.description>旅行者.\n[PAWN_nameDef]は旅行が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食料を集めることができます.</FT_Adventuring.degreeDatas.0.description>
   <FT_Adventuring.degreeDatas.1.label>explorer</FT_Adventuring.degreeDatas.1.label>
-  <FT_Adventuring.degreeDatas.1.description>[PAWN_nameDef]は探索が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食糧を集めることができます.</FT_Adventuring.degreeDatas.1.description>
+  <FT_Adventuring.degreeDatas.1.description>探検家.\n[PAWN_nameDef]は探索が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食糧を集めることができます.</FT_Adventuring.degreeDatas.1.description>
   <FT_Adventuring.degreeDatas.2.label>adventurer</FT_Adventuring.degreeDatas.2.label>
-  <FT_Adventuring.degreeDatas.2.description>[PAWN_nameDef]は冒険が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食料を集めることができます.</FT_Adventuring.degreeDatas.2.description>
+  <FT_Adventuring.degreeDatas.2.description>冒険家.\n[PAWN_nameDef]は冒険が得意です.[PAWN_pronoun]は,より多く荷物を運んでいる間でも,素早く移動でき,キャラバンで世界を旅している間に,追加食料を集めることができます.</FT_Adventuring.degreeDatas.2.description>
 
 
   <!-- Uncommon (0.6, 5.0) -->
 
   <FT_Bargaining.degreeDatas.0.label>bargainer</FT_Bargaining.degreeDatas.0.label>
-  <FT_Bargaining.degreeDatas.0.description>[PAWN_nameDef] is great at bargaining. [PAWN_pronoun] is great at social interactions and can find great deals while trading.</FT_Bargaining.degreeDatas.0.description>
+  <FT_Bargaining.degreeDatas.0.description>交渉人.\n[PAWN_nameDef]は交渉に優れています.[PAWN_pronoun]は社交的なやり取りが得意で,取引中に有利な交渉をすることができます.</FT_Bargaining.degreeDatas.0.description>
   <FT_Bargaining.degreeDatas.1.label>hard bargainer</FT_Bargaining.degreeDatas.1.label>
-  <FT_Bargaining.degreeDatas.1.description>[PAWN_nameDef] is a hard bargainer. [PAWN_pronoun] is adept at social interactions and can find the best deals while trading.</FT_Bargaining.degreeDatas.1.description>
+  <FT_Bargaining.degreeDatas.1.description>外交官.\n[PAWN_nameDef]は大変優れた交渉者です.[PAWN_pronoun]は社会的なやり取りが得意で,取引中に最良の交渉結果を引き出すことができます.</FT_Bargaining.degreeDatas.1.description>
 
   <FT_Inspiration.degreeDatas.0.label>uninspiring</FT_Inspiration.degreeDatas.0.label>
-  <FT_Inspiration.degreeDatas.0.description>[PAWN_nameDef] has an uninspiring personality. [PAWN_pronoun] has less motivation to learn and puts less effort into social interactions.</FT_Inspiration.degreeDatas.0.description>
+  <FT_Inspiration.degreeDatas.0.description>退屈.\n[PAWN_nameDef]は何に対しても感動せず退屈する個性を持っています.[PAWN_pronoun]は学習意欲が低く,他人との社会的な交流に興味がありません.</FT_Inspiration.degreeDatas.0.description>
   <FT_Inspiration.degreeDatas.1.label>inspirational</FT_Inspiration.degreeDatas.1.label>
-  <FT_Inspiration.degreeDatas.1.description>[PAWN_nameDef] has an inspirational personality. [PAWN_pronoun] is good at social interactions and is a motivated learner .</FT_Inspiration.degreeDatas.1.description>
+  <FT_Inspiration.degreeDatas.1.description>感受性.\n[PAWN_nameDef]は何に対しても感動する個性を持っています.[PAWN_pronoun]は社会的な交流が得意で,意欲的な学習者です.</FT_Inspiration.degreeDatas.1.description>
   <FT_Inspiration.degreeDatas.2.label>very inspirational</FT_Inspiration.degreeDatas.2.label>
-  <FT_Inspiration.degreeDatas.2.description>[PAWN_nameDef] has a very inspirational personality. [PAWN_pronoun] is great at social interactions and is a very motivated learner.</FT_Inspiration.degreeDatas.2.description>
+  <FT_Inspiration.degreeDatas.2.description>超感受性.\n[PAWN_nameDef]は何に対しても敏感に反応して感動する個性を持っています.[PAWN_pronoun]は社会的な交流が得意で,大変意欲的な学習者です.</FT_Inspiration.degreeDatas.2.description>
 
   <FT_Generosity.degreeDatas.0.label>generous</FT_Generosity.degreeDatas.0.label>
-  <FT_Generosity.degreeDatas.0.description>[PAWN_nameDef] is a generous person, sometimes to a fault. [PAWN_pronoun] is a good negotiator but often does so by offering more than [PAWN_pronoun] should.</FT_Generosity.degreeDatas.0.description>
+  <FT_Generosity.degreeDatas.0.description>気前が良い.\n[PAWN_nameDef]は寛大な人ですが,時には欠点もあります.[PAWN_pronoun]は優れた交渉者なのですが,多くの場合[PAWN_pronoun]価値以上の金額を提示して交渉しようとします.</FT_Generosity.degreeDatas.0.description>
   <FT_Generosity.degreeDatas.1.label>overly generous</FT_Generosity.degreeDatas.1.label>
-  <FT_Generosity.degreeDatas.1.description>[PAWN_nameDef] is an overly generous person to a fault. [PAWN_pronoun] is a great negotiator but often does so by offering more than [PAWN_pronoun] should</FT_Generosity.degreeDatas.1.description>
+  <FT_Generosity.degreeDatas.1.description>過剰な太っ腹.\n[PAWN_nameDef]は間違ったことに対して寛大すぎる人です.[PAWN_pronoun]は優れた交渉者ですが,多くの場合[PAWN_pronoun]は,必要以上の物や金額を提供して交渉しようとします.</FT_Generosity.degreeDatas.1.description>
 
   <FT_Scrapper.degreeDatas.0.label>scrapper</FT_Scrapper.degreeDatas.0.label>
-  <FT_Scrapper.degreeDatas.0.description>[PAWN_nameDef] is good at working with scrap metal. [PAWN_pronoun] is great with a smelter and is efficient when using building materials. </FT_Scrapper.degreeDatas.0.description>
+  <FT_Scrapper.degreeDatas.0.description>スクラップ業者.\n[PAWN_nameDef]は金属ゴミやスクラップの処理が得意です.[PAWN_pronoun]は溶鉱炉での作業に最適で,建設用の建材を扱う場合でも効率的です.</FT_Scrapper.degreeDatas.0.description>
 
   <FT_NaturalLeader.degreeDatas.0.label>natural leader</FT_NaturalLeader.degreeDatas.0.label>
-  <FT_NaturalLeader.degreeDatas.0.description>[PAWN_nameDef] is a natural leader, [PAWN_pronoun] is good at social interactions and can handle stressful situations that others might not.</FT_NaturalLeader.degreeDatas.0.description>
+  <FT_NaturalLeader.degreeDatas.0.description>生粋のリーダー.\n[PAWN_nameDef]は生まれながらの指導者で,[PAWN_pronoun]は社交的な交渉や交流が得意で,他者では耐えられないようなストレスの多い状況に対処できます.</FT_NaturalLeader.degreeDatas.0.description>
 
   <FT_RadResistant.degreeDatas.0.label>rad resistant</FT_RadResistant.degreeDatas.0.label>
-  <FT_RadResistant.degreeDatas.0.description>[PAWN_nameDef]'s body has built up a resistance to the negative effects of toxic fallout.</FT_RadResistant.degreeDatas.0.description>
+  <FT_RadResistant.degreeDatas.0.description>毒抵抗.\n[PAWN_nameDef]の身体は,有害な死の灰の悪影響に対する耐性が常人より強めです.</FT_RadResistant.degreeDatas.0.description>
   <FT_RadResistant.degreeDatas.1.label>rad tolerant</FT_RadResistant.degreeDatas.1.label>
-  <FT_RadResistant.degreeDatas.1.description>[PAWN_nameDef]'s body has built up a tolerance to the negative effects of toxic fallout.</FT_RadResistant.degreeDatas.1.description>
+  <FT_RadResistant.degreeDatas.1.description>毒耐性.\n[PAWN_nameDef]の身体は,有毒な死の灰の悪影響に対する耐性を獲得しています.</FT_RadResistant.degreeDatas.1.description>
 
   <FT_ActionBoy.degreeDatas.0.label>action boy</FT_ActionBoy.degreeDatas.0.label>
-  <FT_ActionBoy.degreeDatas.0.description>There's no time to waste! [PAWN_nameDef] has increased movement and work speed.</FT_ActionBoy.degreeDatas.0.description>
+  <FT_ActionBoy.degreeDatas.0.description>無駄な時間なんてありません！[PAWN_nameDef]は,移動速度と作業速度が向上します.</FT_ActionBoy.degreeDatas.0.description>
 
   <FT_ActionGirl.degreeDatas.0.label>action girl</FT_ActionGirl.degreeDatas.0.label>
   <FT_ActionGirl.degreeDatas.0.description>There's no time to waste! [PAWN_nameDef] has increased movement and work speed.</FT_ActionGirl.degreeDatas.0.description>
