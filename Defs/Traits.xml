@@ -330,7 +330,7 @@
 			<statOffsets>
 				<MoveSpeed>0.2</MoveSpeed>
 				<MeleeHitChance>+5</MeleeHitChance>
-				<MeleeDodgeChance>+10</MeleeDodgeChance>
+				<MeleeDodgeChance>+0.1</MeleeDodgeChance>
 				<HuntingStealth>+0.2</HuntingStealth>
 				<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
 			</statOffsets>
@@ -345,7 +345,7 @@
 			<statOffsets>
 				<MoveSpeed>0.4</MoveSpeed>
 				<MeleeHitChance>+10</MeleeHitChance>
-				<MeleeDodgeChance>+20</MeleeDodgeChance>
+				<MeleeDodgeChance>+0.2</MeleeDodgeChance>
 				<HuntingStealth>+0.4</HuntingStealth>
 				<PawnTrapSpringChance>-0.4</PawnTrapSpringChance>
 			</statOffsets>
@@ -501,8 +501,8 @@
 			<degree>1</degree>
 			<statOffsets>
 				<MoveSpeed>+0.1</MoveSpeed>
-				<MeleeDodgeChance>+10</MeleeDodgeChance>
-				<PawnTrapSpringChance>-0.20</PawnTrapSpringChance>
+				<MeleeDodgeChance>+.1</MeleeDodgeChance>
+				<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
 			</statOffsets>
 		</li>
 		<li>
@@ -511,8 +511,8 @@
 			<degree>2</degree>
 			<statOffsets>
 				<MoveSpeed>+0.2</MoveSpeed>
-				<MeleeDodgeChance>+20</MeleeDodgeChance>
-				<PawnTrapSpringChance>-0.40</PawnTrapSpringChance>
+				<MeleeDodgeChance>+0.2</MeleeDodgeChance>
+				<PawnTrapSpringChance>-0.4</PawnTrapSpringChance>
 			</statOffsets>
 		</li>
 		</degreeDatas>
@@ -1363,7 +1363,7 @@
 			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky [PAWN_objective] and is pretty happy about it.</description>
 			<statOffsets>
 				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
-				<MeleeDodgeChance>+5</MeleeDodgeChance>
+				<MeleeDodgeChance>+0.05</MeleeDodgeChance>
 				<ShootingAccuracyPawn>+5</ShootingAccuracyPawn>
 				<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.2</SlaveSuppressionFallRate>
