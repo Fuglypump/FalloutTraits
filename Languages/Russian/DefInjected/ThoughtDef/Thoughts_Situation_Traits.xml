@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FT_MoodOffsetGunNut.stages.0.label>gun nut has ranged weapon</FT_MoodOffsetGunNut.stages.0.label>
-  <FT_MoodOffsetGunNut.stages.0.description>I love guns! Where's something I can shoot at?</FT_MoodOffsetGunNut.stages.0.description>
+  <FT_MoodOffsetGunNut.stages.0.label>Любитель пушек c оружием дальнего боя</FT_MoodOffsetGunNut.stages.0.label>
+  <FT_MoodOffsetGunNut.stages.0.description>Обожаю пушки! Во что бы пострелять?</FT_MoodOffsetGunNut.stages.0.description>
 
-  <FT_MoodOffsetSerendipitous.stages.0.label>serendipitous</FT_MoodOffsetSerendipitous.stages.0.label>
-  <FT_MoodOffsetSerendipitous.stages.0.description>Natural bonus from 'serendipitous' trait.</FT_MoodOffsetSerendipitous.stages.0.description>
+  <FT_MoodOffsetSerendipitous.stages.0.label>Счастливчик</FT_MoodOffsetSerendipitous.stages.0.label>
+  <FT_MoodOffsetSerendipitous.stages.0.description>Естественный бонус от черты 'Счастливчик'. </FT_MoodOffsetSerendipitous.stages.0.description>
 
-  <FT_MoodOffsetIronFist.stages.0.label>iron fist has ranged weapon</FT_MoodOffsetIronFist.stages.0.label>
-  <FT_MoodOffsetIronFist.stages.0.description>I don't want to shoot from a distance, I want to fight using my hands!</FT_MoodOffsetIronFist.stages.0.description>
+  <FT_MoodOffsetIronFist.stages.0.label>Железный кулак c оружием дальнего боя</FT_MoodOffsetIronFist.stages.0.label>
+  <FT_MoodOffsetIronFist.stages.0.description>Я не хочу стрелять издалека, я хочу драться голыми руками!</FT_MoodOffsetIronFist.stages.0.description>
 
 
 </LanguageData>
