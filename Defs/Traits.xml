@@ -438,7 +438,6 @@
 				<SocialImpact>+0.05</SocialImpact>
 				<NegotiationAbility>+0.05</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.05</ConversionPower>
-				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
 				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 				<TradePriceImprovement>+0.05</TradePriceImprovement>
 				<DrugSellPriceImprovement>+0.05</DrugSellPriceImprovement>
@@ -460,8 +459,7 @@
 				<SocialImpact>+0.1</SocialImpact>
 				<NegotiationAbility>+0.1</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
-				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.1</AnimalProductsSellImprovement>
 				<TradePriceImprovement>+0.1</TradePriceImprovement>
 				<DrugSellPriceImprovement>+0.1</DrugSellPriceImprovement>
 				<TrainAnimalChance>+0.05</TrainAnimalChance>
@@ -501,7 +499,7 @@
 			<degree>1</degree>
 			<statOffsets>
 				<MoveSpeed>+0.1</MoveSpeed>
-				<MeleeDodgeChance>+.1</MeleeDodgeChance>
+				<MeleeDodgeChance>+0.1</MeleeDodgeChance>
 				<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
 			</statOffsets>
 		</li>
@@ -519,57 +517,6 @@
 		<conflictingTraits>
 			<li>Industriousness</li>
 			<li>FT_Rooted</li>
-		</conflictingTraits>
-	</TraitDef>
-	
-	<TraitDef>
-		<defName>FT_Scientific</defName>
-		<commonality>0.7</commonality>
-		<forcedPassions>
-			<li>Intellectual</li>
-		</forcedPassions>
-		<degreeDatas>
-		<li>
-			<label>scientific</label>
-			<description>[PAWN_nameDef] has a scientific mind. [PAWN_pronoun] is a good researcher and a fast learner.</description>
-			<degree>1</degree>
-			<statOffsets>
-				<ResearchSpeed>+0.1</ResearchSpeed>
-				<GlobalLearningFactor>+0.1</GlobalLearningFactor>
-				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">+0.1</HackingSpeed>
-			</statOffsets>
-			<skillGains>
-				<li><key>Intellectual</key><value>2</value></li>
-				<li><key>Medicine</key><value>1</value></li>
-			</skillGains>
-		</li>
-		<li>
-			<label>very scientific</label>
-			<description>[PAWN_nameDef] has a very scientific mind. [PAWN_pronoun] is a great researcher and a fast learner.</description>
-			<degree>2</degree>
-			<statOffsets>
-				<ResearchSpeed>+0.2</ResearchSpeed>
-				<GlobalLearningFactor>+0.2</GlobalLearningFactor>
-				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">+0.2</HackingSpeed>
-			</statOffsets>
-			<skillGains>
-				<li><key>Intellectual</key><value>3</value></li>
-				<li><key>Medicine</key><value>2</value></li>
-			</skillGains>
-		</li>
-		</degreeDatas>
-		<requiredWorkTypes>
-			<li>Doctor</li>
-			<li>Research</li>
-		</requiredWorkTypes>
-		<requiredWorkTags>
-			<li>Caring</li>
-			<li>Intellectual</li>
-		</requiredWorkTags>
-		<conflictingTraits>
-			<li>FT_IdiotSavant</li>
-			<li>FT_Stupid</li>
-			<li>FT_Oblivious</li>
 		</conflictingTraits>
 	</TraitDef>
 	
@@ -632,6 +579,57 @@
 	</TraitDef>
 	
 	<!-- Uncommon (0.6, 5.0) -->
+	
+	<TraitDef>
+		<defName>FT_Scientific</defName>
+		<commonality>0.6</commonality>
+		<forcedPassions>
+			<li>Intellectual</li>
+		</forcedPassions>
+		<degreeDatas>
+		<li>
+			<label>scientific</label>
+			<description>[PAWN_nameDef] has a scientific mind. [PAWN_pronoun] is a good researcher and a fast learner.</description>
+			<degree>1</degree>
+			<statOffsets>
+				<ResearchSpeed>+0.1</ResearchSpeed>
+				<GlobalLearningFactor>+0.1</GlobalLearningFactor>
+				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">+0.1</HackingSpeed>
+			</statOffsets>
+			<skillGains>
+				<li><key>Intellectual</key><value>2</value></li>
+				<li><key>Medicine</key><value>1</value></li>
+			</skillGains>
+		</li>
+		<li>
+			<label>very scientific</label>
+			<description>[PAWN_nameDef] has a very scientific mind. [PAWN_pronoun] is a great researcher and a fast learner.</description>
+			<degree>2</degree>
+			<statOffsets>
+				<ResearchSpeed>+0.2</ResearchSpeed>
+				<GlobalLearningFactor>+0.2</GlobalLearningFactor>
+				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">+0.2</HackingSpeed>
+			</statOffsets>
+			<skillGains>
+				<li><key>Intellectual</key><value>3</value></li>
+				<li><key>Medicine</key><value>2</value></li>
+			</skillGains>
+		</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Doctor</li>
+			<li>Research</li>
+		</requiredWorkTypes>
+		<requiredWorkTags>
+			<li>Caring</li>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+			<li>FT_IdiotSavant</li>
+			<li>FT_Stupid</li>
+			<li>FT_Oblivious</li>
+		</conflictingTraits>
+	</TraitDef>
 	
 	<TraitDef>
 		<defName>FT_Endurance</defName>
@@ -854,6 +852,7 @@
 		<commonality>0.6</commonality>
 		<forcedPassions>
 			<li>Crafting</li>
+			<li>Construction</li>
 		</forcedPassions>
 		<degreeDatas>
 		<li>
@@ -1068,7 +1067,7 @@
 	
 	<TraitDef>
 		<defName>FT_Scrounger</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<degreeDatas>
 		<li>
 			<label>scrounger</label>
@@ -1100,7 +1099,7 @@
 	
 	<TraitDef>
 		<defName>FT_SturdyFrame</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<degreeDatas>
 		<li>
 			<label>sturdy frame</label>
@@ -1225,7 +1224,7 @@
 	
 	<TraitDef>
 		<defName>FT_HealingHands</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<forcedPassions>
 			<li>Medicine</li>
 		</forcedPassions>
@@ -1299,7 +1298,7 @@
 	
 	<TraitDef>
 		<defName>FT_LeadBelly</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<degreeDatas>
 		<li>
 		<label>lead belly</label>
@@ -1324,7 +1323,7 @@
 	
 	<TraitDef>
 		<defName>FT_BearArms</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<degreeDatas>
 		<li>
 			<label>bear arms</label>
@@ -1335,7 +1334,7 @@
 				<MiningSpeed>0.1</MiningSpeed>
 				<DeepDrillingSpeed>+0.1</DeepDrillingSpeed>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
-				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</SuppressionPower>
+				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
 			</statOffsets>
 			<skillGains>
 				<li><key>Melee</key><value>3</value></li>
@@ -1356,26 +1355,21 @@
 	
 	<TraitDef>
 		<defName>FT_Serendipitous</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<degreeDatas>
 		<li>
 			<label>serendipitous</label>
-			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky [PAWN_objective] and is pretty happy about it.</description>
+			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky and is pretty happy about it.</description>
 			<statOffsets>
-				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
-				<MeleeDodgeChance>+0.05</MeleeDodgeChance>
-				<ShootingAccuracyPawn>+5</ShootingAccuracyPawn>
-				<PawnTrapSpringChance>-0.2</PawnTrapSpringChance>
-				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.2</SlaveSuppressionFallRate>
+				<MeleeDodgeChance>+0.1</MeleeDodgeChance>
+				<ShootingAccuracyPawn>+10</ShootingAccuracyPawn>
+				<PawnTrapSpringChance>-0.5</PawnTrapSpringChance>
+				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
 			</statOffsets>
 		</li>
 		</degreeDatas>
-		<requiredWorkTypes>
-			<li>Hunting</li>
-		</requiredWorkTypes>
 		<requiredWorkTags>
 			<li>Violent</li>
-			<li>Hunting</li>
 			<li>Shooting</li>
 		</requiredWorkTags>
 		<conflictingTraits>
@@ -1393,7 +1387,7 @@
 		<degreeDatas>
 		<li>
 			<label>green thumb</label>
-			<description>[PAWN_nameDef] has a passion for gardening. [PAWN_pronoun] is quick when working with plants and recieves more bountiful yields while harvesting them.</description>
+			<description>[PAWN_nameDef] has a passion for gardening. [PAWN_pronoun] is quick when working with plants and recieves more bountiful yields when harvesting them.</description>
 			<statOffsets>
 				<PlantWorkSpeed>+0.1</PlantWorkSpeed>
 				<PlantHarvestYield>+0.1</PlantHarvestYield>
@@ -1436,7 +1430,7 @@
 				<ButcheryFleshSpeed>+0.2</ButcheryFleshSpeed>
 				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
-				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</SuppressionPower>
+				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
 			</statOffsets>
 			<skillGains>
 				<li><key>Melee</key><value>4</value></li>
@@ -1872,7 +1866,7 @@
 		<degreeDatas>
 		<li>
 			<label>woodchucker</label>
-			<description>[PAWN_nameDef] is part woodchuck! [PAWN_pronoun] wants everyone to believe [PAWN_possessive] great woodworking is because [PAWN_possessive] work ethic but everybody knows it's really because of those dang teeth.</description>
+			<description>[PAWN_nameDef] is part woodchuck! [PAWN_pronoun] wants everyone to think [PAWN_possessive] great woodworking skills are because of talent but everybody knows it's really because of those dang teeth.</description>
 			<statOffsets>
 				<ConstructionSpeed>+0.3</ConstructionSpeed>
 				<PlantWorkSpeed>+0.3</PlantWorkSpeed>
@@ -1912,7 +1906,7 @@
 				<MiningSpeed>+0.2</MiningSpeed>
 				<DeepDrillingSpeed>+0.2</DeepDrillingSpeed>
 				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
-				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</SuppressionPower>
+				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
 				<ConstructSuccessChance>-0.15</ConstructSuccessChance>
 			</statOffsets>
 			<skillGains>
@@ -1990,7 +1984,7 @@
 				<MeleeDPS>+2.5</MeleeDPS>
 				<MeleeHitChance>+10</MeleeHitChance>
 				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
-				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</SuppressionPower>
+				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
 			</statOffsets>
 			<skillGains>
 				<li><key>Melee</key><value>4</value></li>
