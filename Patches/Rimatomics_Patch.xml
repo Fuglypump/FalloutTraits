@@ -8,8 +8,8 @@
 			<operations>
 				<!-- ghoulish-->
 				<li Class="PatchOperationAdd">
-				<xpath>/Defs/TraitDef[defName = "FT_Ghoulish"]/degreeDatas/li/statOffsets</xpath>
-					<value><Radiation>-1</Radiation></value>
+				<xpath>/Defs/TraitDef[defName = "FT_Ghoulish"]/degreeDatas/li/statFactors</xpath>
+					<value><Radiation>0</Radiation></value>
 				</li>
 				<!-- rad resistant -->
 				<li Class="PatchOperationAdd">
