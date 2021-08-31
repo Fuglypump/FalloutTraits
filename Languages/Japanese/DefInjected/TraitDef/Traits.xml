@@ -108,100 +108,100 @@
   <FT_RadResistant.degreeDatas.1.description>毒耐性.\n[PAWN_nameDef]の身体は,有毒な死の灰の悪影響に対する耐性を獲得しています.</FT_RadResistant.degreeDatas.1.description>
 
   <FT_ActionBoy.degreeDatas.0.label>action boy</FT_ActionBoy.degreeDatas.0.label>
-  <FT_ActionBoy.degreeDatas.0.description>無駄な時間なんてありません！[PAWN_nameDef]は,移動速度と作業速度が向上します.</FT_ActionBoy.degreeDatas.0.description>
+  <FT_ActionBoy.degreeDatas.0.description>アクションボーイ.\n無駄な時間なんてありません！[PAWN_nameDef]は,移動速度と作業速度が向上します.</FT_ActionBoy.degreeDatas.0.description>
 
   <FT_ActionGirl.degreeDatas.0.label>action girl</FT_ActionGirl.degreeDatas.0.label>
-  <FT_ActionGirl.degreeDatas.0.description>There's no time to waste! [PAWN_nameDef] has increased movement and work speed.</FT_ActionGirl.degreeDatas.0.description>
+  <FT_ActionGirl.degreeDatas.0.description>アクションガール.\n無駄な時間なんてありません！[PAWN_nameDef]は,移動速度と作業速度が向上します.</FT_ActionGirl.degreeDatas.0.description>
 
   <FT_QuickHands.degreeDatas.0.label>quick hands</FT_QuickHands.degreeDatas.0.label>
-  <FT_QuickHands.degreeDatas.0.description>[PAWN_nameDef] has quick hands. When it comes to [PAWN_possessive] hands, [PAWN_nameDef] never hesitates.</FT_QuickHands.degreeDatas.0.description>
+  <FT_QuickHands.degreeDatas.0.description>クイックハンズ.\n[PAWN_nameDef]は素早い手を持っています.[PAWN_possessive]両手に関して,[PAWN_nameDef]は躊躇いません.</FT_QuickHands.degreeDatas.0.description>
 
   <FT_GunNut.degreeDatas.0.label>gun nut</FT_GunNut.degreeDatas.0.label>
-  <FT_GunNut.degreeDatas.0.description>[PAWN_nameDef] is a gun nut, [PAWN_pronoun] loves guns so much that [PAWN_pronoun] gets a mood boost while holding a ranged weapon.</FT_GunNut.degreeDatas.0.description>
+  <FT_GunNut.degreeDatas.0.description>ガンマニア.\n[PAWN_nameDef]はガンマニアで,[PAWN_pronoun]は銃が大好きです.[PAWN_pronoun]は武器を持っていると心情が高まります.</FT_GunNut.degreeDatas.0.description>
 
   <FT_Scrounger.degreeDatas.0.label>scrounger</FT_Scrounger.degreeDatas.0.label>
-  <FT_Scrounger.degreeDatas.0.description>[PAWN_nameDef] knows how to scavenge and gather for resources quickly, but if you think that's fast wait until you see [PAWN_pronoun] eat!</FT_Scrounger.degreeDatas.0.description>
+  <FT_Scrounger.degreeDatas.0.description>食客.\n[PAWN_nameDef]は資源の回収と収集をすばやく行う方法を知っていますが,それが本当に速いのか疑うのなら,[PAWN_pronoun]が食事をするまで待って見れば判ります！</FT_Scrounger.degreeDatas.0.description>
 
   <FT_SturdyFrame.degreeDatas.0.label>sturdy frame</FT_SturdyFrame.degreeDatas.0.label>
-  <FT_SturdyFrame.degreeDatas.0.description>[PAWN_nameDef] has a sturdy frame. [PAWN_pronoun] can carry more and it takes more to bring [PAWN_objective] down.</FT_SturdyFrame.degreeDatas.0.description>
+  <FT_SturdyFrame.degreeDatas.0.description>頑丈な骨格.\n[PAWN_nameDef]は頑丈な骨格を持っています.[PAWN_pronoun]はより多くの荷物を運ぶことが可能で,[PAWN_objective]ダウンさせるにはより多くの時間を必要とします.</FT_SturdyFrame.degreeDatas.0.description>
 
   <FT_Survivalist.degreeDatas.0.label>survivalist</FT_Survivalist.degreeDatas.0.label>
-  <FT_Survivalist.degreeDatas.0.description>[PAWN_nameDef] is survialist. [PAWN_pronoun] has a natural ability to survive some situations that others might not.</FT_Survivalist.degreeDatas.0.description>
+  <FT_Survivalist.degreeDatas.0.description>サバイバリスト.\n[PAWN_nameDef]はサバイバリストです.[PAWN_pronoun]は,他の人では生き残れないかもしれない状況でも生存できる生まれながらの能力を持っています.</FT_Survivalist.degreeDatas.0.description>
 
   <FT_Blitz.degreeDatas.0.label>blitz</FT_Blitz.degreeDatas.0.label>
-  <FT_Blitz.degreeDatas.0.description>[PAWN_nameDef] finds the gap to make the tackle! [PAWN_pronoun] moves quickly and gets the jobs done before anyone can react.</FT_Blitz.degreeDatas.0.description>
+  <FT_Blitz.degreeDatas.0.description>突撃.\n[PAWN_nameDef]はタックルを実行するための助走距離を計算します![PAWN_pronoun]は素早く動き,誰も反応できないまま仕事を終わらせます.</FT_Blitz.degreeDatas.0.description>
 
   <FT_Philanthropist.degreeDatas.0.label>philanthropist</FT_Philanthropist.degreeDatas.0.label>
-  <FT_Philanthropist.degreeDatas.0.description>[PAWN_nameDef] is a philanthropist. [PAWN_pronoun] is generally good natured and cares for the welfare of others.</FT_Philanthropist.degreeDatas.0.description>
+  <FT_Philanthropist.degreeDatas.0.description>慈善家.\n[PAWN_nameDef]は慈善家です.[PAWN_pronoun]は何事にも気前がよく,他人の安否を考慮します.</FT_Philanthropist.degreeDatas.0.description>
 
   <FT_HealingHands.degreeDatas.0.label>healing hands</FT_HealingHands.degreeDatas.0.label>
-  <FT_HealingHands.degreeDatas.0.description>[PAWN_nameDef] has healing hands. Whether it's for patching up or food the colony knows they can count on [PAWN_possessive] healing touch.</FT_HealingHands.degreeDatas.0.description>
+  <FT_HealingHands.degreeDatas.0.description>癒し手.\n[PAWN_nameDef]は癒しの手があります.補修のためや食べ物のためであっても,コロニーで[PAWN_possessive]癒しの手を頼りにできることを皆が知っています.</FT_HealingHands.degreeDatas.0.description>
 
   <FT_Rooted.degreeDatas.0.label>rooted</FT_Rooted.degreeDatas.0.label>
-  <FT_Rooted.degreeDatas.0.description>[PAWN_nameDef] is part tree! It takes more to bring [PAWN_nameDef] down but also more to get [PAWN_objective] moving.</FT_Rooted.degreeDatas.0.description>
+  <FT_Rooted.degreeDatas.0.description>直立.\n[PAWN_nameDef]は木のようです！[PAWN_nameDef]を停めるには多くの時間が必要ですが,[PAWN_objective]移動させるにはもっと時間がかかります.</FT_Rooted.degreeDatas.0.description>
 
   <FT_LeadBelly.degreeDatas.0.label>lead belly</FT_LeadBelly.degreeDatas.0.label>
-  <FT_LeadBelly.degreeDatas.0.description>[PAWN_nameDef] has a lead belly. [PAWN_possessive] belly can go much longer without food and [PAWN_pronoun] is more resistant to toxic radiation.</FT_LeadBelly.degreeDatas.0.description>
+  <FT_LeadBelly.degreeDatas.0.description>鉛の胃.\n[PAWN_nameDef]は鉛のような胃を持っています.[PAWN_possessive]胃腸は食物がなくてもより長く生きることが可能で,[PAWN_pronoun]は死の灰による毒の蓄積に対して強い耐性があります.</FT_LeadBelly.degreeDatas.0.description>
 
   <FT_BearArms.degreeDatas.0.label>bear arms</FT_BearArms.degreeDatas.0.label>
-  <FT_BearArms.degreeDatas.0.description>[PAWN_nameDef] has bear arms. [PAWN_pronoun] can carry more and [PAWN_possessive] arms pack more of a punch!</FT_BearArms.degreeDatas.0.description>
+  <FT_BearArms.degreeDatas.0.description>クマの腕.\n[PAWN_nameDef]にはクマのような腕があります.[PAWN_pronoun]はより多くのものを運ぶことが可能で,[PAWN_possessive]パンチは相手を追い詰めます!</FT_BearArms.degreeDatas.0.description>
 
   <FT_Serendipitous.degreeDatas.0.label>serendipitous</FT_Serendipitous.degreeDatas.0.label>
-  <FT_Serendipitous.degreeDatas.0.description>[PAWN_nameDef]は運がよく,[PAWN_pronoun]は非常に幸運なので,そのことは[PAWN_objective]とても満足させています.</FT_Serendipitous.degreeDatas.0.description>
+  <FT_Serendipitous.degreeDatas.0.description>幸運.\n[PAWN_nameDef]は運がよく,[PAWN_pronoun]は非常に幸運なので,そのことは[PAWN_objective]とても満足させています.</FT_Serendipitous.degreeDatas.0.description>
 
   <FT_GreenThumb.degreeDatas.0.label>green thumb</FT_GreenThumb.degreeDatas.0.label>
-  <FT_GreenThumb.degreeDatas.0.description>[PAWN_nameDef] has a passion for gardening. [PAWN_pronoun] is quick when working with plants and recieves more bountiful yields while harvesting them.</FT_GreenThumb.degreeDatas.0.description>
+  <FT_GreenThumb.degreeDatas.0.description>緑の手.\n[PAWN_nameDef]は園芸に情熱を持っています.[PAWN_pronoun]は,植物を扱うときにすばやく,収穫する時は,通常よりも収穫量が多くなります.</FT_GreenThumb.degreeDatas.0.description>
 
   <FT_Tenderizer.degreeDatas.0.label>tenderizer</FT_Tenderizer.degreeDatas.0.label>
-  <FT_Tenderizer.degreeDatas.0.description>[PAWN_nameDef] is a tenderizer! [PAWN_pronoun] has a passion for beating meat into submission.</FT_Tenderizer.degreeDatas.0.description>
+  <FT_Tenderizer.degreeDatas.0.description>肉叩き.\n[PAWN_nameDef]はテンダライザ(肉を柔らかくするハンマー)です![PAWN_pronoun]は肉を叩いて服従させることに情熱を持っています.</FT_Tenderizer.degreeDatas.0.description>
 
 
   <!-- Rare (0.4 and below) -->
 
   <FT_FortuneFinder.degreeDatas.0.label>fortune finder</FT_FortuneFinder.degreeDatas.0.label>
-  <FT_FortuneFinder.degreeDatas.0.description>[PAWN_nameDef] seems to discover hidden wealth where ever [PAWN_pronoun] goes.</FT_FortuneFinder.degreeDatas.0.description>
+  <FT_FortuneFinder.degreeDatas.0.description>財宝探知機.\n[PAWN_nameDef]は,[PAWN_pronoun]がどこへ向かってとも隠された財宝を発見するようです.</FT_FortuneFinder.degreeDatas.0.description>
 
   <FT_BountifulButcher.degreeDatas.0.label>bountiful butcher</FT_BountifulButcher.degreeDatas.0.label>
-  <FT_BountifulButcher.degreeDatas.0.description>[PAWN_nameDef] is a bountiful butcher! [PAWN_pronoun] isn't afraid to dig a little deeper to get what [PAWN_pronoun] wants.</FT_BountifulButcher.degreeDatas.0.description>
+  <FT_BountifulButcher.degreeDatas.0.description>気前のいい肉屋.\n[PAWN_nameDef]は気前のいい肉屋です![PAWN_pronoun]は,[PAWN_pronoun]が欲しいものを手に入れるために,もう少し深く掘ることを恐れません.</FT_BountifulButcher.degreeDatas.0.description>
 
   <FT_AnimalFriend.degreeDatas.0.label>animal friend</FT_AnimalFriend.degreeDatas.0.label>
-  <FT_AnimalFriend.degreeDatas.0.description>[PAWN_nameDef] has a passion for animals. [PAWN_pronoun] is adept at animal interactions and will bond with them more often. [PAWN_nameDef] refuses to hunt animals.</FT_AnimalFriend.degreeDatas.0.description>
+  <FT_AnimalFriend.degreeDatas.0.description>動物の友.\n[PAWN_nameDef]は動物に対して情熱を持っています.[PAWN_pronoun]は動物との交流に長けていて,より頻繁に動物と絆を結ぷようになります.[PAWN_nameDef]は動物の狩猟を拒否します.</FT_AnimalFriend.degreeDatas.0.description>
 
   <FT_Magnetic.degreeDatas.0.label>magnetic</FT_Magnetic.degreeDatas.0.label>
-  <FT_Magnetic.degreeDatas.0.description>[PAWN_nameDef] has a magnetic body, literally! Somehow [PAWN_pronoun] able to use [PAWN_possessive] attractiveness on not just colonists, but metals too!.</FT_Magnetic.degreeDatas.0.description>
+  <FT_Magnetic.degreeDatas.0.description>磁石.\n[PAWN_nameDef]は文字通り人を引き付ける磁力を持っています！どういうわけか[PAWN_pronoun]は入植者だけでなく金属に対しても[PAWN_possessive]魅力を使うことができます！</FT_Magnetic.degreeDatas.0.description>
 
   <FT_LifeGiver.degreeDatas.0.label>life giver</FT_LifeGiver.degreeDatas.0.label>
-  <FT_LifeGiver.degreeDatas.0.description>[PAWN_nameDef] embodies wellness! Colonist who need treatment can rest easily knowing they have [PAWN_possessive]'s expertise keeping them alive.</FT_LifeGiver.degreeDatas.0.description>
+  <FT_LifeGiver.degreeDatas.0.description>健康体現者.\n[PAWN_nameDef]は健康の体現者です!治療が必要な入植者は,彼らを救う[PAWN_possessive]専門知識によって助けてくれることを知っているので,安心して休むことができます.</FT_LifeGiver.degreeDatas.0.description>
 
   <FT_SpiritualHealer.degreeDatas.0.label>spiritual healer</FT_SpiritualHealer.degreeDatas.0.label>
-  <FT_SpiritualHealer.degreeDatas.0.description>[PAWN_nameDef] is a spiritual healer, [PAWN_pronoun] is a great doctor with good social skills. [PAWN_nameDef] loves to grow and make [PAWN_possessive] own medicine.</FT_SpiritualHealer.degreeDatas.0.description>
+  <FT_SpiritualHealer.degreeDatas.0.description>心霊医師.\n[PAWN_nameDef]はスピリチュアルヒーラーであり,[PAWN_pronoun]は優れた社交スキルを持つ優れた医師です.[PAWN_nameDef]は,[PAWN_possessive]手で薬を作るのが大好きです.</FT_SpiritualHealer.degreeDatas.0.description>
 
   <FT_FrailBack.degreeDatas.0.label>frail back</FT_FrailBack.degreeDatas.0.label>
-  <FT_FrailBack.degreeDatas.0.description>[PAWN_nameDef] has a frail back and won't be able to carry as much as the average person.</FT_FrailBack.degreeDatas.0.description>
+  <FT_FrailBack.degreeDatas.0.description>虚弱な背中.\n[PAWN_nameDef]は背中が弱く,普通の人ほど荷物を運ぶことができません.</FT_FrailBack.degreeDatas.0.description>
 
   <FT_Ghoulish.degreeDatas.0.label>ghoulish</FT_Ghoulish.degreeDatas.0.label>
-  <FT_Ghoulish.degreeDatas.0.description>[PAWN_nameDef] is still human, mostly. [PAWN_pronoun] is immune to the effects of toxic fallout and much harder to kill but [PAWN_possessive] ghoulish appearance makes interacting with others difficult.</FT_Ghoulish.degreeDatas.0.description>
+  <FT_Ghoulish.degreeDatas.0.description>グール化.\n[PAWN_nameDef]は,まだ人間のようです.[PAWN_pronoun]は死の灰の毒物の影響を受けず,殺すのがとても難しいですが,[PAWN_possessive]残忍な外見は他者との交流を困難なものにします.</FT_Ghoulish.degreeDatas.0.description>
 
   <FT_IdiotSavant.degreeDatas.0.label>idiot savant</FT_IdiotSavant.degreeDatas.0.label>
-  <FT_IdiotSavant.degreeDatas.0.description>[PAWN_nameDef] isn't stupid! [PAWN_pronoun] is just... different. [PAWN_pronoun] works through tasks slowly but learns extremely quickly. [PAWN_pronoun] is incapable performing intellectual, social or caring tasks.</FT_IdiotSavant.degreeDatas.0.description>
+  <FT_IdiotSavant.degreeDatas.0.description>聡明な白痴.\n[PAWN_nameDef]は愚か者じゃない![PAWN_pronoun]はちょっとだけ...人と違うだけです.[PAWN_pronoun]は,与えられた仕事の処理に時間がかかりますが,経験値の習得が非常に速くなります.[PAWN_pronoun]は知力スキルや社交スキルに関係する行動や他人を世話する仕事を実行できません.</FT_IdiotSavant.degreeDatas.0.description>
 
   <FT_Stupid.degreeDatas.0.label>stupid</FT_Stupid.degreeDatas.0.label>
-  <FT_Stupid.degreeDatas.0.description>[PAWN_nameDef] isn't very smart. [PAWN_pronoun] can mess up doing just about anything.</FT_Stupid.degreeDatas.0.description>
+  <FT_Stupid.degreeDatas.0.description>愚か者.\n[PAWN_nameDef]はあまり賢くありません.[PAWN_pronoun]は何をするにしても失敗ばかりします.</FT_Stupid.degreeDatas.0.description>
 
   <FT_Oblivious.degreeDatas.0.label>oblivious</FT_Oblivious.degreeDatas.0.label>
-  <FT_Oblivious.degreeDatas.0.description>[PAWN_nameDef] isn't very aware of [PAWN_possessive] surroundings, or anything at all really. [PAWN_pronoun]</FT_Oblivious.degreeDatas.0.description>
+  <FT_Oblivious.degreeDatas.0.description>無関心.\n[PAWN_nameDef]は,[PAWN_possessive]周囲など,[PAWN_pronoun]は本当に何も認識していません.</FT_Oblivious.degreeDatas.0.description>
 
   <FT_Woodchucker.degreeDatas.0.label>woodchucker</FT_Woodchucker.degreeDatas.0.label>
-  <FT_Woodchucker.degreeDatas.0.description>[PAWN_nameDef] is part woodchuck! [PAWN_pronoun] wants everyone to believe [PAWN_possessive] great woodworking is because [PAWN_possessive] work ethic but everybody knows it's really because of those dang teeth.</FT_Woodchucker.degreeDatas.0.description>
+  <FT_Woodchucker.degreeDatas.0.description>ウッドチャック.\n[PAWN_nameDef]はウッドチャック(森ネズミ)の仲間です![PAWN_pronoun]は,[PAWN_possessive]偉大な木工スキルは,[PAWN_possessive]労働倫理の結果だと信じたいと思っていますが,誰もがそれが本当はその歯のおかげであることを知っています.</FT_Woodchucker.degreeDatas.0.description>
 
   <FT_WreckingBall.degreeDatas.0.label>wrecking ball</FT_WreckingBall.degreeDatas.0.label>
-  <FT_WreckingBall.degreeDatas.0.description>[PAWN_nameDef] is a wrecking ball! [PAWN_pronoun] can push through building material like it's not even there. [PAWN_pronoun] really doesn't know [PAWN_possessive] own strength, often breaking things during construction.</FT_WreckingBall.degreeDatas.0.description>
+  <FT_WreckingBall.degreeDatas.0.description>解体用鉄球.\n[PAWN_nameDef]は解体用の鉄球です![PAWN_pronoun]は,そこに何もないかのように建設材料を押し込むことができます.[PAWN_pronoun]は実際には [PAWN_possessive]自身が持つ力強さを知らずに,しばしば建設中に対象を壊します.</FT_WreckingBall.degreeDatas.0.description>
 
   <FT_Perfectionist.degreeDatas.0.label>perfectionist</FT_Perfectionist.degreeDatas.0.label>
-  <FT_Perfectionist.degreeDatas.0.description>[PAWN_nameDef] is a perfectionist with a passion for art. [PAWN_pronoun] is great at construction but takes longer to complete tasks because [PAWN_pronoun] puts too much effort into making everything perfect.</FT_Perfectionist.degreeDatas.0.description>
+  <FT_Perfectionist.degreeDatas.0.description>完璧主義者.\n[PAWN_nameDef]は,芸術への情熱を持った完璧主義者です.[PAWN_pronoun]は建築に優れていますが,[PAWN_pronoun]はすべてを完璧にするために多大な労力を費やしているため,仕事の完了時間が長くなります.</FT_Perfectionist.degreeDatas.0.description>
 
   <FT_IronFist.degreeDatas.0.label>iron fist</FT_IronFist.degreeDatas.0.label>
-  <FT_IronFist.degreeDatas.0.description>[PAWN_nameDef] has an iron fist! [PAWN_pronoun] can punch through foes like they are not even there. [PAWN_nameDef] has a passion for melee combat and dislikes ranged weapons.</FT_IronFist.degreeDatas.0.description>
+  <FT_IronFist.degreeDatas.0.description>鉄拳.\n[PAWN_nameDef]は鉄拳を持っています![PAWN_pronoun]はまるで敵がそこにいないかのように拳を突き通すことができます.[PAWN_nameDef]は近接戦闘に情熱を持っており,遠距離射撃武器が嫌いです.</FT_IronFist.degreeDatas.0.description>
 
 
 </LanguageData>
