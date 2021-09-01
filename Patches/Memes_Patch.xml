@@ -151,7 +151,19 @@
 		<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
 		<value>
 			<li>FT_AnimalFriend</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
+		<value>
 			<li>FT_BountifulButcher</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
+		<value>
 			<li>FT_Tenderizer</li>
 		</value>
 	</Operation>
