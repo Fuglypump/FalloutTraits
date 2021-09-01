@@ -1357,7 +1357,7 @@
 		<degreeDatas>
 		<li>
 			<label>serendipitous</label>
-			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky and is pretty happy about it.</description>
+			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky individual and [PAWN_pronoun]'s pretty happy about it too.</description>
 			<statFactors>
 				<PawnTrapSpringChance>0.5</PawnTrapSpringChance>
 			</statFactors>
@@ -1500,7 +1500,6 @@
 				<AnimalGatherYield>+0.1</AnimalGatherYield>
 				<ButcheryFleshEfficiency>+0.1</ButcheryFleshEfficiency>
 				<ButcheryMechanoidEfficiency>+0.1</ButcheryMechanoidEfficiency>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Cooking</key><value>4</value></li>
