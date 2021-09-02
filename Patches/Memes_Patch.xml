@@ -1,457 +1,429 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-	<!-- animal personhood agreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "AnimalPersonhood"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "AnimalPersonhood"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "AnimalPersonhood"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_AnimalFriend</li>
-		</value>
-	</Operation>
-	
-	
-	<!-- animal personhood disagreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "AnimalPersonhood"]/disagreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "AnimalPersonhood"]</xpath>
-			<value><disagreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "AnimalPersonhood"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_BountifulButcher</li>
-		</value>
-	</Operation>
-	
-	<!-- cannibal disagreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Cannibal"]/disagreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Cannibal"]</xpath>
-			<value><disagreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Cannibal"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_Philanthropist</li>
-		</value>
-	</Operation>
-	
-	<!-- high life agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "HighLife"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "HighLife"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "HighLife"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_GreenThumb</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "HighLife"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_SpiritualHealer</li>
-		</value>
-	</Operation>
-	
-	<!-- tree connection agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "TreeConnection"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "TreeConnection"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "TreeConnection"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_GreenThumb</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "TreeConnection"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_SpiritualHealer</li>
-		</value>
-	</Operation>
-	
-	<!-- rancher agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Rancher"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_AnimalFriend</li>
-			<li>FT_BountifulButcher</li>
-			<li>FT_Tenderizer</li>
-		</value>
-	</Operation>
-	
-	<!-- rancher disagreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Rancher"]/disagreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Rancher"]</xpath>
-			<value><disagreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Rancher"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_GreenThumb</li>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Rancher"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_Ghoulish</li>
-		</value>
-	</Operation>
-	
-	<!-- raider agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Raider"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Intimidation</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_GunNut</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Tenderizer</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_WreckingBall</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_IronFist</li>
-		</value>
-	</Operation>
-	
-	<!-- human primacy disagreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "HumanPrimacy"]/disagreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "HumanPrimacy"]</xpath>
-			<value><disagreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "HumanPrimacy"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_AnimalFriend</li>
-		</value>
-	</Operation>
-	
-	<!-- nature primacy agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "NaturePrimacy"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_AnimalFriend</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_GreenThumb</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_LifeGiver</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_SpiritualHealer</li>
-		</value>
-	</Operation>
-	
-	<!-- supremacist agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Supremacist"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Intimidation</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_GunNut</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Tenderizer</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_WreckingBall</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_IronFist</li>
-		</value>
-	</Operation>
-	
-	<!-- proselytizer agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Proselytizer"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Proselytizer"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Proselytizer"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Intimidation</li>
-		</value>
-	</Operation>
-	
-	<!-- transhumanist agreeable-->
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "Transhumanist"]/agreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "Transhumanist"]</xpath>
-			<value><agreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Transhumanist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Scientific</li>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "Transhumanist"]/agreeableTraits</xpath>
-		<value>
-			<li>FT_Intelligence</li>
-		</value>
-	</Operation>
-	
-	<!-- male supremacy disagreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "MaleSupremacy"]/disagreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "MaleSupremacy"]</xpath>
-			<value><disagreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "MaleSupremacy"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_ActionGirl</li>
-		</value>
-	</Operation>
-	
-	<!-- female supremacy disagreeable -->
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-		<li Class="PatchOperationTest">
-			<xpath>*/MemeDef[defName = "FemaleSupremacy"]/disagreeableTraits</xpath>
-			<success>Invert</success>
-		</li>
-		<li Class="PatchOperationAdd">
-			<xpath>*/MemeDef[defName = "FemaleSupremacy"]</xpath>
-			<value><disagreeableTraits /></value>
-		</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/MemeDef[defName = "FemaleSupremacy"]/disagreeableTraits</xpath>
-		<value>
-			<li>FT_ActionBoy</li>
-		</value>
-	</Operation>
-
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- animal personhood agreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "AnimalPersonhood"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "AnimalPersonhood"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_AnimalFriend</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "AnimalPersonhood"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_AnimalFriend</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- animal personhood disagreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "AnimalPersonhood"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "AnimalPersonhood"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_BountifulButcher</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "AnimalPersonhood"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_BountifulButcher</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- cannibal disagreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Cannibal"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Cannibal"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_Philanthropist</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Cannibal"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_Philanthropist</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- high life agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "HighLife"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "HighLife"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_GreenThumb</li>
+								<li>FT_SpiritualHealer</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "HighLife"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_GreenThumb</li>
+							<li>FT_SpiritualHealer</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- tree connection agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "TreeConnection"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "TreeConnection"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_Rooted</li>
+								<li>FT_GreenThumb</li>
+								<li>FT_SpiritualHealer</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "TreeConnection"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_Rooted</li>
+							<li>FT_GreenThumb</li>
+							<li>FT_SpiritualHealer</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- tree connection disagreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "TreeConnection"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "TreeConnection"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_Scrapper</li>
+								<li>FT_Woodchucker</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "TreeConnection"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_Scrapper</li>
+							<li>FT_Woodchucker</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- rancher agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Rancher"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_AnimalFriend</li>
+								<li>FT_BountifulButcher</li>
+								<li>FT_Tenderizer</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Rancher"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_AnimalFriend</li>
+							<li>FT_BountifulButcher</li>
+							<li>FT_Tenderizer</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- rancher disagreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Rancher"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Rancher"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_GreenThumb</li>
+								<li>FT_Ghoulish</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Rancher"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_GreenThumb</li>
+							<li>FT_Ghoulish</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- raider agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Raider"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_Intimidation</li>
+								<li>FT_GunNut</li>
+								<li>FT_Tenderizer</li>
+								<li>FT_WreckingBall</li>
+								<li>FT_IronFist</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Raider"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_Intimidation</li>
+							<li>FT_GunNut</li>
+							<li>FT_Tenderizer</li>
+							<li>FT_WreckingBall</li>
+							<li>FT_IronFist</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- raider disagreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Raider"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Raider"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_Philanthropist</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Raider"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_Philanthropist</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- human primacy disagreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "HumanPrimacy"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "HumanPrimacy"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_AnimalFriend</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "HumanPrimacy"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_AnimalFriend</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- nature primacy agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "NaturePrimacy"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_AnimalFriend</li>
+								<li>FT_GreenThumb</li>
+								<li>FT_LifeGiver</li>
+								<li>FT_SpiritualHealer</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "NaturePrimacy"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_AnimalFriend</li>
+							<li>FT_GreenThumb</li>
+							<li>FT_LifeGiver</li>
+							<li>FT_SpiritualHealer</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- nature primacy disagreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "NaturePrimacy"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "NaturePrimacy"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_Scrapper</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "NaturePrimacy"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_Scrapper</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- supremacist agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Supremacist"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_Intimidation</li>
+								<li>FT_GunNut</li>
+								<li>FT_Tenderizer</li>
+								<li>FT_WreckingBall</li>
+								<li>FT_IronFist</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Supremacist"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_Intimidation</li>
+							<li>FT_GunNut</li>
+							<li>FT_Tenderizer</li>
+							<li>FT_WreckingBall</li>
+							<li>FT_IronFist</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- supremacist disagreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Supremacist"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Supremacist"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_Philanthropist</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Supremacist"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_Philanthropist</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- proselytizer agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Proselytizer"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Proselytizer"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_Intimidation</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Proselytizer"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_Intimidation</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- transhumanist agreeable-->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "Transhumanist"]/agreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Transhumanist"]</xpath>
+						<value>
+							<agreeableTraits>
+								<li>FT_Scientific</li>
+								<li>FT_Intelligence</li>
+							</agreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "Transhumanist"]/agreeableTraits</xpath>
+						<value>
+							<li>FT_Scientific</li>
+							<li>FT_Intelligence</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- male supremacy disagreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "MaleSupremacy"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "MaleSupremacy"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_ActionGirl</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "MaleSupremacy"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_ActionGirl</li>
+						</value>
+					</match>
+				</li>
+				
+				<!-- female supremacy disagreeable -->
+				
+				<li Class="PatchOperationConditional">
+					<xpath>*/MemeDef[defName = "FemaleSupremacy"]/disagreeableTraits</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "FemaleSupremacy"]</xpath>
+						<value>
+							<disagreeableTraits>
+								<li>FT_ActionBoy</li>
+							</disagreeableTraits>
+						</value>
+					</nomatch>
+					<match Class="PatchOperationAdd">
+						<xpath>*/MemeDef[defName = "FemaleSupremacy"]/disagreeableTraits</xpath>
+						<value>
+							<li>FT_ActionBoy</li>
+						</value>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>		
 </Patch>

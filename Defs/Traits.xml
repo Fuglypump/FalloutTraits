@@ -37,37 +37,6 @@
 	</TraitDef>
 	
 	<TraitDef>
-		<defName>FT_Bandolier</defName>
-		<commonality>0.8</commonality>
-		<degreeDatas>
-		<li>
-			<label>bandolier</label>
-			<description>[PAWN_nameDef] is a bandolier. [PAWN_pronoun] likes to keep extra ammo handy for reloading ranged weapons.</description>
-			<statOffsets>
-				<AimingDelayFactor>-0.05</AimingDelayFactor>
-				<CarryingCapacity>+25</CarryingCapacity>
-			</statOffsets>
-			<skillGains>
-				<li><key>Shooting</key><value>2</value></li>
-			</skillGains>
-		</li>
-		</degreeDatas>
-		<requiredWorkTypes>
-			<li>Hunting</li>
-			<li>Hauling</li>
-		</requiredWorkTypes>
-		<requiredWorkTags>
-			<li>Violent</li>
-			<li>Shooting</li>
-		</requiredWorkTags>
-		<conflictingTraits>
-		<li>Brawler</li>
-		<li>FT_FrailBack</li>
-		<li>FT_IronFist</li>
-		</conflictingTraits>
-	</TraitDef>
-	
-	<TraitDef>
 		<defName>FT_Charisma</defName>
 		<commonality>0.7</commonality>
 		<degreeDatas>
@@ -127,15 +96,14 @@
 			<description>[PAWN_nameDef] has an intimidating personality, this gives [PAWN_objective] an advantage in social interactions.</description>
 			<degree>1</degree>
 			<statOffsets>
-				<SocialImpact>+0.1</SocialImpact>
-				<ArrestSuccessChance>+0.1</ArrestSuccessChance>
+				<SocialImpact>+0.1</SocialImpact>			
 				<NegotiationAbility>+0.1</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
-				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+				<ArrestSuccessChance>+0.1</ArrestSuccessChance>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 				<TradePriceImprovement>+0.05</TradePriceImprovement>
 				<DrugSellPriceImprovement>0.05</DrugSellPriceImprovement>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>1</value></li>
@@ -147,14 +115,13 @@
 			<degree>2</degree>
 			<statOffsets>
 				<SocialImpact>+0.2</SocialImpact>
-				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<NegotiationAbility>+0.2</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</ConversionPower>
-				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.2</CertaintyLossFactor>
+				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.2</SlaveSuppressionFallRate>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.1</AnimalProductsSellImprovement>
 				<TradePriceImprovement>+0.1</TradePriceImprovement>
 				<DrugSellPriceImprovement>0.1</DrugSellPriceImprovement>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.1</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>2</value></li>
@@ -241,8 +208,8 @@
 				<SmoothingSpeed>+0.25</SmoothingSpeed>
 				<GeneralLaborSpeed>+0.1</GeneralLaborSpeed>
 				<ConstructionSpeed>+0.1</ConstructionSpeed>
-				<ConstructSuccessChance>+0.05</ConstructSuccessChance>
-				<FixBrokenDownBuildingSuccessChance>+0.05</FixBrokenDownBuildingSuccessChance>
+				<ConstructSuccessChance>+0.1</ConstructSuccessChance>
+				<FixBrokenDownBuildingSuccessChance>+0.1</FixBrokenDownBuildingSuccessChance>
 			</statOffsets>
 			<skillGains>
 				<li><key>Crafting</key><value>3</value></li>
@@ -298,15 +265,15 @@
 			<degree>-1</degree>
 			<statOffsets>
 				<CarryingCapacity>-15</CarryingCapacity>
-				<MoveSpeed>+0.1</MoveSpeed>
+				<MoveSpeed>+0.15</MoveSpeed>
 			</statOffsets>
 		</li>
 		<li>
 			<label>pack rat</label>
-			<description>[PAWN_nameDef] is a pack rat, [PAWN_pronoun] will keep just about anything in case it might be useful later.</description>
+			<description>[PAWN_nameDef] is a pack rat, [PAWN_pronoun] will keep just about anything that might be useful later.</description>
 			<degree>1</degree>
 			<statOffsets>
-				<CarryingCapacity>+25</CarryingCapacity>
+				<CarryingCapacity>+30</CarryingCapacity>
 			</statOffsets>
 		</li>
 		</degreeDatas>
@@ -377,8 +344,8 @@
 			<description>[PAWN_nameDef] is more intelligent than average. [PAWN_pronoun] learns faster and has a good understanding of the world around [PAWN_objective].</description>
 			<degree>1</degree>
 			<statOffsets>
-				<ResearchSpeed>+0.05</ResearchSpeed>
 				<GlobalLearningFactor>+0.1</GlobalLearningFactor>
+				<ResearchSpeed>+0.05</ResearchSpeed>
 				<NegotiationAbility>+0.05</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.05</ConversionPower>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.05</CertaintyLossFactor>
@@ -397,8 +364,8 @@
 			<description>[PAWN_nameDef] is very intelligent. [PAWN_pronoun] learns faster and has a great understanding of the world around [PAWN_objective].</description>
 			<degree>2</degree>
 			<statOffsets>
-				<ResearchSpeed>+0.1</ResearchSpeed>
 				<GlobalLearningFactor>+0.2</GlobalLearningFactor>
+				<ResearchSpeed>+0.1</ResearchSpeed>
 				<NegotiationAbility>+0.1</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
@@ -438,11 +405,9 @@
 				<SocialImpact>+0.05</SocialImpact>
 				<NegotiationAbility>+0.05</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.05</ConversionPower>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 				<TradePriceImprovement>+0.05</TradePriceImprovement>
 				<DrugSellPriceImprovement>+0.05</DrugSellPriceImprovement>
-				<TrainAnimalChance>+0.05</TrainAnimalChance>
-				<TameAnimalChance>+0.05</TameAnimalChance>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 				<FoodPoisonChance>-0.05</FoodPoisonChance>
 			</statOffsets>
 			<skillGains>
@@ -459,12 +424,10 @@
 				<SocialImpact>+0.1</SocialImpact>
 				<NegotiationAbility>+0.1</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.1</AnimalProductsSellImprovement>
 				<TradePriceImprovement>+0.1</TradePriceImprovement>
 				<DrugSellPriceImprovement>+0.1</DrugSellPriceImprovement>
-				<TrainAnimalChance>+0.05</TrainAnimalChance>
-				<TameAnimalChance>+0.05</TameAnimalChance>
-				<FoodPoisonChance>-0.05</FoodPoisonChance>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.1</AnimalProductsSellImprovement>
+				<FoodPoisonChance>-0.1</FoodPoisonChance>
 			</statOffsets>
 			<skillGains>
 				<li><key>Intellectual</key><value>+2</value></li>
@@ -568,7 +531,6 @@
 		</li>
 		</degreeDatas>
 		<requiredWorkTags>
-			<li>Social</li>
 			<li>PlantWork</li>
 			<li>Hauling</li>
 		</requiredWorkTags>
@@ -579,6 +541,37 @@
 	</TraitDef>
 	
 	<!-- Uncommon (0.6, 5.0) -->
+	
+	<TraitDef>
+		<defName>FT_Bandolier</defName>
+		<commonality>0.6</commonality>
+		<degreeDatas>
+		<li>
+			<label>bandolier</label>
+			<description>[PAWN_nameDef] is a bandolier. [PAWN_pronoun] likes to keep extra ammo handy for reloading ranged weapons.</description>
+			<statOffsets>
+				<AimingDelayFactor>-0.1</AimingDelayFactor>
+				<CarryingCapacity>+25</CarryingCapacity>
+			</statOffsets>
+			<skillGains>
+				<li><key>Shooting</key><value>2</value></li>
+			</skillGains>
+		</li>
+		</degreeDatas>
+		<requiredWorkTypes>
+			<li>Hunting</li>
+			<li>Hauling</li>
+		</requiredWorkTypes>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>Shooting</li>
+		</requiredWorkTags>
+		<conflictingTraits>
+		<li>Brawler</li>
+		<li>FT_FrailBack</li>
+		<li>FT_IronFist</li>
+		</conflictingTraits>
+	</TraitDef>
 	
 	<TraitDef>
 		<defName>FT_Scientific</defName>
@@ -592,8 +585,8 @@
 			<description>[PAWN_nameDef] has a scientific mind. [PAWN_pronoun] is a good researcher and a fast learner.</description>
 			<degree>1</degree>
 			<statOffsets>
+				<GlobalLearningFactor>+0.15</GlobalLearningFactor>
 				<ResearchSpeed>+0.1</ResearchSpeed>
-				<GlobalLearningFactor>+0.1</GlobalLearningFactor>
 				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">+0.1</HackingSpeed>
 			</statOffsets>
 			<skillGains>
@@ -606,8 +599,8 @@
 			<description>[PAWN_nameDef] has a very scientific mind. [PAWN_pronoun] is a great researcher and a fast learner.</description>
 			<degree>2</degree>
 			<statOffsets>
+				<GlobalLearningFactor>+0.3</GlobalLearningFactor>
 				<ResearchSpeed>+0.2</ResearchSpeed>
-				<GlobalLearningFactor>+0.2</GlobalLearningFactor>
 				<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">+0.2</HackingSpeed>
 			</statOffsets>
 			<skillGains>
@@ -641,8 +634,8 @@
 			<degree>1</degree>
 			<statOffsets>
 				<IncomingDamageFactor>-0.1</IncomingDamageFactor>
-				<PainShockThreshold>+0.1</PainShockThreshold>
 				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				<PainShockThreshold>+0.1</PainShockThreshold>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
@@ -654,8 +647,8 @@
 			<degree>2</degree>
 			<statOffsets>
 				<IncomingDamageFactor>-0.2</IncomingDamageFactor>
-				<PainShockThreshold>+0.2</PainShockThreshold>
 				<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				<PainShockThreshold>+0.2</PainShockThreshold>
 				<ImmunityGainSpeed>+0.2</ImmunityGainSpeed>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.2</CertaintyLossFactor>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
@@ -679,6 +672,9 @@
 	<TraitDef>
 		<defName>FT_Bargaining</defName>
 		<commonality>0.5</commonality>
+		<forcedPassions>
+			<li>Social</li>
+		</forcedPassions>
 		<degreeDatas>
 		<li>
 			<label>bargainer</label>
@@ -694,7 +690,6 @@
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>3</value></li>
-				<li><key>Intellectual</key><value>2</value></li>
 			</skillGains>
 		</li>
 		<li>
@@ -710,19 +705,16 @@
 				<DrugSellPriceImprovement>+0.15</DrugSellPriceImprovement>
 			</statOffsets>
 			<skillGains>
-				<li><key>Social</key><value>5</value></li>
-				<li><key>Intellectual</key><value>3</value></li>
+				<li><key>Social</key><value>4</value></li>
 			</skillGains>
 		</li>
 		</degreeDatas>
 		<requiredWorkTags>
 			<li>Social</li>
-			<li>Intellectual</li>
 		</requiredWorkTags>
 		<conflictingTraits>
 			<li>Abrasive</li>
 			<li>AnnoyingVoice</li>
-			<li>FT_Generosity</li>
 			<li>FT_IdiotSavant</li>
 			<li>FT_Stupid</li>
 			<li>FT_Oblivious</li>
@@ -756,7 +748,7 @@
 			<statOffsets>
 				<GlobalLearningFactor>+0.1</GlobalLearningFactor>
 				<SocialImpact>+0.1</SocialImpact>
-				<NegotiationAbility>+0.05</NegotiationAbility>
+				<NegotiationAbility>+0.1</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
@@ -772,8 +764,8 @@
 			<degree>2</degree>
 			<statOffsets>
 				<GlobalLearningFactor>+0.2</GlobalLearningFactor>
-				<SocialImpact>+0.15</SocialImpact>
-				<NegotiationAbility>+0.1</NegotiationAbility>
+				<SocialImpact>+0.2</SocialImpact>
+				<NegotiationAbility>+0.2</NegotiationAbility>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</ConversionPower>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.2</CertaintyLossFactor>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.2</SlaveSuppressionFallRate>
@@ -808,11 +800,12 @@
 			<description>[PAWN_nameDef] is a generous person, sometimes to a fault. [PAWN_pronoun] is a good negotiator but often does so by offering more than [PAWN_pronoun] should.</description>
 			<degree>1</degree>
 			<statOffsets>
-				<NegotiationAbility>+0.2</NegotiationAbility>
-				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
 				<SocialImpact>+0.1</SocialImpact>
+				<NegotiationAbility>+0.1</NegotiationAbility>
+				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
 				<TradePriceImprovement>-0.05</TradePriceImprovement>
 				<DrugSellPriceImprovement>-0.05</DrugSellPriceImprovement>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">-0.05</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>2</value></li>
@@ -823,11 +816,12 @@
 			<description>[PAWN_nameDef] is an overly generous person to a fault. [PAWN_pronoun] is a great negotiator but often does so by offering more than [PAWN_pronoun] should</description>
 			<degree>2</degree>
 			<statOffsets>
-				<NegotiationAbility>+0.25</NegotiationAbility>
-				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</ConversionPower>
 				<SocialImpact>+0.15</SocialImpact>
+				<NegotiationAbility>+0.15</NegotiationAbility>
+				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.2</ConversionPower>
 				<TradePriceImprovement>-0.1</TradePriceImprovement>
 				<DrugSellPriceImprovement>-0.1</DrugSellPriceImprovement>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">-0.1</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>3</value></li>
@@ -842,14 +836,13 @@
 			<li>Jealous</li>
 			<li>Abrasive</li>
 			<li>Bloodlust</li>
-			<li>FT_Bargaining</li>
 			<li>FT_IdiotSavant</li>
 		</conflictingTraits>
 	</TraitDef>
 	
 	<TraitDef>
 		<defName>FT_Scrapper</defName>
-		<commonality>0.6</commonality>
+		<commonality>0.5</commonality>
 		<forcedPassions>
 			<li>Crafting</li>
 			<li>Construction</li>
@@ -859,11 +852,11 @@
 			<label>scrapper</label>
 			<description>[PAWN_nameDef] is good at working with scrap metal. [PAWN_pronoun] is great with a smelter and is efficient when using building materials. </description>
 			<statOffsets>
-				<SmeltingSpeed>+0.2</SmeltingSpeed>
-				<ConstructionSpeed>+0.2</ConstructionSpeed>
+				<SmeltingSpeed>+0.25</SmeltingSpeed>
+				<ConstructionSpeed>+0.25</ConstructionSpeed>
 				<FixBrokenDownBuildingSuccessChance>+0.1</FixBrokenDownBuildingSuccessChance>
 				<ConstructSuccessChance>+0.1</ConstructSuccessChance> 
-				<ButcheryMechanoidSpeed>+0.2</ButcheryMechanoidSpeed>
+				<ButcheryMechanoidSpeed>+0.25</ButcheryMechanoidSpeed>
 				<ButcheryMechanoidEfficiency>+0.1</ButcheryMechanoidEfficiency>
 			</statOffsets>
 			<skillGains>
@@ -901,7 +894,7 @@
 				<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			</statOffsets>
 			<skillGains>
-				<li><key>Social</key><value>4</value></li>
+				<li><key>Social</key><value>5</value></li>
 			</skillGains>
 		</li>
 		</degreeDatas>
@@ -930,8 +923,10 @@
 			<label>rad resistant</label>
 			<description>[PAWN_nameDef]'s body has built up a resistance to the negative effects of toxic fallout.</description>
 			<degree>1</degree>
+			<statFactors>
+				<ToxicSensitivity>0.7</ToxicSensitivity>
+			</statFactors>
 			<statOffsets>
-				<ToxicSensitivity>-0.3</ToxicSensitivity>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 			</statOffsets>
 		</li>
@@ -939,8 +934,10 @@
 			<label>rad tolerant</label>
 			<description>[PAWN_nameDef]'s body has built up a tolerance to the negative effects of toxic fallout.</description>
 			<degree>2</degree>
+			<statFactors>
+				<ToxicSensitivity>0.4</ToxicSensitivity>
+			</statFactors>
 			<statOffsets>
-				<ToxicSensitivity>-0.6</ToxicSensitivity>
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 			</statOffsets>
 		</li>
@@ -1025,7 +1022,7 @@
 				<MeleeHitChance>+5</MeleeHitChance>
 			</statOffsets>
 			<skillGains>
-				<li><key>Melee</key><value>3</value></li>
+				<li><key>Melee</key><value>2</value></li>
 			</skillGains>
 		</li>
 		</degreeDatas>
@@ -1050,7 +1047,7 @@
 				<ShootingAccuracyPawn>+5</ShootingAccuracyPawn>
 			</statOffsets>
 			<skillGains>
-				<li><key>Shooting</key><value>2</value></li>
+				<li><key>Shooting</key><value>3</value></li>
 			</skillGains>
 		</li>
 		</degreeDatas>
@@ -1075,8 +1072,8 @@
 			<statOffsets>
 				<MiningSpeed>+0.2</MiningSpeed>
 				<DeepDrillingSpeed>+0.2</DeepDrillingSpeed>
-				<AnimalGatherSpeed>+0.2</AnimalGatherSpeed>
 				<PlantWorkSpeed>+0.2</PlantWorkSpeed>
+				<AnimalGatherSpeed>+0.2</AnimalGatherSpeed>
 				<ButcheryFleshSpeed>+0.2</ButcheryFleshSpeed>
 				<ButcheryMechanoidSpeed>+0.2</ButcheryMechanoidSpeed>
 				<EatingSpeed>+0.5</EatingSpeed>
@@ -1134,7 +1131,7 @@
 				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 				<InjuryHealingFactor>+0.1</InjuryHealingFactor>
 				<PlantHarvestYield>+0.1</PlantHarvestYield>
-				<ForagedNutritionPerDay>+0.25</ForagedNutritionPerDay>
+				<ForagedNutritionPerDay>+0.5</ForagedNutritionPerDay>
 			</statOffsets>
 			<skillGains>
 				<li><key>Plants</key><value>2</value></li>
@@ -1201,6 +1198,7 @@
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
 				<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
 				<TradePriceImprovement>+0.05</TradePriceImprovement>
+				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Social</key><value>3</value></li>
@@ -1236,8 +1234,8 @@
 				<MedicalTendSpeed>+0.1</MedicalTendSpeed>
 				<MedicalTendQuality>+0.1</MedicalTendQuality>
 				<MedicalOperationSpeed>+0.1</MedicalOperationSpeed>
-				<MedicalSurgerySuccessChance>+0.05</MedicalSurgerySuccessChance>
-				<FoodPoisonChance>-0.05</FoodPoisonChance>
+				<MedicalSurgerySuccessChance>+0.1</MedicalSurgerySuccessChance>
+				<FoodPoisonChance>-0.1</FoodPoisonChance>
 			</statOffsets>
 			<skillGains>
 				<li><key>Medicine</key><value>5</value></li>
@@ -1359,11 +1357,13 @@
 		<degreeDatas>
 		<li>
 			<label>serendipitous</label>
-			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky and is pretty happy about it.</description>
+			<description>[PAWN_nameDef] is serendipitous, [PAWN_pronoun] seems to be a pretty lucky individual and [PAWN_pronoun]'s pretty happy about it too.</description>
+			<statFactors>
+				<PawnTrapSpringChance>0.5</PawnTrapSpringChance>
+			</statFactors>
 			<statOffsets>
 				<MeleeDodgeChance>+0.1</MeleeDodgeChance>
 				<ShootingAccuracyPawn>+10</ShootingAccuracyPawn>
-				<PawnTrapSpringChance>-0.5</PawnTrapSpringChance>
 				<SlaveSuppressionFallRate MayRequire="Ludeon.RimWorld.Ideology">+0.1</SlaveSuppressionFallRate>
 			</statOffsets>
 		</li>
@@ -1426,9 +1426,9 @@
 			<statOffsets>
 				<MeleeDPS>+2</MeleeDPS>
 				<PawnBeauty>+1</PawnBeauty>
+				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<AnimalGatherSpeed>+0.2</AnimalGatherSpeed>
 				<ButcheryFleshSpeed>+0.2</ButcheryFleshSpeed>
-				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</ConversionPower>
 				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
 			</statOffsets>
@@ -1500,7 +1500,6 @@
 				<AnimalGatherYield>+0.1</AnimalGatherYield>
 				<ButcheryFleshEfficiency>+0.1</ButcheryFleshEfficiency>
 				<ButcheryMechanoidEfficiency>+0.1</ButcheryMechanoidEfficiency>
-				<AnimalProductsSellImprovement MayRequire="Ludeon.RimWorld.Ideology">+0.05</AnimalProductsSellImprovement>
 			</statOffsets>
 			<skillGains>
 				<li><key>Cooking</key><value>4</value></li>
@@ -1531,7 +1530,7 @@
 			<li>Animals</li>
 		</forcedPassions>
 		<disabledWorkTags>
-			<li>Animals</li>
+			<li>Hunting</li>
 		</disabledWorkTags>
 		<degreeDatas>
 		<li>
@@ -1613,10 +1612,10 @@
 			<label>life giver</label>
 			<description>[PAWN_nameDef] embodies wellness! Colonist who need treatment can rest easily knowing they have [PAWN_possessive]'s expertise keeping them alive.</description>
 			<statOffsets>
-				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 				<MedicalTendSpeed>+0.1</MedicalTendSpeed>
 				<MedicalTendQuality>+0.1</MedicalTendQuality>
 				<MedicalOperationSpeed>+0.1</MedicalOperationSpeed>
+				<ImmunityGainSpeed>+0.1</ImmunityGainSpeed>
 				<MedicalSurgerySuccessChance>+0.05</MedicalSurgerySuccessChance>
 			</statOffsets>
 			<skillGains>
@@ -1654,8 +1653,8 @@
 			<statOffsets>
 				<MedicalTendSpeed>+0.1</MedicalTendSpeed>
 				<MedicalTendQuality>+0.1</MedicalTendQuality>
-				<DrugHarvestYield>+0.1</DrugHarvestYield>
 				<DrugSynthesisSpeed>+0.1</DrugSynthesisSpeed>
+				<DrugHarvestYield>+0.1</DrugHarvestYield>
 				<SocialImpact>+0.1</SocialImpact>
 			</statOffsets>
 			<skillGains>
@@ -1715,8 +1714,10 @@
 		<li>
 			<label>ghoulish</label>
 			<description>[PAWN_nameDef] is still human, mostly. [PAWN_pronoun] is immune to the effects of toxic fallout and much harder to kill but [PAWN_possessive] ghoulish appearance makes interacting with others difficult.</description>
+			<statFactors>
+				<ToxicSensitivity>0</ToxicSensitivity>
+			</statFactors>
 			<statOffsets>
-				<ToxicSensitivity>-1.0</ToxicSensitivity>
 				<IncomingDamageFactor>-0.25</IncomingDamageFactor>
 				<ImmunityGainSpeed>+0.25</ImmunityGainSpeed>
 				<InjuryHealingFactor>+0.25</InjuryHealingFactor>
@@ -1726,8 +1727,8 @@
 				<TrainAnimalChance>-0.25</TrainAnimalChance>
 			</statOffsets>
 			<skillGains>
-				<li><key>Social</key><value>-5</value></li>
-				<li><key>Animals</key><value>-5</value></li>
+				<li><key>Social</key><value>-3</value></li>
+				<li><key>Animals</key><value>-3</value></li>
 			</skillGains>
 			<marketValueFactorOffset>-0.1</marketValueFactorOffset>
 		</li>
@@ -1902,16 +1903,17 @@
 			<label>wrecking ball</label>
 			<description>[PAWN_nameDef] is a wrecking ball! [PAWN_pronoun] can push through building material like it's not even there. [PAWN_pronoun] really doesn't know [PAWN_possessive] own strength, often breaking things during construction.</description>
 			<statOffsets>
-				<ConstructionSpeed>+0.6</ConstructionSpeed>
+				<ConstructionSpeed>+0.5</ConstructionSpeed>
 				<MiningSpeed>+0.2</MiningSpeed>
 				<DeepDrillingSpeed>+0.2</DeepDrillingSpeed>
 				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
-				<ConstructSuccessChance>-0.15</ConstructSuccessChance>
+				<ConstructSuccessChance>-0.1</ConstructSuccessChance>
+				<FixBrokenDownBuildingSuccessChance>-0.1</FixBrokenDownBuildingSuccessChance>
 			</statOffsets>
 			<skillGains>
-				<li><key>Melee</key><value>4</value></li>
-				<li><key>Mining</key><value>2</value></li>
+				<li><key>Melee</key><value>3</value></li>
+				<li><key>Mining</key><value>3</value></li>
 				<li><key>Construction</key><value>1</value></li>
 			</skillGains>
 		</li>
@@ -1929,12 +1931,13 @@
 		<conflictingTraits>
 			<li>Wimp</li>
 			<li>FT_FrailBack</li>
+			<li>FT_Perfectionist</li>
 		</conflictingTraits>
 	</TraitDef>
 	
 	<TraitDef>
 		<defName>FT_Perfectionist</defName>
-		<commonality>0.4</commonality>
+		<commonality>0.3</commonality>
 		<forcedPassions>
 			<li>Artistic</li>
 		</forcedPassions>
@@ -1943,15 +1946,15 @@
 			<label>perfectionist</label>
 			<description>[PAWN_nameDef] is a perfectionist with a passion for art. [PAWN_pronoun] is great at construction but takes longer to complete tasks because [PAWN_pronoun] puts too much effort into making everything perfect.</description>
 			<statOffsets>
-				<ConstructSuccessChance>+0.25</ConstructSuccessChance>
-				<FixBrokenDownBuildingSuccessChance>+0.25</FixBrokenDownBuildingSuccessChance>
-				<ConstructionSpeed>-0.25</ConstructionSpeed>
+				<ConstructSuccessChance>+0.2</ConstructSuccessChance>
+				<FixBrokenDownBuildingSuccessChance>+0.2</FixBrokenDownBuildingSuccessChance>
+				<ConstructionSpeed>-0.2</ConstructionSpeed>
 				<GeneralLaborSpeed>-0.1</GeneralLaborSpeed>
 				<SmoothingSpeed>-0.1</SmoothingSpeed>
 			</statOffsets>
 			<skillGains>
-				<li><key>Construction</key><value>5</value></li>
-				<li><key>Artistic</key><value>5</value></li>
+				<li><key>Construction</key><value>4</value></li>
+				<li><key>Artistic</key><value>4</value></li>
 			</skillGains>
 		</li>
 		</degreeDatas>
@@ -1967,6 +1970,7 @@
 			<li>FT_Stupid</li>
 			<li>FT_Oblivious</li>
 			<li>FT_Blitz</li>
+			<li>FT_WreckingBall</li>
 		</conflictingTraits>
 	</TraitDef>
 	
@@ -1981,7 +1985,7 @@
 			<label>iron fist</label>
 			<description>[PAWN_nameDef] has an iron fist! [PAWN_pronoun] can punch through foes like they are not even there. [PAWN_nameDef] has a passion for melee combat and dislikes ranged weapons.</description>
 			<statOffsets>
-				<MeleeDPS>+2.5</MeleeDPS>
+				<MeleeDPS>+3</MeleeDPS>
 				<MeleeHitChance>+10</MeleeHitChance>
 				<ArrestSuccessChance>+0.2</ArrestSuccessChance>
 				<SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">+0.1</SuppressionPower>
