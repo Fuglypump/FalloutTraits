@@ -4,12 +4,12 @@
   <!-- Common (9.0, 8.0, 7.0) -->
 
   <FT_StrongBack.degreeDatas.0.label>Starker Rücken</FT_StrongBack.degreeDatas.0.label>
-  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef] hat einen starken Rücken, was [PAWN_objective] erlaubt mehr als die Meisten zu tragen.</FT_StrongBack.degreeDatas.0.description>
+  <FT_StrongBack.degreeDatas.0.description>[PAWN_nameDef] hat einen starken Rücken, was [PAWN_possessive] erlaubt mehr als die Meisten zu tragen.</FT_StrongBack.degreeDatas.0.description>
   <FT_StrongBack.degreeDatas.1.label>Sehr starker Rücken</FT_StrongBack.degreeDatas.1.label>
   <FT_StrongBack.degreeDatas.1.description>[PAWN_nameDef] hat einen sehr starken Rücken, [PAWN_pronoun] muss teils Maultier sein, denn [PAWN_pronoun] kann sehr viel mehr als die Meisten tragen.</FT_StrongBack.degreeDatas.1.description>
 
   <FT_Bandolier.degreeDatas.0.label>Waffengurt</FT_Bandolier.degreeDatas.0.label>
-  <FT_Bandolier.degreeDatas.0.description>[PAWN_nameDef] hat einen Waffengurt. [PAWN_pronoun] mag es extra Munition bereit zu halten, was beim Nachladen hilft.</FT_Bandolier.degreeDatas.0.description>
+  <FT_Bandolier.degreeDatas.0.description>[PAWN_nameDef] hat einen Waffengurt. [PAWN_pronoun] mag es extra Munition bereit zu halten, die dann beim Nachladen hilft.</FT_Bandolier.degreeDatas.0.description>
 
   <FT_Endurance.degreeDatas.0.label>Belastbar</FT_Endurance.degreeDatas.0.label>
   <FT_Endurance.degreeDatas.0.description>[PAWN_nameDef] ist bei guter Gesundheit und hat eine belastbare Persönlichkeit. [PAWN_pronoun] geht mit stressigen Situation besser um als andere.</FT_Endurance.degreeDatas.0.description>
@@ -17,9 +17,9 @@
   <FT_Endurance.degreeDatas.1.description>[PAWN_nameDef] ist bei bester Gesundheit und hat eine sehr belastbare Persönlichkeit. [PAWN_pronoun] kann mit Extremsituationen umgehen, bei denen andere verweifeln.</FT_Endurance.degreeDatas.1.description>
 
   <FT_Charisma.degreeDatas.0.label>Charismatisch</FT_Charisma.degreeDatas.0.label>
-  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef] hat eine charismatische Persönlichkeit. [PAWN_pronoun] ist gut bei sozialen Interaktionen und Handeln.</FT_Charisma.degreeDatas.0.description>
+  <FT_Charisma.degreeDatas.0.description>[PAWN_nameDef] hat eine charismatische Persönlichkeit. [PAWN_pronoun] ist gut bei sozialen Interaktionen und beim Handeln.</FT_Charisma.degreeDatas.0.description>
   <FT_Charisma.degreeDatas.1.label>Sehr Charismatisch</FT_Charisma.degreeDatas.1.label>
-  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef] hat eine sehr charismatische Persönlichkeit. [PAWN_pronoun] ist großartig bei sozialen Interaktionen und Handeln.</FT_Charisma.degreeDatas.1.description>
+  <FT_Charisma.degreeDatas.1.description>[PAWN_nameDef] hat eine sehr charismatische Persönlichkeit. [PAWN_pronoun] ist großartig bei sozialen Interaktionen und beim Handeln.</FT_Charisma.degreeDatas.1.description>
 
   <FT_Intimidation.degreeDatas.0.label>Einschüchternd</FT_Intimidation.degreeDatas.0.label>
   <FT_Intimidation.degreeDatas.0.description>[PAWN_nameDef] hat eine einschüchternde Persönlichkeit, dadurch hat [PAWN_pronoun] einen Vorteil in sozialen Interaktionen.</FT_Intimidation.degreeDatas.0.description>
@@ -34,7 +34,7 @@
   <FT_AimOffset.degreeDatas.2.description>[PAWN_nameDef] hat eine großartige Hand-Augen-Koordination und trifft [PAWN_possessive]e Ziele sehr oft im Kampf.</FT_AimOffset.degreeDatas.2.description>
 
   <FT_Artisan.degreeDatas.0.label>Kunsthandwerker</FT_Artisan.degreeDatas.0.label>
-  <FT_Artisan.degreeDatas.0.description>[PAWN_nameDef] ist ein fähiger Handwerker mit künstlerischer Raffinesse, [PAWN_pronoun] genießt es Dinge zusammen zu setzen und [PAWN_pronoun] ist ziemlich gut dabei.</FT_Artisan.degreeDatas.0.description>
+  <FT_Artisan.degreeDatas.0.description>[PAWN_nameDef] ist ein fähiger Handwerker mit künstlerischer Raffinesse, [PAWN_pronoun] genießt es Dinge zusammen zu setzen und [PAWN_pronoun] ist ziemlich gut darin.</FT_Artisan.degreeDatas.0.description>
 
   <FT_IronStomach.degreeDatas.0.label>Eiserner Magen</FT_IronStomach.degreeDatas.0.label>
   <FT_IronStomach.degreeDatas.0.description>[PAWN_nameDef] hat einen eisernen Magen. [PAWN_pronoun] kann länger ohne Essen auskommen und es braucht einiges, um [PAWN_possessive]en Magen zu überfordern.</FT_IronStomach.degreeDatas.0.description>
@@ -45,14 +45,14 @@
   <FT_Packing.degreeDatas.1.description>[PAWN_nameDef] ist ein Messie, [PAWN_pronoun] behält alles für den Fall, dass es später noch gebraucht werden könnte.</FT_Packing.degreeDatas.1.description>
 
   <FT_Agility.degreeDatas.0.label>Agil</FT_Agility.degreeDatas.0.label>
-  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef] hat gute Reflexe und bewegt sich mich Finesse. [PAWN_pronoun] trifft und weicht öfters im Nahkampf aus.</FT_Agility.degreeDatas.0.description>
+  <FT_Agility.degreeDatas.0.description>[PAWN_nameDef] hat gute Reflexe und bewegt sich mit Finesse. [PAWN_pronoun] trifft und weicht öfters im Nahkampf aus.</FT_Agility.degreeDatas.0.description>
   <FT_Agility.degreeDatas.1.label>Ninja</FT_Agility.degreeDatas.1.label>
   <FT_Agility.degreeDatas.1.description>[PAWN_nameDef] hat großartige Reflexe und bewegt sich wie ein Ninja. [PAWN_pronoun] trifft und weicht sehr oft im Nahkampf aus.</FT_Agility.degreeDatas.1.description>
 
   <FT_Intelligence.degreeDatas.0.label>Intelligent</FT_Intelligence.degreeDatas.0.label>
-  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef] ist intelligenter als der Durchschnitt. [PAWN_pronoun] lernt schneller und hat ein gutes Verständnis von der Welt um sich herunm.</FT_Intelligence.degreeDatas.0.description>
+  <FT_Intelligence.degreeDatas.0.description>[PAWN_nameDef] ist intelligenter als der Durchschnitt. [PAWN_pronoun] lernt schneller und hat ein gutes Verständnis von der Welt um sich herum.</FT_Intelligence.degreeDatas.0.description>
   <FT_Intelligence.degreeDatas.1.label>Sehr Intelligent</FT_Intelligence.degreeDatas.1.label>
-  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef] ist sehr intelligent. [PAWN_pronoun] lernt schneller und hat ein großartiges Verständnis von der Welt um sich herunm.</FT_Intelligence.degreeDatas.1.description>
+  <FT_Intelligence.degreeDatas.1.description>[PAWN_nameDef] ist sehr intelligent. [PAWN_pronoun] lernt schneller und hat ein großartiges Verständnis von der Welt um sich herum.</FT_Intelligence.degreeDatas.1.description>
 
   <FT_Perception.degreeDatas.0.label>Scharfsinnig</FT_Perception.degreeDatas.0.label>
   <FT_Perception.degreeDatas.0.description>[PAWN_nameDef] hat eine gute Wahrnemung von der Umgebung und ein gutes Verständnis, wie [PAWN_possessive]e Taten andere betreffen.</FT_Perception.degreeDatas.0.description>
@@ -62,7 +62,7 @@
   <FT_Evasion.degreeDatas.0.label>Ausweichend</FT_Evasion.degreeDatas.0.label>
   <FT_Evasion.degreeDatas.0.description>[PAWN_nameDef] weicht Dingen möglichst aus. [PAWN_pronoun] umgeht gelegentlich Fallen und Nahkampfattacken.</FT_Evasion.degreeDatas.0.description>
   <FT_Evasion.degreeDatas.1.label>Unberührbar</FT_Evasion.degreeDatas.1.label>
-  <FT_Evasion.degreeDatas.1.description>[PAWN_nameDef] weicht Dingen meistens aus. [PAWN_pronoun] umgeht Fallen und weicht Nahkampfattacken spielend aus.</FT_Evasion.degreeDatas.1.description>
+  <FT_Evasion.degreeDatas.1.description>[PAWN_nameDef] ist flink und dadurch unberührbar. [PAWN_pronoun] umgeht Fallen und weicht Nahkampfattacken spielend aus.</FT_Evasion.degreeDatas.1.description>
 
   <FT_Scientific.degreeDatas.0.label>Wissenschaft!</FT_Scientific.degreeDatas.0.label>
   <FT_Scientific.degreeDatas.0.description>[PAWN_nameDef] hat eine wissenschaftliche Einstellung. [PAWN_pronoun] ist ein guter Forscher und schneller Lerner.</FT_Scientific.degreeDatas.0.description>
@@ -80,7 +80,7 @@
   <!-- Uncommon (0.6, 5.0) -->
 
   <FT_Bargaining.degreeDatas.0.label>Händler</FT_Bargaining.degreeDatas.0.label>
-  <FT_Bargaining.degreeDatas.0.description>[PAWN_nameDef] ist gut im verhandeln. Sowohl soziale Interaktionen, als auch der Handel mit Waren, sind kein problem für [PAWN_objective].</FT_Bargaining.degreeDatas.0.description>
+  <FT_Bargaining.degreeDatas.0.description>[PAWN_nameDef] ist gut im Verhandeln. Sowohl soziale Interaktionen, als auch der Handel mit Waren, sind kein problem für [PAWN_objective].</FT_Bargaining.degreeDatas.0.description>
   <FT_Bargaining.degreeDatas.1.label>Meisterhändler</FT_Bargaining.degreeDatas.1.label>
   <FT_Bargaining.degreeDatas.1.description>[PAWN_nameDef] ist ein Meisterhändler. Soziale Interaktionen und das Aushandeln des besten Preises sind ein Kinderspiel für [PAWN_objective].</FT_Bargaining.degreeDatas.1.description>
 
@@ -92,9 +92,9 @@
   <FT_Inspiration.degreeDatas.2.description>[PAWN_nameDef] hat eine sehr inspirierende Persönlichkeit. [PAWN_pronoun] ist großartig bei sozialen Interaktionen und ein sehr motivierter Lerner.</FT_Inspiration.degreeDatas.2.description>
 
   <FT_Generosity.degreeDatas.0.label>Großzügig</FT_Generosity.degreeDatas.0.label>
-  <FT_Generosity.degreeDatas.0.description>[PAWN_nameDef] ist eine großzügige Person, manchmal zu [PAWN_possessive]en Lasten. [PAWN_pronoun] ist ein guter Vermittler aber bietet dabei oft mehr als [PAWN_pronoun] sollte.</FT_Generosity.degreeDatas.0.description>
+  <FT_Generosity.degreeDatas.0.description>[PAWN_nameDef] ist eine großzügige Person, manchmal zu [PAWN_possessive]en Lasten. [PAWN_pronoun] ist ein guter Vermittler, aber bietet dabei oft mehr als [PAWN_pronoun] sollte.</FT_Generosity.degreeDatas.0.description>
   <FT_Generosity.degreeDatas.1.label>Zu Großzügig</FT_Generosity.degreeDatas.1.label>
-  <FT_Generosity.degreeDatas.1.description>[PAWN_nameDef] ist eine zu großzügige Person, manchmal zu [PAWN_possessive]en Lasten. [PAWN_pronoun] ist ein großartiger Vermittler aber bietet dabei oft mehr als [PAWN_pronoun] sollte</FT_Generosity.degreeDatas.1.description>
+  <FT_Generosity.degreeDatas.1.description>[PAWN_nameDef] ist eine zu großzügige Person, manchmal zu [PAWN_possessive]en Lasten. [PAWN_pronoun] ist ein großartiger Vermittler, aber bietet dabei oft mehr als [PAWN_pronoun] sollte</FT_Generosity.degreeDatas.1.description>
 
   <FT_Scrapper.degreeDatas.0.label>Wiederverwerter</FT_Scrapper.degreeDatas.0.label>
   <FT_Scrapper.degreeDatas.0.description>[PAWN_nameDef] ist gut im Umgang mit Altmetall. [PAWN_pronoun] hantiert routiniert mit dem Elektroschmelzofen und ist effizient mit Baumaterial. </FT_Scrapper.degreeDatas.0.description>
@@ -135,7 +135,7 @@
   <FT_Philanthropist.degreeDatas.0.description>[PAWN_nameDef] ist ein Philanthrop. [PAWN_pronoun] ist von Grund auf gut und schert sich um das Wohlbefinden anderer.</FT_Philanthropist.degreeDatas.0.description>
 
   <FT_HealingHands.degreeDatas.0.label>Heilende Hände</FT_HealingHands.degreeDatas.0.label>
-  <FT_HealingHands.degreeDatas.0.description>[PAWN_nameDef] heilende Hände. Ob jemand zusammen geflickt oder gefüttert werden muss, die Kolonie weiß, auf [PAWN_possessive]e heilende Berührung kann man zählen.</FT_HealingHands.degreeDatas.0.description>
+  <FT_HealingHands.degreeDatas.0.description>[PAWN_nameDef] hat heilende Hände. Ob jemand zusammen geflickt oder gefüttert werden muss, die Kolonie weiß: Auf [PAWN_possessive]e heilende Berührung kann man zählen.</FT_HealingHands.degreeDatas.0.description>
 
   <FT_Rooted.degreeDatas.0.label>Festgewachsen</FT_Rooted.degreeDatas.0.label>
   <FT_Rooted.degreeDatas.0.description>[PAWN_nameDef] ist halb Baum! Es braucht schon einiges, um [PAWN_nameDef] umzuhauen, aber ebenso einiges, um [PAWN_objective] in Bewegung zu setzen.</FT_Rooted.degreeDatas.0.description>
@@ -162,16 +162,16 @@
   <FT_FortuneFinder.degreeDatas.0.description>[PAWN_nameDef] scheint, egal wohin [PAWN_pronoun] geht, versteckte Schätze zu entdecken.</FT_FortuneFinder.degreeDatas.0.description>
 
   <FT_BountifulButcher.degreeDatas.0.label>Extrawurst</FT_BountifulButcher.degreeDatas.0.label>
-  <FT_BountifulButcher.degreeDatas.0.description>[PAWN_nameDef] will immer [PAWN_possessive] Extrawurst! [PAWN_pronoun] ist sich nicht zu gut um ein wenig tiefer zu graben und dadurch zu bekommen was [PAWN_pronoun] will.</FT_BountifulButcher.degreeDatas.0.description>
+  <FT_BountifulButcher.degreeDatas.0.description>[PAWN_nameDef] will immer [PAWN_possessive]e Extrawurst! [PAWN_pronoun] ist sich nicht zu gut um ein wenig tiefer zu graben und dadurch zu bekommen was [PAWN_pronoun] will.</FT_BountifulButcher.degreeDatas.0.description>
 
   <FT_AnimalFriend.degreeDatas.0.label>Tierfreund</FT_AnimalFriend.degreeDatas.0.label>
   <FT_AnimalFriend.degreeDatas.0.description>[PAWN_nameDef] hat eine Leidenschaft für Tiere. [PAWN_pronoun] ist ein Experte beim Umgang mit Tieren und bindet sich des Öfteren an sie. [PAWN_nameDef] verabscheut es, Tiere zu jagen.</FT_AnimalFriend.degreeDatas.0.description>
 
   <FT_Magnetic.degreeDatas.0.label>Anziehend</FT_Magnetic.degreeDatas.0.label>
-  <FT_Magnetic.degreeDatas.0.description>[PAWN_nameDef] hat einen magnetischen Körper, wortwörtlich! Irgendwie ist [PAWN_pronoun] in der Lage [PAWN_possessive]e Anziehung nicht nur auf Kolonisten, sondern auch Metall anzuwenden!.</FT_Magnetic.degreeDatas.0.description>
+  <FT_Magnetic.degreeDatas.0.description>[PAWN_nameDef] hat einen magnetischen Körper, wortwörtlich! Irgendwie ist [PAWN_pronoun] in der Lage [PAWN_possessive]e Anziehung nicht nur auf Kolonisten, sondern auch Metall anzuwenden!</FT_Magnetic.degreeDatas.0.description>
 
   <FT_LifeGiver.degreeDatas.0.label>Lebensspender</FT_LifeGiver.degreeDatas.0.label>
-  <FT_LifeGiver.degreeDatas.0.description>[PAWN_nameDef] verkörpert Wohlbefinden! Kolonisten, die behandelt werden müssen, können sich ausruhen wohlwissend, dass [PAWN_possessive]e Kompetenz, sie am Leben erhalten wird.</FT_LifeGiver.degreeDatas.0.description>
+  <FT_LifeGiver.degreeDatas.0.description>[PAWN_nameDef] verkörpert Wohlbefinden! Kolonisten, die behandelt werden müssen, können sich ausruhen, wohlwissend, dass [PAWN_possessive]e Kompetenz, sie am Leben erhalten wird.</FT_LifeGiver.degreeDatas.0.description>
 
   <FT_SpiritualHealer.degreeDatas.0.label>Geistheiler</FT_SpiritualHealer.degreeDatas.0.label>
   <FT_SpiritualHealer.degreeDatas.0.description>[PAWN_nameDef] ist ein Geistheiler, [PAWN_pronoun] ist ein großartiger Doktor mit guten sozialen Fertigkeiten. [PAWN_nameDef] liebt es [PAWN_possessive]e eigene Medizin anzubauen und herzustellen.</FT_SpiritualHealer.degreeDatas.0.description>
@@ -180,7 +180,7 @@
   <FT_FrailBack.degreeDatas.0.description>[PAWN_nameDef] hat einen fragilen Rücken und ist nicht in der Lage so viel zu tragen, wie die Durchschnittsperson.</FT_FrailBack.degreeDatas.0.description>
 
   <FT_Ghoulish.degreeDatas.0.label>Ghulisch</FT_Ghoulish.degreeDatas.0.label>
-  <FT_Ghoulish.degreeDatas.0.description>[PAWN_nameDef] ist immer noch ein Mensch, zum größten Teil zumindest. [PAWN_pronoun] ist immun gegenüber giftigen Niederschlägen und deutlich schwerer zu töten aber [PAWN_possessive] ghulisches Erscheinungsbild macht es schwierig, mit anderen zu klar zu kommen.</FT_Ghoulish.degreeDatas.0.description>
+  <FT_Ghoulish.degreeDatas.0.description>[PAWN_nameDef] ist immer noch ein Mensch, zum größten Teil zumindest. [PAWN_pronoun] ist immun gegenüber giftigen Niederschlägen und deutlich schwerer zu töten, aber [PAWN_possessive] ghulisches Erscheinungsbild macht es schwierig, mit anderen klar zu kommen.</FT_Ghoulish.degreeDatas.0.description>
 
   <FT_IdiotSavant.degreeDatas.0.label>Inselbegabung</FT_IdiotSavant.degreeDatas.0.label>
   <FT_IdiotSavant.degreeDatas.0.description>[PAWN_nameDef] ist nicht Dumm! [PAWN_pronoun] ist nur... anders. [PAWN_pronoun] arbeitet langsamer, lernt dafür aber schneller. [PAWN_pronoun] ist nicht in der Lage geistige, pflegende oder soziale Aufgaben zu übernehmen.</FT_IdiotSavant.degreeDatas.0.description>
@@ -189,13 +189,13 @@
   <FT_Stupid.degreeDatas.0.description>Dumm ist der, der dummes tut. [PAWN_nameDef] schafft es leider, bei fast allem diese Kompetenz zu beweisen.</FT_Stupid.degreeDatas.0.description>
 
   <FT_Oblivious.degreeDatas.0.label>Tagträumer</FT_Oblivious.degreeDatas.0.label>
-  <FT_Oblivious.degreeDatas.0.description>[PAWN_nameDef] ist sich [PAWN_possessive]er Umgebung nicht wirklich bewusst.. oder von irgendetwas in dieser Welt. [PAWN_pronoun]</FT_Oblivious.degreeDatas.0.description>
+  <FT_Oblivious.degreeDatas.0.description>[PAWN_nameDef] ist sich [PAWN_possessive]er Umgebung nicht wirklich bewusst... oder von irgendetwas in dieser Welt.</FT_Oblivious.degreeDatas.0.description>
 
   <FT_Woodchucker.degreeDatas.0.label>Bieber</FT_Woodchucker.degreeDatas.0.label>
-  <FT_Woodchucker.degreeDatas.0.description>[PAWN_nameDef] ist teils Bieber! [PAWN_pronoun] möchte, dass jeder glaubt, [PAWN_possessive]e großartige Holzarbeit ist wegen [PAWN_possessive]er Arbeitsmoral. Aber jeder weiß, es liegt an diesen verflixten Zähnen.</FT_Woodchucker.degreeDatas.0.description>
+  <FT_Woodchucker.degreeDatas.0.description>[PAWN_nameDef] ist teils Bieber! [PAWN_pronoun] möchte, dass jeder glaubt, [PAWN_possessive]e großartige Holzarbeit basiert auf [PAWN_possessive]er Arbeitsmoral. Aber jeder weiß: Es liegt an diesen verflixten Zähnen.</FT_Woodchucker.degreeDatas.0.description>
 
   <FT_WreckingBall.degreeDatas.0.label>Abrissbirne</FT_WreckingBall.degreeDatas.0.label>
-  <FT_WreckingBall.degreeDatas.0.description>[PAWN_nameDef] ist eine Abrissbirne! [PAWN_pronoun] kann durch Baumaterial schneiden, als wenn es nicht mal da wäre. [PAWN_pronoun] weiß nicht mal von [PAWN_possessive]er eigenen Stärke und zerbricht deswegen oft Dinge beim Konstruieren.</FT_WreckingBall.degreeDatas.0.description>
+  <FT_WreckingBall.degreeDatas.0.description>[PAWN_nameDef] ist eine Abrissbirne! [PAWN_pronoun] kann sich durch Baumaterial schlagen, als wenn es nicht mal da wäre. [PAWN_pronoun] weiß nicht mal von [PAWN_possessive]er eigenen Stärke und zerbricht deswegen oft Dinge beim Konstruieren.</FT_WreckingBall.degreeDatas.0.description>
 
   <FT_Perfectionist.degreeDatas.0.label>Perfektionist</FT_Perfectionist.degreeDatas.0.label>
   <FT_Perfectionist.degreeDatas.0.description>[PAWN_nameDef] ist ein Perfektionist mit einer Leidenschaft für Kunst. [PAWN_pronoun] ist großartig beim Konstruieren, nimmt aber mehr Zeit in Anspruch, weil [PAWN_pronoun] zu viel Mühe reinsteckt, um alles perfekt zu machen.</FT_Perfectionist.degreeDatas.0.description>
