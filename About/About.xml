@@ -10,10 +10,12 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter>
+	<li>Harmony</li>
+	<li>Royalty</li>
+    <li>Ideology</li>
+	<li>Combat Extended</li>
+	<li>Rimatomics</li>
     <li>syrchalis.traitvalue</li>
   </loadAfter>
-	<description>Fallout Traits
-
-Adds over 30 new traits to Rimworld taken directly Fallout 4, many parts of Fallout 4's perk chart have been reimagined to fit into Rimworld in the form of colonist traits which adds a massive amount of variety to the game's traits without straying too far from vanilla. Many traits have both positive and negitive modifiers and some even have all negitive values. The most powerful traits have rare odds so that they don't appear too often and many unwanted trait combinations are restricted to preserve gameplay and immersion.
-</description>
+	<description>Adds 71 new perks to Rimworld based on the theme from fallout games</description>
 </ModMetaData>
