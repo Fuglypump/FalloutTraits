@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- frail back -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_FrailBack"]/degreeDatas/li/statOffsets/CarryingCapacity</xpath>
+				</li>	
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_FrailBack"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryWeight>-10</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_FrailBack"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryBulk>-10</CarryBulk></value>
+				</li>
+				
+				<!-- strong back -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_StrongBack"]/degreeDatas/li[1]/statOffsets/CarryingCapacity</xpath>			
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_StrongBack"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value> <CarryWeight>+20</CarryWeight></value>				
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_StrongBack"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><CarryBulk>+20</CarryBulk></value>				
+				</li>
+				
+				<!-- very strong back -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_StrongBack"]/degreeDatas/li[2]/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_StrongBack"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><CarryWeight>+40</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_StrongBack"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><CarryBulk>+40</CarryBulk></value>
+				</li>
+				
+				<!-- bandolier -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_Bandolier"]/degreeDatas/li/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Bandolier"]/degreeDatas/li/statOffsets</xpath>
+					<value><ReloadSpeed>+0.1</ReloadSpeed></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Bandolier"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryWeight>+10</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Bandolier"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryBulk>+10</CarryBulk></value>
+				</li>
+				
+				<!-- packin' light -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_Packing"]/degreeDatas/li[1]/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Packing"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><CarryWeight>-5</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Packing"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><CarryBulk>-5</CarryBulk></value>
+				</li>
+				
+				<!-- pack rat -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_Packing"]/degreeDatas/li[2]/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Packing"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><CarryWeight>+15</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Packing"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><CarryBulk>+15</CarryBulk></value>
+				</li>
+				
+				<!-- traveler -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[1]/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><CarryWeight>+5</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><CarryBulk>+5</CarryBulk></value>
+				</li>
+				
+				<!-- explorer -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[2]/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><CarryWeight>+10</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><CarryBulk>+10</CarryBulk></value>
+				</li>
+				
+				<!-- adventurer -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[3]/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[3]/statOffsets</xpath>
+					<value><CarryWeight>+20</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Adventuring"]/degreeDatas/li[3]/statOffsets</xpath>
+					<value><CarryBulk>+20</CarryBulk></value>
+				</li>
+				
+				<!-- sturdy frame -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_SturdyFrame"]/degreeDatas/li/statOffsets/CarryingCapacity</xpath>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_SturdyFrame"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryWeight>+10</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_SturdyFrame"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryBulk>+10</CarryBulk></value>
+				</li>
+				
+				<!-- bear arms -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_BearArms"]/degreeDatas/li/statOffsets</xpath>
+					<value><UnarmedDamage>+2</UnarmedDamage></value>
+				</li>	
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_BearArms"]/degreeDatas/li/statOffsets/CarryingCapacity</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_BearArms"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryWeight>+10</CarryWeight></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_BearArms"]/degreeDatas/li/statOffsets</xpath>
+					<value><CarryBulk>+10</CarryBulk></value>
+				</li>
+				
+				<!-- wrecking ball -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_WreckingBall"]/degreeDatas/li/statOffsets</xpath>
+					<value><UnarmedDamage>+1</UnarmedDamage></value>
+				</li>	
+				
+				<!-- iron fist -->
+				<li Class="PatchOperationRemove">
+				<xpath>/Defs/TraitDef[defName = "FT_IronFist"]/degreeDatas/li/statOffsets/MeleeDPS</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_IronFist"]/degreeDatas/li/statOffsets</xpath>
+					<value><MeleeCritChance>+0.25</MeleeCritChance></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_IronFist"]/degreeDatas/li/statOffsets</xpath>
+					<value><MeleeParryChance>+0.25</MeleeParryChance></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_IronFist"]/degreeDatas/li/statOffsets</xpath>
+					<value><UnarmedDamage>+10</UnarmedDamage></value>
+				</li>
+				
+				<!-- tenderizer -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Tenderizer"]/degreeDatas/li/statOffsets</xpath>
+					<value><MeleeCritChance>+0.25</MeleeCritChance></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Tenderizer"]/degreeDatas/li/statOffsets</xpath>
+					<value><UnarmedDamage>+2</UnarmedDamage></value>
+				</li>
+				
+				<!-- agile -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Agility"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><MeleeCritChance>+0.1</MeleeCritChance></value>
+				</li>
+				
+				<!-- ninja -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Agility"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><MeleeCritChance>+0.2</MeleeCritChance></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Agility"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><UnarmedDamage>+1</UnarmedDamage></value>
+				</li>
+				
+				<!-- quick hands -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_QuickHands"]/degreeDatas/li/statOffsets</xpath>
+					<value><MeleeCritChance>+0.05</MeleeCritChance></value>
+				</li>
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_QuickHands"]/degreeDatas/li/statOffsets</xpath>
+					<value><MeleeParryChance>+0.1</MeleeParryChance></value>
+				</li>
+				
+				<!-- dodgy -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Evasion"]/degreeDatas/li[1]/statOffsets</xpath>
+					<value><MeleeParryChance>+0.05</MeleeParryChance></value>
+				</li>
+				
+				<!-- evasive -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Evasion"]/degreeDatas/li[2]/statOffsets</xpath>
+					<value><MeleeParryChance>+0.1</MeleeParryChance></value>
+				</li>
+				
+				<!-- gun nut -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_GunNut"]/degreeDatas/li/statOffsets</xpath>
+					<value><ReloadSpeed>+0.1</ReloadSpeed></value>
+				</li>
+			</operations>
+		</match>
+	</Operation>	
+</Patch>

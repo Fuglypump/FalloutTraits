@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimatomics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- ghoulish-->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_Ghoulish"]/degreeDatas/li/statFactors</xpath>
+					<value><Radiation>0</Radiation></value>
+				</li>
+				<!-- rad resistant -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_RadResistant"]/degreeDatas/li[1]/statFactors</xpath>
+					<value><Radiation>0.7</Radiation></value>
+				</li>
+				<!-- rad tolerant -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_RadResistant"]/degreeDatas/li[2]/statFactors</xpath>
+					<value><Radiation>0.4</Radiation></value>
+				</li>
+				<!-- lead belly -->
+				<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraitDef[defName = "FT_LeadBelly"]/degreeDatas/li/statOffsets</xpath>
+					<value><Radiation>-0.2</Radiation></value>
+				</li>
+			</operations>
+		</match>
+	</Operation>	
+</Patch>
