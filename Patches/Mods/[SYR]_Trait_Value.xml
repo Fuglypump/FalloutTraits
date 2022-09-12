@@ -187,7 +187,11 @@
 				</li>
 
 				<li Class="PatchOperationAddModExtension">
-				<xpath>Defs/TraitDef[defName = "FT_ActionGirl"]</xpath>
+				<xpath>
+					Defs/TraitDef[
+						defName = "FT_ActionBoy" or 
+						defName = "FT_ActionGirl"]
+				</xpath>
 				<value>
 				  <li Class="SyrTraitValue.TraitValueExtension">
 					<traitValues>
@@ -197,16 +201,6 @@
 				</value>
 				</li>
 				
-				<li Class="PatchOperationAddModExtension">
-				<xpath>Defs/TraitDef[defName = "FT_ActionBoy"]</xpath>
-				<value>
-				  <li Class="SyrTraitValue.TraitValueExtension">
-					<traitValues>
-					  <li>30</li>
-					</traitValues>
-				  </li>
-				</value>
-				</li>
 
 				<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/TraitDef[defName = "FT_QuickHands"]</xpath>
