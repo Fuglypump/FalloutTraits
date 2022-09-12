@@ -201,7 +201,6 @@
 				</value>
 				</li>
 				
-
 				<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/TraitDef[defName = "FT_QuickHands"]</xpath>
 				<value>
